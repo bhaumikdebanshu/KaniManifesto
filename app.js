@@ -4,11 +4,31 @@
   const $ = id => document.getElementById(id);
   let chapters = [], settings = {}, current = null, routeVersion = 0, searchVersion = 0;
   const cache = new Map();
-  const offline = location.protocol === 'file:';
+  const snapshot = document.documentElement.dataset.snapshot === 'true';
+  const offline = location.protocol === 'file:' || snapshot;
+  function chartFromText(text) {
+    const figure=document.createElement('figure');figure.className='org-chart';
+    const caption=document.createElement('figcaption');caption.textContent='Project structure';figure.append(caption);
+    const root=document.createElement('ul');root.className='org-tree';figure.append(root);
+    const lists=[root];let previous=null,depthBefore=0;
+    for(const line of text.trimEnd().split('\n')) {
+      if(!line.trim())continue;
+      const match=line.match(/^( *)(?:- )(.+)$/);
+      if(!match||match[1].length%2)return null;
+      const depth=match[1].length/2;if(depth>6||depth>depthBefore+1||(!previous&&depth!==0))return null;
+      if(depth>depthBefore){const children=document.createElement('ul');previous.append(children);lists[depth]=children;}
+      const item=document.createElement('li'),card=document.createElement('div');card.className='org-node';
+      const [title,...notes]=match[2].split('|');const strong=document.createElement('strong');strong.textContent=title.trim();card.append(strong);
+      if(notes.length){const small=document.createElement('small');small.textContent=notes.join('|').trim();card.append(small);}
+      item.append(card);lists[depth].append(item);previous=item;depthBefore=depth;
+    }
+    return root.children.length?figure:null;
+  }
   const allowed = new Set('P BR HR STRONG EM DEL S BLOCKQUOTE UL OL LI H1 H2 H3 H4 H5 H6 TABLE THEAD TBODY TR TH TD CODE PRE A INPUT'.split(' '));
   function renderMarkdown(md) {
     const template = document.createElement('template');
     template.innerHTML = marked.parse(md, {gfm:true, breaks:false});
+    const charts=[...template.content.querySelectorAll('pre > code.language-kani-chart')].map(code=>({pre:code.parentElement,chart:chartFromText(code.textContent)}));
     const clean = node => {
       for (const el of [...node.children]) {
         if (!allowed.has(el.tagName)) { el.remove(); continue; }
@@ -25,6 +45,7 @@
       }
     };
     clean(template.content);
+    for(const {pre,chart} of charts)if(chart)pre.replaceWith(chart);
     for(const table of template.content.querySelectorAll('table')) {
       const wrap=document.createElement('div');wrap.className='table-scroll';wrap.tabIndex=0;
       wrap.setAttribute('role','region');wrap.setAttribute('aria-label','Scrollable table');
@@ -93,11 +114,12 @@
     const c=current;
     document.title=c.title+' · Kani Home';$('title').textContent=c.title;
     $('breadcrumb').textContent=c.id==='home'?'Programme & organisation':c.group;
-    $('kicker').textContent=c.id==='home'?'A framework for what comes next':c.group;
+    $('kicker').textContent=c.id==='home'?(settings.kicker||'An evolving manifesto'):c.group;
     $('lead').textContent=c.description||'';$('home-cards').hidden=c.id!=='home';
     $('notice').hidden=true;
     if(!found&&id!=='home'){$('notice').textContent='That chapter was not found. Showing Home.';$('notice').hidden=false;}
-    const url=editURL(c);$('edit').hidden=!url;if(url)$('edit').href=url;
+    const url=editURL(c);$('edit').hidden=snapshot||!url;if(url)$('edit').href=url;
+    if(snapshot){$('notice').textContent='Preserved edition — this snapshot stays unchanged. The main website carries the latest version.';$('notice').hidden=false;}
     markActive();closeMenu();$('article').textContent='Loading chapter…';$('pager').replaceChildren();
     try{const md=await markdown(c);if(version!==routeVersion)return;$('article').replaceChildren(renderMarkdown(md));
       const first=$('article').firstElementChild;if(first?.tagName==='P'&&first.textContent.trim()===c.description?.trim())first.remove();}
@@ -126,15 +148,15 @@
   async function allMarkdown() {return Promise.all(chapters.map(async c=>({c,md:await markdown(c)})));}
   $('export').onclick=async()=>{
     $('export').disabled=true;
-    try{const all=await allMarkdown();const text=all.map(({c,md})=>'# '+c.title+'\n\n'+md).join('\n\n---\n\n');
-      const url=URL.createObjectURL(new Blob([text],{type:'text/markdown;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='Kani-Home-Working-Draft.md';a.hidden=true;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
+    try{const all=await allMarkdown();const text='# Kani Home — '+(settings.version||'Working draft')+' · '+(settings.stage||'')+'\n\nUpdated '+(settings.updated||'')+'\n\n'+all.map(({c,md})=>'# '+c.title+'\n\n'+md).join('\n\n---\n\n');
+      const url=URL.createObjectURL(new Blob([text],{type:'text/markdown;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='Kani-Home-'+(settings.version||'Working-Draft')+'.md';a.hidden=true;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
     }catch(e){$('notice').textContent='Export failed: '+e.message;$('notice').hidden=false;}finally{$('export').disabled=false;}
   };
   function clearPrint(){document.body.classList.remove('print-all');document.getElementById('print-document')?.remove();}
   $('print').onclick=async()=>{
     $('print').disabled=true;
     try{const all=await allMarkdown();clearPrint();const doc=document.createElement('div');doc.id='print-document';
-      for(const {c,md} of all){const section=document.createElement('section');section.className='print-chapter prose';const h=document.createElement('h1');h.textContent=c.title;section.append(h,renderMarkdown(md));doc.append(section);}
+      for(const {c,md} of all){const section=document.createElement('section');section.className='print-chapter prose';const h=document.createElement('h1');h.textContent=c.title;const label=document.createElement('p');label.textContent=(settings.version||'Working draft')+' · '+(settings.stage||'')+' · '+(settings.updated||'');section.append(label,h,renderMarkdown(md));doc.append(section);}
       document.body.append(doc);document.body.classList.add('print-all');requestAnimationFrame(()=>window.print());
     }catch(e){$('notice').textContent='Print preparation failed: '+e.message;$('notice').hidden=false;}finally{$('print').disabled=false;}
   };
@@ -147,8 +169,10 @@
   async function start(){
     try{if(offline){chapters=window.KANI_BOOTSTRAP.chapters;settings=window.KANI_BOOTSTRAP.settings;}
       else{[chapters,settings]=await Promise.all([readJSON('chapters.json'),readJSON('site.json')]);}
+      $('version-label').textContent=(settings.version||'Draft')+' · '+(settings.stage||'Discussion');
+      $('edition-meta').textContent=(settings.version||'Draft')+' · '+(settings.stage||'Discussion')+' — For discussion · Updated '+(settings.updated||'');
       makeNavigation();homeCards();await route();
-      if(offline){$('notice').textContent='Local preview snapshot. Online edits are made through GitHub after publishing.';$('notice').hidden=false;}
+      if(offline&&!snapshot){$('notice').textContent='Local preview snapshot. Online edits are made through GitHub after publishing.';$('notice').hidden=false;}
     }catch(e){$('article').textContent='The document could not load. '+e.message;}
   }
   start();

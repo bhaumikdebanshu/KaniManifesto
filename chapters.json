@@ -4,7 +4,7 @@
     "title": "Kani Home",
     "group": "Home",
     "file": "home.md",
-    "description": "Creative practice, research and public exchange. A shared framework for the programmes we build and the people who make them possible."
+    "description": "Creative practice, research and public exchange. A shared direction for the programmes we build and the people who make them possible."
   },
   {
     "id": "framework",
@@ -35,6 +35,13 @@
     "description": "Earn income through commissioned experiences, spaces and creative hospitality."
   },
   {
+    "id": "outreach",
+    "title": "Outreach & Community Engagement",
+    "group": "Programme Framework",
+    "file": "outreach.md",
+    "description": "Relationships, participation and continuity across the three pillars."
+  },
+  {
     "id": "entities",
     "title": "Enabling entities",
     "group": "Governance",
@@ -46,7 +53,7 @@
     "title": "Advisory & Programme Council",
     "group": "Governance",
     "file": "council.md",
-    "description": "Seven areas of expertise. Shared direction and rotating perspectives."
+    "description": "Seven advisory areas. One-year appointments, reviewed annually."
   },
   {
     "id": "decisions",
@@ -126,8 +133,15 @@
     "description": ""
   },
   {
+    "id": "version-history",
+    "title": "Version history & feedback",
+    "group": "Review & Editing",
+    "file": "version-history.md",
+    "description": "A record of how the thinking develops."
+  },
+  {
     "id": "document-plan",
-    "title": "Document development plan",
+    "title": "Document review checklist",
     "group": "Review & Editing",
     "file": "document-plan.md",
     "description": ""

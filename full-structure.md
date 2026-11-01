@@ -2,6 +2,7 @@
 | --- | --- | --- |
 | Programme management | Programme Manager — Research, Residencies & Learning | Owns residencies, fellowships, research, educational relationships and participant support. |
 | Programme management | Programme Manager — Creative Experiences | Owns the public calendar and delivery coordination for exhibitions, music, film, workshops, walks, marketplaces and Kani Fest. |
+| Community engagement | Community Engagement & Outreach Coordinator | Maintains local relationships, coordinates participation and access, supports programme outreach and follows up on feedback across the pillars. |
 | Fundraising, partnerships and commercial development | Fundraising & Partnerships Manager | Owns the funding strategy and pipeline, funder relationships, grants, CSR partnerships, sponsorships, donors and institutional collaborations. |
 | Fundraising, partnerships and commercial development | Commercial & Bookings Executive | Manages enquiries, proposals, quotations, site visits, follow-up, confirmed bookings and client relationships. |
 | Fundraising, partnerships and commercial development | Proposal & Grant Writer | Develops applications, concept notes, CSR and sponsorship proposals, pitch material and narrative reports. |
@@ -12,7 +13,7 @@
 | Existing support teams | Accounts Team | Supports project owners and fundraising staff while retaining entity-specific approval procedures. |
 | Existing support teams | Hospitality Team | Works with production, programme and bookings staff on delivery. |
 
-All continuing roles sit within one permanent working team led by the **Director of Creative Practice**.
+All continuing roles sit within one permanent working team led by the **Director of Creative Practice**. This is a growth model; appointments follow recurring need and funding rather than being simultaneous Year 1 hires.
 
 ## Programme management
 
@@ -21,6 +22,14 @@ All continuing roles sit within one permanent working team led by the **Director
 - **Programme Manager — Creative Experiences:** Owns the public calendar and coordinates delivery for exhibitions, music, film, workshops, walks, marketplaces and Kani Fest. Works with the Programme Manager — Research, Residencies & Learning when projects produce public events, ensuring that each project has one named owner and clear delivery responsibilities.
 
 Both report to the Director. Where a residency produces a public event, the two managers agree the handover and responsibilities for each part.
+
+## Community engagement and outreach
+
+**Community Engagement & Outreach Coordinator — reports to the Director**
+
+Maintains local and community relationships across programmes, coordinates participation and access support, keeps the shared relationship record and follows up on feedback. Works with programme managers on co-development and with Design & Communications on audience development. Programme owners retain responsibility for creative briefs, budgets, selections and commitments.
+
+In Year 1 these duties are allocated to the Programme & Operations Coordinator with Director support. Establish the dedicated role when recurring relationships and participation work exceed that capacity and funding can sustain it. See [Outreach & Community Engagement](#outreach).
 
 ## Fundraising, partnerships and commercial development
 

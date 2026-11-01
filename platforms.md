@@ -15,4 +15,6 @@ An original initiative can begin as a small experiment and become a continuing p
 | Kani Curated Marketplaces | Primarily Creative Experiences; connects craft and material research with public exchange and maker livelihoods. | Marketplace Curator appointed for a series or edition. |
 | Future original initiatives | Assigned according to their purpose; may connect several pillars. | Named project lead appointed when the initiative is approved. |
 
+Each platform page includes a structure chart and a responsibilities table. The charts distinguish project reporting from shared support; retained and project appointments are not additional permanent Year 1 hires. [Outreach & Community Engagement](#outreach) supports participation across all platforms.
+
 The Director oversees platform development and resource planning with council guidance. There is no separate permanent “IP creation” department in Year 1.

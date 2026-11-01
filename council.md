@@ -2,29 +2,27 @@
 
 The council helps establish annual direction and priorities, contributes expertise, mentors practices and opens relationships. Senior advisors support the working team through key conversations and defined commitments. Day-to-day execution rests with staff and commissioned collaborators.
 
-## Seven advisory roles
+## Seven advisory areas
 
-The seats describe areas of expertise, not named individuals or separate departments.
+The areas describe expertise, not named individuals or separate departments. Each area may have one or two members, depending on the expertise and support needed. Where two members share an area, they agree how to divide responsibilities and coordinate their contribution. Seven advisory areas can therefore have between seven and fourteen members when all areas are filled.
 
 | Advisory role | Main contribution |
 |---|---|
 | Art & Cultural Practice | Visual arts, film, exhibitions, artistic development and cultural relationships. |
 | Design, Systems & Technology | Programme formats, organisational systems, experiences, shared tools and infrastructure, and emerging technologies. |
 | Research, Learning & Publishing | Research direction, academic relationships, educational programmes and editorial standards. |
-| Music & Sound | Music programming, sound practices, practitioner networks and interdisciplinary collaborations. |
+| Sound & Music | Music programming, sound practices, practitioner networks and interdisciplinary collaborations. |
 | Craft, Heritage & Community | Artisan relationships, local knowledge, heritage, craft innovation and community participation. |
 | Business & Enterprise | Commercial models, pricing, retreats, bookings and market relationships. |
 | Fundraising & Resource Development | Grants, CSR relationships, sponsorships, philanthropy and institutional funding. |
 
 Institutional partnerships are a shared responsibility across the council. Membership should include at least two people deeply connected to Kashmir’s communities and practices. Invite additional specialists for particular enquiries rather than expanding the standing council for every discipline.
 
-## Rotation and accountability
+## Appointments and accountability
 
-- Two-year terms, with a review after the first year.
+- Council members serve one-year terms. Membership is reviewed annually, and appointments may be renewed.
 
-- Staggered groups of three and four rotate in alternate years. For the first cohort, three members receive one-year appointments and four receive two-year appointments.
-
-- Maximum two consecutive terms, followed by at least a one-year break.
+- The annual review considers contribution, agreed commitments, continuity and the expertise needed for the next year.
 
 - One member serves as Convenor for one year, coordinating agendas and follow-up without an additional artistic veto.
 
@@ -40,6 +38,6 @@ Hold quarterly planning and review meetings, with shorter project conversations 
 
 Bring concrete proposals stating purpose, audience, owner, cost, funding source and demands on space and staff. Discuss them against the mission, local relevance, creative or learning value, feasibility and what they would displace.
 
-**Voting proposal for review:** With seven members, use a quorum of five and require at least four affirmative votes for council-level decisions. Seek agreement before voting. Conflicted members declare their interest and step out of the decision; confirm a separate procedure for cases where recusals prevent a valid decision.
+**Voting proposal for collective review:** Seek agreement before voting. Each advisory area has one vote, whether it has one or two members. Members sharing an area agree their position; if they cannot agree, that area abstains. A quorum requires at least five advisory areas represented, with at least four affirmative area votes for a council-level decision. Conflicted members declare their interest and step out. Confirm how vacancies, shared-area conflicts and recusals affect representation before adopting this procedure; if a valid quorum cannot be established, defer the decision. This procedure remains an open decision for the group.
 
 Record decisions, reasons, owners and next actions. Routine programme delivery proceeds within delegated authority and does not await council votes.

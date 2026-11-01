@@ -1,19 +1,21 @@
-1. Kani Home: ethos and purpose.
+## Review one complete edition
 
-2. Three pillars, with concrete activity lists.
+Review the manifesto, programme framework, advisory arrangements, team and platforms together. This prevents a change to one role from leaving contradictory responsibilities elsewhere.
 
-3. Enabling entities and project responsibility.
+## Consistency checklist
 
-4. Advisory & Programme Council.
+| When this changes | Also review |
+|---|---|
+| Ethos or pillars | Home, Programme Framework, pillar chapters, platform descriptions and open decisions. |
+| Advisory areas, appointments or voting | Council, Decision rights, overview text and open decisions. |
+| Outreach responsibilities | Outreach section, Year 1, Full Structure, Growth, shared capabilities and all platform role tables. |
+| Platform staffing or reporting | Platform chart, its responsibilities table, Year 1 support, Full Structure and Decision rights. |
+| A substantive agreed revision | Version label, version history, previous-edition snapshot, navigation, Markdown export and print view. |
 
-5. Permanent team, with a **Year 1 / Full Structure** switch.
+Charts distinguish reporting and project responsibility from shared support. Platform leads and advisors are not additional permanent hires in Year 1.
 
-6. Shared infrastructure & capabilities.
+## Review and publish
 
-7. Platforms & Original Initiatives: Kani Fest, Kani Publications and Curated Marketplaces.
+Collect proposed edits, review them as a batch, then publish one coherent edition. Keep feedback as suggested, agreed or deferred. Preserve the presentation edition before incorporating feedback so readers can follow how the thinking changed.
 
-8. Retained and external support appropriate to the selected staffing model.
-
-9. Decision rights and triggers for growth.
-
-The HTML should distinguish reporting lines from collaboration and support relationships. Platform leads and advisors should not appear as additional permanent hires in the Year 1 view.
+See [Version history & feedback](#version-history) for the current edition and revision approach.

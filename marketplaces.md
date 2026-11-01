@@ -1,23 +1,42 @@
+## Purpose
+
 A recurring public programme bringing selected artisans and makers together with demonstrations, workshops and cultural activity.
 
 **Working ambition:** Every two months, for 3–4 days, subject to staffing, funding and participant demand. Confirm the Year 1 frequency separately.
 
-**Marketplace Curator — series or project appointment**
+## Structure chart
 
-Selects participants, develops themes and shapes accompanying activities. Works with local practitioners and relevant council advisors.
+```kani-chart
+- Director of Creative Practice | Overall resources and accountability
+  - Programme owner | Director in Year 1; Creative Experiences Programme Manager at scale
+    - Marketplace Curator | Theme, participant selection and accompanying programme
+    - Delivery coordinator | Edition schedule, participant logistics and follow-up
+```
 
-- Programme ownership remains within Creative Experiences.
+**Chart key:** Solid connections show programme and project accountability. In Year 1 the Director also holds programme ownership; that box is a responsibility, not another hire. The permanent Programme & Operations Coordinator initially coordinates delivery. The curator owns selection; delivery coordination does not override that remit.
 
-- In Year 1, the Programme & Operations Coordinator supports delivery.
+> **Shared support — collaboration, not extra reporting lines:** Operations / Production and AV; outreach; Design & Communications; Fundraising & Partnerships; Commercial & Bookings; Accounts; Hospitality. These teams retain their existing reporting lines.
 
-- At scale, the Creative Experiences Programme Manager coordinates the platform.
+## Roles and responsibilities
 
-- Operations handles layout, stalls, equipment and logistics.
+| Role | Responsibilities and decisions | Working arrangement |
+|---|---|---|
+| Director of Creative Practice | Agrees the series scope, resources and appointments; retains overall accountability. Holds programme ownership in Year 1. | Continuing role. |
+| Creative Experiences Programme Manager | At scale, owns the calendar, coordination and continuity of the marketplace platform; agrees handovers and tracks delivery. | Growth-stage role reporting to the Director; not an additional Year 1 hire. |
+| Marketplace Curator | Selects participants, develops themes and shapes demonstrations, workshops and cultural activities. Works with local practitioners and relevant council advisors. | Series or edition appointment. Creative selection rests with this role within the agreed brief. |
+| Delivery coordinator | Coordinates schedules, participant requirements, logistics and follow-up, escalating resource issues to the programme owner. | Programme & Operations Coordinator in Year 1; allocated or project-funded coordination as the platform grows. |
+| Operations / Production and AV | Plans layout, stalls, equipment, installation and technical support, with named on-site responsibilities. | Allocated team capacity and technical specialists. |
+| Community engagement and outreach | Builds sustained artisan and maker relationships, supports applications and access, and gathers participant feedback. Makes opportunities understandable; does not replace curatorial selection. | Year 1 coordinator with Director support; dedicated outreach role when justified. |
+| Design & Communications | Handles promotion, audience invitations, participant stories and programme information with consent and accurate credits. | Shared communications capacity. |
+| Fundraising & Partnerships | Develops appropriate sponsors and institutional partnerships with the programme owner. | Retained or shared fundraising support. |
+| Commercial & Bookings | Administers stall bookings and fees after curatorial selection, using approved terms. | Named responsibility within Year 1 coordination; dedicated bookings role as justified. |
+| Accounts | Supports fee receipts, invoices, payments and financial records. | Existing Accounts Team. |
+| Hospitality | Supports guest arrangements, food and visitor services against the edition plan. | Existing Hospitality Team. |
 
-- Design & Communications handles promotion and participant stories.
+## Working arrangements
 
-- Fundraising develops appropriate sponsors and partnerships.
+Programme ownership sits within Creative Experiences. The Director holds that responsibility initially; the Creative Experiences Programme Manager provides continuity at scale. The Marketplace Curator can be appointed across a series, with delivery supported by the permanent team and additional project appointments when needed.
 
-- The bookings function administers stall bookings and fees after curatorial selection.
+Confirm frequency, stall arrangements, selection criteria, staffing, outreach and budget before committing to a Year 1 series. Fees and booking administration follow selection; they do not determine curatorial acceptance.
 
-- Accounts and hospitality support payments and visitor services.
+After each edition, review participant experience, access, attendance, costs and maker feedback. Record what changes for the next edition and who maintains the relationships between events.

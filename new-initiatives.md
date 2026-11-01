@@ -2,7 +2,7 @@ Use a simple progression:
 
 1. Identify an enquiry, need or opportunity connected to the ethos and pillars.
 
-2. Define a small pilot with a named owner, audience, budget and outcome.
+2. Define a small pilot with a named owner, audience, budget and outcome. Build outreach into its development: listen to intended participants, identify access needs and agree who maintains the relationships afterwards.
 
 3. Deliver and document the pilot.
 

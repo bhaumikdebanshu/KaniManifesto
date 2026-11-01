@@ -1,5 +1,9 @@
 {
   "title": "Kani Home",
   "repository": "bhaumikdebanshu/KaniManifesto",
-  "branch": "main"
+  "branch": "main",
+  "version": "v0.1",
+  "stage": "Alpha",
+  "updated": "2 November 2026",
+  "kicker": "An evolving manifesto"
 }

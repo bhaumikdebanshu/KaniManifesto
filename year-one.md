@@ -1,3 +1,5 @@
+Begin with a small permanent team, supported by existing staff and funded specialist appointments. Add continuing roles as programmes, workload and resources grow.
+
 Start with **three permanent hires**, supported by the existing accounts and hospitality teams and a defined budget for retained and project expertise.
 
 ## Director of Creative Practice
@@ -5,6 +7,8 @@ Start with **three permanent hires**, supported by the existing accounts and hos
 The single operational head of the working team.
 
 - Leads the year-round programme across the three pillars.
+
+- Is accountable for outreach and community engagement, supporting key relationships and reviewing participation and access.
 
 - Works with the council on priorities, partnerships and institutional development.
 
@@ -20,8 +24,8 @@ The single operational head of the working team.
 
 | Role | Initial responsibilities |
 |---|---|
-| Programme & Operations Coordinator | Shared calendar, resident and artist liaison, production logistics, vendor coordination, commercial enquiries and booking follow-up; coordination with accounts and hospitality. |
-| Design & Communications Associate | Graphics, social media, programme announcements, audience outreach, presentations and documentation coordination. An early-career role with independent working ability. |
+| Programme & Operations Coordinator | Shared calendar, resident and artist liaison, local community relationships, participation support and follow-up; production logistics, vendor coordination, commercial enquiries and booking follow-up; coordination with accounts and hospitality. |
+| Design & Communications Associate | Graphics, social media, programme announcements, audience communication and development with programme owners, presentations and documentation coordination. An early-career role with independent working ability. |
 | Existing Accounts Team | Invoicing, payments, records, expenditure tracking and financial reporting inputs. Entity approval powers remain separate. |
 | Existing Hospitality Team | Accommodation, guest arrivals, room readiness, catering arrangements, routine venue visits and visitor support. |
 
@@ -43,3 +47,7 @@ The Director is one of the three new permanent hires. Existing accounts and hosp
 | Specialist production partners | Sound, lighting, fabrication, installation, photography, video and event crew as required. |
 
 Start with a manageable calendar. A festival or publication deadline must carry its additional staffing cost rather than simply being added to the coordinator’s existing workload.
+
+## Outreach capacity
+
+The coordinator maintains the shared relationship record and follows up on programme feedback, while the Director supports key relationships. Allocate time for this work and fund additional outreach support during busy programmes. There is no additional permanent outreach hire in the initial three-person team. See [Outreach & Community Engagement](#outreach).
