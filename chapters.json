@@ -1,0 +1,142 @@
+[
+  {
+    "id": "home",
+    "title": "Kani Home",
+    "group": "Home",
+    "file": "home.md",
+    "description": "Creative practice, research and public exchange. A shared framework for the programmes we build and the people who make them possible."
+  },
+  {
+    "id": "framework",
+    "title": "Programme framework",
+    "group": "Programme Framework",
+    "file": "framework.md",
+    "description": "How the ethos, pillars, people and platforms fit together."
+  },
+  {
+    "id": "research",
+    "title": "Research, Residencies & Learning",
+    "group": "Programme Framework",
+    "file": "research.md",
+    "description": "Develop knowledge, creative practices, skills and new ways of working."
+  },
+  {
+    "id": "creative-experiences",
+    "title": "Creative Experiences",
+    "group": "Programme Framework",
+    "file": "creative-experiences.md",
+    "description": "Bring people together through encounters with art, culture, ideas and making."
+  },
+  {
+    "id": "commercial",
+    "title": "Commercial Experiences & Space Hire",
+    "group": "Programme Framework",
+    "file": "commercial.md",
+    "description": "Earn income through commissioned experiences, spaces and creative hospitality."
+  },
+  {
+    "id": "entities",
+    "title": "Enabling entities",
+    "group": "Governance",
+    "file": "entities.md",
+    "description": "The organisations that enable the work."
+  },
+  {
+    "id": "council",
+    "title": "Advisory & Programme Council",
+    "group": "Governance",
+    "file": "council.md",
+    "description": "Seven areas of expertise. Shared direction and rotating perspectives."
+  },
+  {
+    "id": "decisions",
+    "title": "Decision rights",
+    "group": "Governance",
+    "file": "decisions.md",
+    "description": "Clear ownership for direction, creative decisions and delivery."
+  },
+  {
+    "id": "year-one",
+    "title": "Year 1 · Minimum team",
+    "group": "Working Team",
+    "file": "year-one.md",
+    "description": "Three permanent hires, existing teams and defined specialist support."
+  },
+  {
+    "id": "full-structure",
+    "title": "Full structure",
+    "group": "Working Team",
+    "file": "full-structure.md",
+    "description": "Dedicated capacity as programmes and recurring work grow."
+  },
+  {
+    "id": "growth",
+    "title": "How the team grows",
+    "group": "Working Team",
+    "file": "growth.md",
+    "description": "Add people in response to sustained work and funding."
+  },
+  {
+    "id": "infrastructure",
+    "title": "Shared infrastructure & capabilities",
+    "group": "Shared Infrastructure",
+    "file": "infrastructure.md",
+    "description": "Spaces, equipment and services supporting all programmes."
+  },
+  {
+    "id": "platforms",
+    "title": "Platforms & Original Initiatives",
+    "group": "Platforms & Original Initiatives",
+    "file": "platforms.md",
+    "description": "Recognisable programmes with their own identity, brief and creative lead."
+  },
+  {
+    "id": "kani-fest",
+    "title": "Kani Fest",
+    "group": "Platforms & Original Initiatives",
+    "file": "kani-fest.md",
+    "description": "A fresh curatorial proposition for each festival edition."
+  },
+  {
+    "id": "publications",
+    "title": "Kani Publications",
+    "group": "Platforms & Original Initiatives",
+    "file": "publications.md",
+    "description": "A year-round publishing programme across the three pillars."
+  },
+  {
+    "id": "marketplaces",
+    "title": "Curated Marketplaces",
+    "group": "Platforms & Original Initiatives",
+    "file": "marketplaces.md",
+    "description": "Artisans, makers, demonstrations and public exchange."
+  },
+  {
+    "id": "new-initiatives",
+    "title": "Developing new initiatives",
+    "group": "Platforms & Original Initiatives",
+    "file": "new-initiatives.md",
+    "description": "Pilot, learn and establish what deserves to continue."
+  },
+  {
+    "id": "open-decisions",
+    "title": "Open decisions",
+    "group": "Review & Editing",
+    "file": "open-decisions.md",
+    "description": ""
+  },
+  {
+    "id": "document-plan",
+    "title": "Document development plan",
+    "group": "Review & Editing",
+    "file": "document-plan.md",
+    "description": ""
+  },
+  {
+    "id": "editing",
+    "title": "How to edit and share",
+    "group": "Review & Editing",
+    "file": "editing.md",
+    "description": ""
+  }
+]
