@@ -29,8 +29,12 @@ As recurring work and funding justify it, a **Community Engagement & Outreach Co
 
 ## Across the platforms
 
-- **Kani Fest:** Co-develop relevant participation with local groups, plan invitations and access, and maintain relationships after the edition.
+- **Kani Fest:** Co-develop participation with local groups, plan invitations and access, and maintain relationships after the edition. Work with the Volunteer Coordinator on continuing participation; that coordinator owns induction, rota and welfare, while assigned venue or task leads direct each shift. Sustained year-round responsibilities need a scoped, funded role.
 - **Kani Publications:** Invite contributors and community knowledge holders, agree credit and permissions, and plan how publications reach their intended readers.
 - **Curated Marketplaces:** Build sustained artisan and maker relationships, support applications and participation, and gather feedback after each edition. Curatorial selection remains with the Marketplace Curator.
 
 Programme reviews record what was heard, what changed in response and who will follow up. See [Decision rights](#decisions) for the boundaries between outreach, creative selection and financial approval.
+
+## Care within the team
+
+Outreach builds continuing relationships with communities and participants. The shared People, Care & Team Culture responsibility supports the people doing the work across Kani through welcome, check-ins, morale and practical support. The two work together where community members become collaborators or volunteers; volunteer rota and shift responsibilities stay with the assigned festival leads.

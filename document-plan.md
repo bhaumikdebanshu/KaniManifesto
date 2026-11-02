@@ -9,6 +9,7 @@ Review the manifesto, programme framework, advisory arrangements, team and platf
 | Ethos or pillars | Home, Programme Framework, pillar chapters, platform descriptions and open decisions. |
 | Advisory areas, appointments or voting | Council, Decision rights, overview text and open decisions. |
 | Outreach responsibilities | Outreach section, Year 1, Full Structure, Growth, shared capabilities and all platform role tables. |
+| People, Care & Team Culture | Home, Year 1, Full Structure, Growth, shared capabilities, outreach, platform support tables and Decision rights. |
 | Platform staffing or reporting | Platform chart, its responsibilities table, Year 1 support, Full Structure and Decision rights. |
 | A substantive agreed revision | Version label, version history, previous-edition snapshot, navigation, Markdown export and print view. |
 

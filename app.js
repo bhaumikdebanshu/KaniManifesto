@@ -6,20 +6,45 @@
   const cache = new Map();
   const snapshot = document.documentElement.dataset.snapshot === 'true';
   const offline = location.protocol === 'file:' || snapshot;
-  function chartFromText(text) {
-    const figure=document.createElement('figure');figure.className='org-chart';
-    const caption=document.createElement('figcaption');caption.textContent='Project structure';figure.append(caption);
-    const root=document.createElement('ul');root.className='org-tree';figure.append(root);
-    const lists=[root];let previous=null,depthBefore=0;
+  let roleDialog = null, roleTrigger = null;
+  function showExplainer(title, note, details, trigger) {
+    if (!roleDialog) {
+      roleDialog = document.createElement('dialog');roleDialog.className='role-dialog';
+      roleDialog.setAttribute('aria-labelledby','role-dialog-title');
+      document.body.append(roleDialog);
+      roleDialog.addEventListener('close',()=>{document.body.classList.remove('role-open');if(roleTrigger?.isConnected)roleTrigger.focus({preventScroll:true});});
+      roleDialog.addEventListener('click',e=>{if(e.target===roleDialog){const r=roleDialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)roleDialog.close();}});
+    }
+    roleTrigger=trigger;roleDialog.replaceChildren();
+    const close=document.createElement('button');close.className='role-close';close.textContent='Close ×';close.setAttribute('aria-label','Close explainer');close.onclick=()=>roleDialog.close();
+    const label=document.createElement('p');label.className='eyebrow';label.textContent='Working map · Explainer';
+    const h=document.createElement('h2');h.id='role-dialog-title';h.textContent=title;
+    const intro=document.createElement('p');intro.className='role-summary';intro.textContent=note;
+    roleDialog.append(close,label,h,intro);
+    for(const detail of details){const heading=document.createElement('h3');heading.textContent=detail.label;const para=document.createElement('p');para.textContent=detail.text;roleDialog.append(heading,para);}
+    roleDialog.showModal();document.body.classList.add('role-open');close.focus();
+  }
+  function chartFromText(text, explanations, kind='chart') {
+    const figure=document.createElement('figure');figure.className='org-chart map-'+kind;
+    const caption=document.createElement('figcaption');caption.textContent=({chart:'Project structure',support:'Shared support · works with both festival leads',flow:'Follow the steps'})[kind]+' · Select a box';figure.append(caption);
+    const root=document.createElement(kind==='flow'?'ol':'ul');root.className=kind==='chart'?'org-tree':'map-cards';figure.append(root);
+    const lists=[root];let previous=null,depthBefore=0,tone='';
     for(const line of text.trimEnd().split('\n')) {
       if(!line.trim())continue;
       const match=line.match(/^( *)(?:- )(.+)$/);
       if(!match||match[1].length%2)return null;
-      const depth=match[1].length/2;if(depth>6||depth>depthBefore+1||(!previous&&depth!==0))return null;
+      const depth=match[1].length/2;if(depth>6||depth>depthBefore+1||(!previous&&depth!==0)||(kind!=='chart'&&depth!==0))return null;
       if(depth>depthBefore){const children=document.createElement('ul');previous.append(children);lists[depth]=children;}
-      const item=document.createElement('li'),card=document.createElement('div');card.className='org-node';
-      const [title,...notes]=match[2].split('|');const strong=document.createElement('strong');strong.textContent=title.trim();card.append(strong);
-      if(notes.length){const small=document.createElement('small');small.textContent=notes.join('|').trim();card.append(small);}
+      const item=document.createElement('li'),card=document.createElement('button');card.type='button';card.className='org-node';
+      const [rawTitle,...notes]=match[2].split('|');const title=rawTitle.trim(),note=notes.join('|').trim();
+      if(depth===1)tone=title==='Festival Curator'?'creative':title==='Festival Producer'?'delivery':'';
+      if(tone&&depth>0)item.classList.add('tone-'+tone);
+      const strong=document.createElement('strong');strong.textContent=title;card.append(strong);
+      if(note){const small=document.createElement('small');small.textContent=note;card.append(small);}
+      const hint=document.createElement('span');hint.className='node-hint';hint.textContent='Read explainer ↗';hint.setAttribute('aria-hidden','true');card.append(hint);
+      card.setAttribute('aria-haspopup','dialog');card.setAttribute('aria-label',title+' — read explainer');
+      const details=explanations.get(title)||[{label:'About this role',text:note||'See the roles and working arrangements in this chapter.'}];
+      card.onclick=()=>showExplainer(title,note,details,card);
       item.append(card);lists[depth].append(item);previous=item;depthBefore=depth;
     }
     return root.children.length?figure:null;
@@ -28,7 +53,12 @@
   function renderMarkdown(md) {
     const template = document.createElement('template');
     template.innerHTML = marked.parse(md, {gfm:true, breaks:false});
-    const charts=[...template.content.querySelectorAll('pre > code.language-kani-chart')].map(code=>({pre:code.parentElement,chart:chartFromText(code.textContent)}));
+    const explanations=new Map();
+    for(const table of template.content.querySelectorAll('table')){
+      const headings=[...table.querySelectorAll('thead th')].map(c=>c.textContent.trim());
+      for(const row of table.querySelectorAll('tbody tr')){const cells=[...row.querySelectorAll('td')];if(cells.length>1)explanations.set(cells[0].textContent.trim(),cells.slice(1).map((c,i)=>({label:headings[i+1]||'Details',text:c.textContent.trim()})));}
+    }
+    const charts=[...template.content.querySelectorAll('pre > code')].filter(c=>/^language-kani-(chart|support|flow)$/.test(c.className)).map(code=>({pre:code.parentElement,chart:chartFromText(code.textContent,explanations,code.className.replace('language-kani-',''))}));
     const clean = node => {
       for (const el of [...node.children]) {
         if (!allowed.has(el.tagName)) { el.remove(); continue; }
@@ -108,6 +138,7 @@
     }
   }
   async function route() {
+    if(roleDialog?.open)roleDialog.close();
     const version=++routeVersion;
     let id;try{id=decodeURIComponent(location.hash.slice(1))||'home';}catch{id='home';}
     const found=chapters.find(c=>c.id===id);current=found||chapters[0];

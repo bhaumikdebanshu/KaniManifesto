@@ -76,3 +76,11 @@ Owns visual communication, social media planning, audience outreach, announcemen
 - **Accounts Team:** Operationally coordinated under the Director; works with project owners and fundraising staff while retaining entity-specific approval procedures.
 
 - **Hospitality Team:** Operationally coordinated under the Director; works with production, programme and bookings staff on delivery.
+
+## Kani Fest project team
+
+The Festival Curator and Festival Producer work alongside one another under the Director. Proposed 6–9 month paid curatorial fellows develop the tracks; the Producer coordinates programme scheduling, technical infrastructure, venue/session leads, artist liaison and volunteer coordination. These are edition appointments or allocated responsibilities, not automatic additions to the permanent team. The permanent coordinator in Year 1, or Creative Experiences Programme Manager at scale, holds continuity between editions. See the [festival working map and role explainers](#kani-fest).
+
+## People, Care & Team Culture
+
+A shared function with a named coordinator accountable to the Director, supporting staff, fellows, project teams and volunteers across Kani. It coordinates welcome, check-ins, recognition, listening and practical care. It can be allocated within an existing role initially; dedicated capacity follows workload and funding. All team leads retain responsibility for respectful working, realistic workloads and follow-through on concerns. See [Shared Infrastructure](#infrastructure).

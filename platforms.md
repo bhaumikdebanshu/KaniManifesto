@@ -10,11 +10,11 @@ An original initiative can begin as a small experiment and become a continuing p
 
 | Platform | Relationship to the pillars | Creative lead |
 |---|---|---|
-| Kani Fest | Primarily Creative Experiences; draws on research, learning and partnerships. | Festival Curator appointed for each edition. |
+| Kani Fest | Primarily Creative Experiences; draws on research, learning and partnerships. | Festival Curator with proposed 6–9 month paid track fellows; Festival Producer leads delivery alongside the Curator. |
 | Kani Publications | Works across all three pillars; publishes research, creative practice and appropriate commissioned work. | Editor / Publishing Lead on retainer or project appointment initially. |
 | Kani Curated Marketplaces | Primarily Creative Experiences; connects craft and material research with public exchange and maker livelihoods. | Marketplace Curator appointed for a series or edition. |
 | Future original initiatives | Assigned according to their purpose; may connect several pillars. | Named project lead appointed when the initiative is approved. |
 
-Each platform page includes a structure chart and a responsibilities table. The charts distinguish project reporting from shared support; retained and project appointments are not additional permanent Year 1 hires. [Outreach & Community Engagement](#outreach) supports participation across all platforms.
+Each platform page includes a structure chart and a responsibilities table. The charts distinguish project reporting from shared support; retained and project appointments are not additional permanent Year 1 hires. [Outreach & Community Engagement](#outreach) supports participation across all platforms. Shared [People, Care & Team Culture](#infrastructure) supports team morale, listening and practical care across their working teams.
 
 The Director oversees platform development and resource planning with council guidance. There is no separate permanent “IP creation” department in Year 1.

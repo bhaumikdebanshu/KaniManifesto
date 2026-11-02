@@ -33,6 +33,6 @@ The free public-repository setup makes the site and its source public. The site 
 
 Use [Version history & feedback](#version-history) for substantive changes. The main website is the current working edition; the linked snapshots preserve earlier editions and should not be edited. Use **Print all** on a snapshot to save that edition as a PDF.
 
-Platform charts are written as indented bullet lists inside a `kani-chart` code block in each platform’s Markdown file. Indentation defines the project hierarchy. The matching responsibilities table explains each role; shared support is listed separately beneath the chart. Update both when a reporting relationship changes.
+Platform charts are written as indented bullet lists inside a `kani-chart` code block in each platform’s Markdown file. Indentation defines the project hierarchy. Kani Fest also uses `kani-support` for shared teams and `kani-flow` for sequences. Each box title matches the first cell of its explanation table exactly; the next cells supply the explainer text. Edit those table cells to change an explainer. Update the chart and table together when a role or relationship changes. Shared support stays separate from reporting lines.
 
 Before publishing a substantive new edition, update the version and date in `site.json`, the history page and the preserved snapshot together. Follow the [Document review checklist](#document-plan).

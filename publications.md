@@ -13,7 +13,7 @@ A proposed year-round publishing imprint with its own editorial identity, servin
 
 **Chart key:** Solid connections show editorial project direction and accountability. Contributors and commissioned specialists work to an agreed editorial brief; they are not permanent staff reports. The editor owns editorial quality within the approved brief and budget.
 
-> **Shared support — collaboration, not extra reporting lines:** Programme coordination; Design & Communications; community engagement and outreach; Fundraising & Partnerships; Accounts; designated sales and distribution support. These roles support the editorial plan and retain their existing reporting lines.
+> **Shared support — collaboration, not extra reporting lines:** Programme coordination; Design & Communications; community engagement and outreach; Fundraising & Partnerships; Accounts; designated sales and distribution support; People, Care & Team Culture. These roles support the editorial plan and retain their existing reporting lines.
 
 ## Roles and responsibilities
 
@@ -21,14 +21,15 @@ A proposed year-round publishing imprint with its own editorial identity, servin
 |---|---|---|
 | Director of Creative Practice | Agrees publishing priorities, resources and appointments with the editor; resolves resource conflicts and connects publishing to the wider programme. | Continuing role. |
 | Editor / Publishing Lead | Shapes the editorial programme, develops manuscripts with authors, coordinates review and checks sources, credit and permissions. Owns editorial quality within the agreed brief and budget. | Retained or appointed per title or series initially. |
-| Authors and contributors | Develop original work, supply accurate source and credit information, respond to editorial feedback and agree permissions for their contribution. | Commissioned or agreed contributor arrangements per publication. |
-| Reviewers, copy editors and translators | Provide subject review, language editing and translation according to the title’s needs and editorial standards. | Commissioned specialists coordinated by the editor. |
+| Authors & contributors | Develop original work, supply accurate source and credit information, respond to editorial feedback and agree permissions for their contribution. | Commissioned or agreed contributor arrangements per publication. |
+| Editorial specialists | Provide subject review, language editing and translation according to the title’s needs and editorial standards. | Commissioned specialists coordinated by the editor. |
 | Programme coordination | Maintains schedules, contributor coordination, budget tracking and delivery follow-up; connects publishing with originating programmes. | Permanent coordinator initially, with additional project support where required. |
 | Design & Communications | Develops publication design and works with illustrators and production suppliers; coordinates promotion, launches and audience communication. The editor reviews editorial presentation. | Shared design capacity plus commissioned design, illustration or production support as needed. |
 | Community engagement and outreach | Builds contributor and community relationships, supports accessible participation and helps publications reach intended readers. Credit, consent and editorial permissions remain with the editor and contributors. | Year 1 coordinator and relevant programme owners; dedicated outreach role when justified. |
 | Fundraising & Partnerships | Develops appropriate publishing partnerships, grants and sponsorship proposals with the editor and Director. | Retained or shared fundraising support. |
 | Sales and distribution support | Plans routes to readers, handles orders and stock, and coordinates free or paid distribution and launch availability. | A named project responsibility; the initial allocation remains to be agreed. |
 | Accounts | Supports production-cost records, invoices, payments, sales receipts and financial reporting. | Existing Accounts Team; commitments approved by authorised entity representatives. |
+| People, Care & Team Culture | Supports welcome, team check-ins, recognition, listening and practical care across the programme. Flags workload pressures and supports follow-through with the relevant leads. | Shared named coordinator with allocated time, accountable to the Director. Every lead retains responsibility for respectful working and realistic workloads. |
 
 ## Publishing formats
 

@@ -39,3 +39,7 @@ Three pillars guide the work. A council with annually reviewed appointments cont
 This manifesto sets out a proposed direction; the [Open Decisions](#open-decisions) section identifies what still needs collective agreement.
 
 See [Version history & feedback](#version-history) for previous editions and the reasons behind changes.
+
+## Brain, hands and heart
+
+Ideas, practical delivery and care belong together. Curatorial and research work give direction; production and shared resources make the work possible; care for people shapes how it is done. [People, Care & Team Culture](#infrastructure) keeps welcome, listening, morale and mutual support visible across Kani, with responsibility shared by every lead.

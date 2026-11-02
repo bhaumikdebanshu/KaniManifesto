@@ -12,3 +12,7 @@ Growth follows recurring work and funding rather than a fixed hiring sequence.
 | Festival or marketplace peaks exceed normal capacity. | Add temporary producers, coordinators and crew through the relevant programme budget. |
 
 Before each permanent addition, confirm recurring need, a clear reporting line and visibility of funding for the role’s full cost over the following 12 months. This is a proposed planning rule, not a commitment to hire.
+
+For Kani Fest, returning volunteers may take defined team-captain responsibilities with training and staff support. Sustained work across the year should become a scoped, funded associate or fellowship opportunity where justified. This is an optional pathway based on interest, readiness and available roles, not a guaranteed promotion. See [Kani Fest](#kani-fest).
+
+Review capacity for People, Care & Team Culture as staff, fellows, volunteers and project teams grow. Begin with a named coordinator and allocated time; add dedicated support when recurring need and funding justify it.

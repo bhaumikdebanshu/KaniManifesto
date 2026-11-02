@@ -15,7 +15,7 @@ A recurring public programme bringing selected artisans and makers together with
 
 **Chart key:** Solid connections show programme and project accountability. In Year 1 the Director also holds programme ownership; that box is a responsibility, not another hire. The permanent Programme & Operations Coordinator initially coordinates delivery. The curator owns selection; delivery coordination does not override that remit.
 
-> **Shared support — collaboration, not extra reporting lines:** Operations / Production and AV; outreach; Design & Communications; Fundraising & Partnerships; Commercial & Bookings; Accounts; Hospitality. These teams retain their existing reporting lines.
+> **Shared support — collaboration, not extra reporting lines:** Operations / Production and AV; outreach; Design & Communications; Fundraising & Partnerships; Commercial & Bookings; Accounts; Hospitality; People, Care & Team Culture. These teams retain their existing reporting lines.
 
 ## Roles and responsibilities
 
@@ -23,6 +23,7 @@ A recurring public programme bringing selected artisans and makers together with
 |---|---|---|
 | Director of Creative Practice | Agrees the series scope, resources and appointments; retains overall accountability. Holds programme ownership in Year 1. | Continuing role. |
 | Creative Experiences Programme Manager | At scale, owns the calendar, coordination and continuity of the marketplace platform; agrees handovers and tracks delivery. | Growth-stage role reporting to the Director; not an additional Year 1 hire. |
+| Programme owner | Holds the platform calendar, scope, budget coordination and delivery handovers. | Director in Year 1; Creative Experiences Programme Manager at scale. A responsibility rather than an additional Year 1 hire. |
 | Marketplace Curator | Selects participants, develops themes and shapes demonstrations, workshops and cultural activities. Works with local practitioners and relevant council advisors. | Series or edition appointment. Creative selection rests with this role within the agreed brief. |
 | Delivery coordinator | Coordinates schedules, participant requirements, logistics and follow-up, escalating resource issues to the programme owner. | Programme & Operations Coordinator in Year 1; allocated or project-funded coordination as the platform grows. |
 | Operations / Production and AV | Plans layout, stalls, equipment, installation and technical support, with named on-site responsibilities. | Allocated team capacity and technical specialists. |
@@ -32,6 +33,7 @@ A recurring public programme bringing selected artisans and makers together with
 | Commercial & Bookings | Administers stall bookings and fees after curatorial selection, using approved terms. | Named responsibility within Year 1 coordination; dedicated bookings role as justified. |
 | Accounts | Supports fee receipts, invoices, payments and financial records. | Existing Accounts Team. |
 | Hospitality | Supports guest arrangements, food and visitor services against the edition plan. | Existing Hospitality Team. |
+| People, Care & Team Culture | Supports welcome, team check-ins, recognition, listening and practical care across the programme. Flags workload pressures and supports follow-through with the relevant leads. | Shared named coordinator with allocated time, accountable to the Director. Every lead retains responsibility for respectful working and realistic workloads. |
 
 ## Working arrangements
 
