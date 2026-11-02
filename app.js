@@ -227,7 +227,7 @@
     let id;try{id=decodeURIComponent(location.hash.slice(1))||'home';}catch{id='home';}
     const found=chapters.find(c=>c.id===id);current=found||chapters[0];
     const c=current;
-    document.title=c.title+' · Kani Home';$('title').textContent=c.title;
+    document.title=c.id==='home'?'Kani Manifesto':c.title+' · Kani Manifesto';$('title').textContent=c.title;
     $('breadcrumb').textContent=c.id==='home'?'Programme & organisation':c.group;
     $('kicker').textContent=c.id==='home'?(settings.kicker||'An evolving manifesto'):c.group;
     $('lead').textContent=c.description||'';$('home-cards').hidden=c.id!=='home';
@@ -263,8 +263,8 @@
   async function allMarkdown() {return Promise.all(chapters.map(async c=>({c,md:await markdown(c)})));}
   $('export').onclick=async()=>{
     $('export').disabled=true;
-    try{const all=await allMarkdown();const text='# Kani Home — '+(settings.version||'Working draft')+' · '+(settings.stage||'')+'\n\nUpdated '+(settings.updated||'')+'\n\n'+all.map(({c,md})=>'# '+c.title+'\n\n'+md).join('\n\n---\n\n');
-      const url=URL.createObjectURL(new Blob([text],{type:'text/markdown;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='Kani-Home-'+(settings.version||'Working-Draft')+'.md';a.hidden=true;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
+    try{const all=await allMarkdown();const text='# Kani Manifesto — '+(settings.version||'Working draft')+' · '+(settings.stage||'')+'\n\nUpdated '+(settings.updated||'')+'\n\n'+all.map(({c,md})=>'# '+c.title+'\n\n'+md).join('\n\n---\n\n');
+      const url=URL.createObjectURL(new Blob([text],{type:'text/markdown;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='Kani-Manifesto-'+(settings.version||'Working-Draft')+'.md';a.hidden=true;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
     }catch(e){$('notice').textContent='Export failed: '+e.message;$('notice').hidden=false;}finally{$('export').disabled=false;}
   };
   function clearPrint(){document.body.classList.remove('print-all');document.getElementById('print-document')?.remove();}

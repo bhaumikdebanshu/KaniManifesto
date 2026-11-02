@@ -1,10 +1,10 @@
 [
   {
     "id": "home",
-    "title": "Kani Home",
+    "title": "Kani Manifesto",
     "group": "Home",
     "file": "home.md",
-    "description": "Creative practice, research and public exchange. A shared direction for the programmes we build and the people who make them possible."
+    "description": "The ethos, people and practices of Kani Home."
   },
   {
     "id": "framework",

@@ -5,6 +5,8 @@
 
 This revision simplifies the festival map to high-level collaboration and shared support. Programming and volunteer pathways each appear once, with detailed explanations available through their clickable steps. It records a proposed operating model; appointments, fees and budgets still need agreement.
 
+The current document title is **Kani Manifesto**; **Kani Home** remains the organisation’s name. This title clarification stays within v0.5. Preserved snapshots retain their original titles.
+
 ## Editions and changes
 
 | Edition | What changed | Why |
