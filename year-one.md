@@ -59,4 +59,4 @@ Kani Fest budgets for its own delivery capacity and supported volunteer teams. T
 
 Name a coordinator for team welcome, check-ins, morale, recognition and practical support, with time allocated within the starting structure. The Director is accountable for making this possible; every lead owns respectful working and realistic workloads. At festival peaks, agree additional support alongside the Producer and Volunteer Coordinator. Provide an alternative contact for concerns involving the usual lead.
 
-Heart & Wellness activities continue throughout the year, with a named coordinator and allocated time. See the proposed rhythm in [Shared Infrastructure](#infrastructure).
+The [Heart & Wellness](#heart-wellness) section will be developed together; its activity programme remains open.

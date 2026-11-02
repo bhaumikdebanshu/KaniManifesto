@@ -84,6 +84,13 @@
     "description": "Add people in response to sustained work and funding."
   },
   {
+    "id": "heart-wellness",
+    "title": "Heart & Wellness",
+    "group": "Heart & Wellness",
+    "file": "heart-wellness.md",
+    "description": "Care and belonging throughout the year. To be developed together."
+  },
+  {
     "id": "infrastructure",
     "title": "Shared infrastructure & capabilities",
     "group": "Shared Infrastructure",
@@ -126,18 +133,18 @@
     "description": "Pilot, learn and establish what deserves to continue."
   },
   {
+    "id": "learnings-feedback",
+    "title": "Learnings & Feedback",
+    "group": "Learnings & Feedback",
+    "file": "learnings-feedback.md",
+    "description": "Programme learning and an evolving record of feedback. Collection is ongoing."
+  },
+  {
     "id": "open-decisions",
     "title": "Open decisions",
     "group": "Review & Editing",
     "file": "open-decisions.md",
     "description": ""
-  },
-  {
-    "id": "learnings-feedback",
-    "title": "Learnings & Feedback",
-    "group": "Review & Editing",
-    "file": "learnings-feedback.md",
-    "description": "Programme learning and an evolving record of feedback. Collection is ongoing."
   },
   {
     "id": "version-history",

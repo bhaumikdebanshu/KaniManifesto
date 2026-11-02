@@ -49,4 +49,4 @@ Every title has a named editorial owner, intended readership, format, budget and
 
 Budget explicitly for editing, design, review, translation, production, outreach and distribution as relevant. Increase retained editorial time only as the funded programme grows; these functions do not require separate permanent hires at the outset.
 
-Heart & Wellness activities continue throughout the year, with a named coordinator and allocated time. See the proposed rhythm in [Shared Infrastructure](#infrastructure).
+The [Heart & Wellness](#heart-wellness) section will be developed together; its activity programme remains open.

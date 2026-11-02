@@ -17,4 +17,4 @@ For Kani Fest, returning volunteers may take defined team-captain responsibiliti
 
 Review capacity for Heart & Wellness as staff, fellows, volunteers and project teams grow. Begin with a named coordinator and allocated time; add dedicated support when recurring need and funding justify it.
 
-Heart & Wellness activities continue throughout the year, with a named coordinator and allocated time. See the proposed rhythm in [Shared Infrastructure](#infrastructure).
+The [Heart & Wellness](#heart-wellness) section will be developed together; its activity programme remains open.

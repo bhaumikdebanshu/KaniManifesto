@@ -24,7 +24,7 @@ Kani brings different disciplines and forms of knowledge into shared enquiry. An
 
 [Outreach & Community Engagement](#outreach) builds the continuing relationships that make this participation possible, from listening and co-developing ideas to supporting access and following up after a programme.
 
-[Heart & Wellness](#infrastructure) supports belonging, team care and shared activities throughout the year.
+[Heart & Wellness](#heart-wellness) supports belonging, team care and shared activities throughout the year.
 
 ## Start with the structure
 

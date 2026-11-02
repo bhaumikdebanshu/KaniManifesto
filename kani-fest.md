@@ -4,7 +4,7 @@ An interdisciplinary festival with a fresh curatorial proposition for each editi
 
 ## Festival working map
 
-**Select any box to read its explainer.** The map describes responsibilities; roles can be combined when time, skills and funding allow.
+**Drag the map background to move around. Use + / − to zoom, or Reset view to see the whole map. Select any box to read its explainer.** The map describes responsibilities; roles can be combined when time, skills and funding allow.
 
 ```kani-map
 [Festival team]
@@ -30,25 +30,42 @@ An interdisciplinary festival with a fresh curatorial proposition for each editi
 - Documentation | Consent, archives and learning
 - Hospitality | Stays, food and guest support
 - Programme continuity | Handover between editions
-- Heart & Wellness | Year-round care, belonging and shared activities
+- Heart & Wellness | Care and belonging · section in development
 - Shared Spaces & Equipment | Venues, equipment and resource availability
-[Programming flow]
-- Curators develop proposals | Content, contributors and requirements
-- Programme & resource review | Festival Curator + Festival Producer
-- Confirmed schedule | Maintained by Programme Coordinator
-[Volunteer pathway]
-- Event volunteer | Defined tasks and supported shifts
-- Returning volunteer / team captain | Bounded responsibility and training
-- Paid associate / fellowship opportunity | Funded role with a clear brief
+[Collaborations]
+- Festival Curator <> Festival Producer | Programme and resources
+- Shared resources <> Festival Curator | Shared support for curatorial work
+- Technical & Infrastructure Lead <> Venue / Session Leads | Readiness and changeovers
+- Programme Coordinator <> Communications | Confirmed programme information
+- Artist & Guest Liaison <> Hospitality | Guest arrangements
+- Volunteer Coordinator <> Community Outreach | Participation and continuity
+- Volunteer Coordinator <> Heart & Wellness | Volunteer care and support
+- Technical & Infrastructure Lead <> Shared Spaces & Equipment | Equipment allocation and movement
 ```
 
-**Reading the map:** Solid lines show project accountability. The dashed connection marks shared resources supporting both leads and their teams. The two flows show programme development and optional routes for participation. Every box opens a detailed explainer.
+**Reading the map:** Solid lines show project accountability. Numbered dotted lines show collaboration and shared support. Select a relationship in the key to highlight it. Programming and volunteer pathways appear separately below. Every box opens a detailed explainer.
 
 The Festival Curator and Producer work alongside one another. Assistant curators work through their assigned track curator. Permanent staff retain their reporting lines in [Full Structure](#full-structure). Each volunteer follows one assigned venue or task lead during a shift; the Volunteer Coordinator owns the rota and support.
 
 Curators develop programme content; the Curator and Producer review it against spaces, equipment, crew, materials, setup and changeovers. The Programme Coordinator maintains one confirmed timetable and communicates agreed changes.
 
 Volunteer progression is optional. People can remain occasional volunteers; sustained year-round responsibilities need a defined scope, supervision, time commitment and budget.
+
+## Programming flow
+
+```kani-flow
+- Curators develop proposals | Content, contributors and requirements
+- Programme & resource review | Festival Curator + Festival Producer
+- Confirmed schedule | Maintained by Programme Coordinator
+```
+
+## Volunteer pathway
+
+```kani-flow
+- Event volunteer | Defined tasks and supported shifts
+- Returning volunteer / team captain | Bounded responsibility and training
+- Paid associate / fellowship opportunity | Funded role with a clear brief
+```
 
 ## Curatorial fellowships
 
@@ -90,7 +107,7 @@ Detailed responsibilities, working relationships and appointment arrangements fo
 | Documentation | Plans consent, credits, photography, recordings, archives and the edition review. Gathers learning from fellows, contributors, crew and volunteers and prepares material for possible publication. | Named documentation owner, supported by communications and commissioned contributors. Publishing decisions remain with the publishing lead. |
 | Hospitality | Coordinates accommodation, food, arrivals and guest support using the requirements gathered by Artist & Guest Liaison. Confirms arrangements against the edition budget and capacity. | Existing shared Hospitality Team, with one agreed contact for the festival. |
 | Programme continuity | Keeps relationships, records, calendar coordination and learning connected between editions. Holds the handover from the festival team and helps plan the next cycle. | Programme & Operations Coordinator in Year 1; Creative Experiences Programme Manager at scale. Edition duties need allocated time and additional funded support. |
-| Heart & Wellness | Sustains care and belonging across the year through welcomes, check-ins, shared meals, walks, informal creative sessions and reflection. Notices workload pressures and helps agree practical support, rest and routes for raising concerns. Supports fellows, staff, crew and volunteers; works with the Producer and Volunteer Coordinator on the team’s experience. | Shared responsibility with a named coordinator and allocated time, accountable to the Director. May start within an existing role where capacity allows. Every lead retains responsibility for respectful working and realistic workloads; provide an alternative contact if a concern involves the usual lead. |
+| Heart & Wellness | Supports care and belonging across the year. Its activities and programme will be developed together. Notices workload pressures and helps agree practical support, rest and routes for raising concerns. Supports fellows, staff, crew and volunteers; works with the Producer and Volunteer Coordinator on the team’s experience. | Shared responsibility with a named coordinator and allocated time, accountable to the Director. May start within an existing role where capacity allows. Every lead retains responsibility for respectful working and realistic workloads; provide an alternative contact if a concern involves the usual lead. |
 | Shared Spaces & Equipment | Makes shared venues, sound, projection, lighting and other equipment available through one resource plan. Agrees bookings, operators, setup, movement and changeovers with festival delivery leads. | Shared Operations / Production and AV capacity, coordinated with the Festival Producer and Technical & Infrastructure Lead. Existing staff retain their permanent reporting lines. |
 
 ### Programming steps

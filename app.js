@@ -50,40 +50,86 @@
     return root.children.length?figure:null;
   }
   function unifiedMapFromText(text, explanations, expanded=false) {
-    const definitions=[['Festival team','chart'],['Shared resources','support'],['Programming flow','flow'],['Volunteer pathway','flow']];
     const sections=new Map();let section=null;
     for(const line of text.split('\n')){
       const heading=line.match(/^\[([^\]]+)\]$/);
-      if(heading){if(!definitions.some(([name])=>name===heading[1])||sections.has(heading[1]))return null;section=heading[1];sections.set(section,[]);}
+      if(heading){if(!['Festival team','Shared resources','Collaborations'].includes(heading[1])||sections.has(heading[1]))return null;section=heading[1];sections.set(section,[]);}
       else if(line.trim()){if(!section)return null;sections.get(section).push(line);}
     }
-    if(sections.size!==definitions.length)return null;
-    const figure=document.createElement('figure');figure.className='unified-map';
+    if(sections.size!==3)return null;
+    const links=sections.get('Collaborations').map(line=>{const m=line.match(/^- (.+?) <> (.+?) \| (.+)$/);return m?{from:m[1],to:m[2],label:m[3]}:null;});
+    if(links.some(x=>!x))return null;
+    const figure=document.createElement('figure');figure.className='unified-map draggable-map';
     const header=document.createElement('figcaption');header.className='map-toolbar';
     const title=document.createElement('strong');title.textContent='Kani Fest · People & shared resources';header.append(title);
-    if(!expanded){const expand=document.createElement('button');expand.type='button';expand.textContent='Expand map ↗';expand.onclick=()=>{
-      if(!mapDialog){mapDialog=document.createElement('dialog');mapDialog.className='map-dialog';mapDialog.setAttribute('aria-label','Expanded Kani Fest map');document.body.append(mapDialog);mapDialog.addEventListener('close',()=>{document.body.classList.remove('map-open');if(expand.isConnected)expand.focus({preventScroll:true});});}
-      mapDialog.replaceChildren();const close=document.createElement('button');close.type='button';close.className='map-close';close.textContent='Close expanded map ×';close.onclick=()=>mapDialog.close();mapDialog.append(close,unifiedMapFromText(text,explanations,true));mapDialog.showModal();document.body.classList.add('map-open');close.focus();requestAnimationFrame(()=>mapDialog.querySelector('[data-fit-map]')?.click());
-    };header.append(expand);}
-    figure.append(header);
-    const scroll=document.createElement('div');scroll.className='map-viewport';scroll.tabIndex=0;scroll.setAttribute('role','region');scroll.setAttribute('aria-label','Complete festival map. Scroll to explore, or select any role.');
+    const controls=document.createElement('div');controls.className='map-view-controls';
+    function control(label,fn){const b=document.createElement('button');b.type='button';b.textContent=label;b.onclick=fn;controls.append(b);return b;}
+    if(!expanded)control('Expand map ↗',()=>{
+      if(mapDialog)mapDialog.remove();
+      mapDialog=document.createElement('dialog');mapDialog.className='map-dialog';mapDialog.setAttribute('aria-label','Expanded Kani Fest map');
+      const close=document.createElement('button');close.type='button';close.className='map-close';close.textContent='Close expanded map ×';close.onclick=()=>mapDialog.close();
+      const expandedMap=unifiedMapFromText(text,explanations,true);if(!expandedMap)return;
+      mapDialog.append(close,expandedMap);document.body.append(mapDialog);mapDialog.addEventListener('close',()=>{document.body.classList.remove('map-open');if(figure.isConnected)controls.querySelector('button').focus({preventScroll:true});});
+      mapDialog.showModal();document.body.classList.add('map-open');close.focus();
+    });
+    const scroll=document.createElement('div');scroll.className='map-viewport';scroll.tabIndex=0;scroll.setAttribute('role','region');scroll.setAttribute('aria-label','Draggable festival map. Drag the background or use arrow keys to pan. Select a role for details.');
+    const stage=document.createElement('div');stage.className='map-stage';
     const canvas=document.createElement('div');canvas.className='map-canvas prose';
     const top=document.createElement('div');top.className='map-organisation';
-    const bottom=document.createElement('div');bottom.className='map-processes';
-    for(const [name,kind] of definitions){const part=chartFromText(sections.get(name).join('\n'),explanations,kind);if(!part)return null;part.querySelector('figcaption').textContent=name;
-      if(kind==='support'){const connector=document.createElement('p');connector.className='support-connection';connector.textContent='Shared resources support both festival leads and their teams';part.prepend(connector);}
-      (kind==='flow'?bottom:top).append(part);
+    const team=chartFromText(sections.get('Festival team').join('\n'),explanations,'chart');
+    const shared=chartFromText(sections.get('Shared resources').join('\n'),explanations,'support');if(!team||!shared)return null;
+    team.querySelector('figcaption').textContent='Festival team';shared.querySelector('figcaption').textContent='Shared resources';
+    top.append(team,shared);canvas.append(top);stage.append(canvas);scroll.append(stage);
+    const nodeMap=new Map([...canvas.querySelectorAll('.org-node')].map(el=>[el.querySelector('strong').textContent,el]));nodeMap.set('Shared resources',shared);
+    if(links.some(x=>!nodeMap.has(x.from)||!nodeMap.has(x.to)))return null;
+    const ns='http://www.w3.org/2000/svg';const svg=document.createElementNS(ns,'svg');svg.classList.add('collaboration-lines');svg.setAttribute('aria-hidden','true');canvas.prepend(svg);
+    let scale=1,naturalHeight=700,selected=-1;
+    const status=document.createElement('span');status.className='map-zoom-status';status.setAttribute('aria-live','polite');
+    function setScale(next,center=true){
+      const cx=(scroll.scrollLeft+scroll.clientWidth/2)/scale,cy=(scroll.scrollTop+scroll.clientHeight/2)/scale;
+      scale=Math.max(.15,Math.min(2,next));canvas.style.transform='scale('+scale+')';stage.style.width=(1260*scale)+'px';stage.style.height=(naturalHeight*scale)+'px';status.textContent=Math.round(scale*100)+'%';
+      if(center){scroll.scrollLeft=cx*scale-scroll.clientWidth/2;scroll.scrollTop=cy*scale-scroll.clientHeight/2;}
     }
-    canvas.append(top,bottom);scroll.append(canvas);figure.append(scroll);
-    if(expanded){
-      const controls=document.createElement('div');controls.className='map-view-controls';
-      const fit=document.createElement('button');fit.type='button';fit.textContent='Fit entire map';fit.dataset.fitMap='true';
-      const actual=document.createElement('button');actual.type='button';actual.textContent='100% · scroll to explore';
-      const status=document.createElement('span');status.className='map-zoom-status';status.setAttribute('aria-live','polite');
-      fit.onclick=()=>{canvas.style.zoom='1';canvas.style.width='1200px';const availableWidth=scroll.clientWidth-44;const availableHeight=Math.max(160,mapDialog.clientHeight-header.offsetHeight-figure.querySelector('.map-key').offsetHeight-mapDialog.querySelector('.map-close').offsetHeight-96);const scale=Math.min(1,availableWidth/canvas.scrollWidth,availableHeight/canvas.scrollHeight);canvas.style.zoom=String(scale);status.textContent=Math.round(scale*100)+'%';mapDialog.scrollTop=0;};
-      actual.onclick=()=>{canvas.style.zoom='1';canvas.style.width='1200px';status.textContent='100%';};controls.append(fit,actual,status);header.append(controls);
+    function fit(){naturalHeight=canvas.offsetHeight;setScale(Math.min(1,(scroll.clientWidth-24)/1260,(scroll.clientHeight-24)/naturalHeight),false);scroll.scrollLeft=0;scroll.scrollTop=0;}
+    control('−',()=>setScale(scale/1.2)).setAttribute('aria-label','Zoom out');
+    control('+',()=>setScale(scale*1.2)).setAttribute('aria-label','Zoom in');
+    control('100%',()=>setScale(1));control('Reset view',fit);controls.append(status);header.append(controls);figure.append(header);
+    const hint=document.createElement('p');hint.className='map-instructions';hint.textContent='Drag background to move · + / − to zoom · Click a box for details';figure.append(hint,scroll);
+    const legend=document.createElement('div');legend.className='collaboration-key';
+    const keyTitle=document.createElement('p');keyTitle.textContent='Solid lines: project accountability. Dotted lines: collaboration and shared support.';legend.append(keyTitle);
+    const all=document.createElement('button');all.type='button';all.textContent='Show all collaborations';all.setAttribute('aria-pressed','true');legend.append(all);
+    const linkButtons=[];
+    function choose(index){selected=index;all.setAttribute('aria-pressed',String(index===-1));linkButtons.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===index)));for(const el of nodeMap.values())el.classList.remove('collab-highlight');if(index>=0){nodeMap.get(links[index].from).classList.add('collab-highlight');nodeMap.get(links[index].to).classList.add('collab-highlight');}drawLines();}
+    all.onclick=()=>choose(-1);
+    links.forEach((link,i)=>{const b=document.createElement('button');b.type='button';b.className='collaboration-choice';b.textContent=(i+1)+'. '+link.label;const small=document.createElement('small');small.textContent=link.from+' ↔ '+link.to;b.append(small);b.setAttribute('aria-pressed','false');b.onclick=()=>choose(selected===i?-1:i);linkButtons.push(b);legend.append(b);});figure.append(legend);
+    function drawLines(){
+      if(!figure.isConnected)return;
+      const base=canvas.getBoundingClientRect();const factor=base.width/1260;
+      if(!factor)return;
+      const box=el=>{const r=el.getBoundingClientRect();return{x:(r.left-base.left)/factor,y:(r.top-base.top)/factor,w:r.width/factor,h:r.height/factor};};
+      svg.replaceChildren();svg.setAttribute('viewBox','0 0 1260 '+canvas.offsetHeight);svg.setAttribute('width','1260');svg.setAttribute('height',String(canvas.offsetHeight));
+      const badges=[];
+      links.forEach((link,i)=>{
+        const a=box(nodeMap.get(link.from)),b=box(nodeMap.get(link.to));let d,lx,ly;
+        if(i===0){const y=Math.min(a.y,b.y)-22;d=`M ${a.x+a.w*.8} ${a.y} V ${y} H ${b.x+b.w*.2} V ${b.y}`;lx=(a.x+a.w+b.x)/2;ly=y;}
+        else if(link.from==='Shared resources'){const y=55;d=`M ${a.x} ${a.y+15} H ${a.x-28} V ${y} H ${b.x+b.w*.2} V ${b.y}`;lx=a.x-28;ly=y;}
+        else if(link.to==='Venue / Session Leads'){const x=a.x+a.w+19;d=`M ${a.x+a.w} ${a.y+a.h/2} H ${x} V ${b.y+b.h/2} H ${b.x+b.w}`;lx=x;ly=(a.y+a.h/2+b.y+b.h/2)/2;}
+        else {const lane=box(shared).x-16-(i-3)*9;const y=b.y-10;d=`M ${a.x+a.w} ${a.y+a.h/2} H ${lane} V ${y} H ${b.x+b.w/2} V ${b.y}`;lx=lane;ly=y;}
+        const g=document.createElementNS(ns,'g');g.dataset.link=String(i);if(selected!==-1&&selected!==i)g.classList.add('collab-muted');
+        for(const cls of ['collab-halo','collab-path']){const path=document.createElementNS(ns,'path');path.setAttribute('d',d);path.setAttribute('class',cls);g.append(path);}
+        const badge=document.createElementNS(ns,'g');badge.dataset.link=String(i);if(selected!==-1&&selected!==i)badge.classList.add('collab-muted');
+        const circle=document.createElementNS(ns,'circle');circle.setAttribute('cx',lx);circle.setAttribute('cy',ly);circle.setAttribute('r','9');badge.append(circle);
+        const number=document.createElementNS(ns,'text');number.setAttribute('x',lx);number.setAttribute('y',ly+3.5);number.textContent=String(i+1);badge.append(number);svg.append(g);badges.push(badge);
+      });
+      svg.append(...badges);
     }
-    const key=document.createElement('p');key.className='map-key';key.textContent='Solid lines: project accountability · Dashed connection: shared support · Arrows: sequence / optional progression · Select any box for details';figure.append(key);return figure;
+    let pan=null;
+    scroll.addEventListener('pointerdown',e=>{if(e.button!==0||e.target.closest('button'))return;pan={id:e.pointerId,x:e.clientX,y:e.clientY,left:scroll.scrollLeft,top:scroll.scrollTop};scroll.setPointerCapture(e.pointerId);scroll.classList.add('is-dragging');scroll.focus({preventScroll:true});e.preventDefault();});
+    scroll.addEventListener('pointermove',e=>{if(!pan||pan.id!==e.pointerId)return;scroll.scrollLeft=pan.left-(e.clientX-pan.x);scroll.scrollTop=pan.top-(e.clientY-pan.y);});
+    const endPan=()=>{pan=null;scroll.classList.remove('is-dragging');};scroll.addEventListener('pointerup',endPan);scroll.addEventListener('pointercancel',endPan);scroll.addEventListener('lostpointercapture',endPan);
+    scroll.addEventListener('keydown',e=>{if(e.target!==scroll)return;const moves={ArrowLeft:[-70,0],ArrowRight:[70,0],ArrowUp:[0,-70],ArrowDown:[0,70]};if(moves[e.key]){e.preventDefault();scroll.scrollBy(...moves[e.key]);}});
+    requestAnimationFrame(()=>{if(figure.isConnected){naturalHeight=canvas.offsetHeight;fit();drawLines();const observer=new ResizeObserver(()=>{if(!figure.isConnected){observer.disconnect();return;}naturalHeight=canvas.offsetHeight;setScale(scale,false);drawLines();});observer.observe(canvas);}});
+    return figure;
   }
   const allowed = new Set('P BR HR STRONG EM DEL S BLOCKQUOTE UL OL LI H1 H2 H3 H4 H5 H6 TABLE THEAD TBODY TR TH TD CODE PRE A INPUT'.split(' '));
   function renderMarkdown(md) {

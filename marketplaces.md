@@ -43,4 +43,4 @@ Confirm frequency, stall arrangements, selection criteria, staffing, outreach an
 
 After each edition, review participant experience, access, attendance, costs and maker feedback. Record what changes for the next edition and who maintains the relationships between events.
 
-Heart & Wellness activities continue throughout the year, with a named coordinator and allocated time. See the proposed rhythm in [Shared Infrastructure](#infrastructure).
+The [Heart & Wellness](#heart-wellness) section will be developed together; its activity programme remains open.
