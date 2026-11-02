@@ -26,7 +26,7 @@ Kani brings different disciplines and forms of knowledge into shared enquiry. An
 
 [Heart & Wellness](#heart-wellness) supports belonging, team care and shared activities throughout the year.
 
-## Start with the structure
+## Structure Synopsis
 
 Three pillars guide the work. A council with annually reviewed appointments contributes expertise. A continuing team turns ideas into programmes, supported by shared spaces and resources.
 
