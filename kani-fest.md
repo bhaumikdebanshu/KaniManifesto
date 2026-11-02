@@ -1,16 +1,13 @@
 ## Purpose
 
-An interdisciplinary festival with a fresh curatorial proposition for each edition. The first edition ran for 15 days; future scope and duration are agreed against resources.
-
-## Brain, hands and heart
-
-Curatorial work gives the festival its direction; production gives it the means to happen; care shapes how people work together. These responsibilities depend on one another. A shared **People, Care & Team Culture** responsibility keeps team wellbeing, morale and belonging visible throughout the cycle, while every lead remains responsible for how their team is treated.
+An interdisciplinary festival with a fresh curatorial proposition for each edition.
 
 ## Festival working map
 
 **Select any box to read its explainer.** The map describes responsibilities; roles can be combined when time, skills and funding allow.
 
-```kani-chart
+```kani-map
+[Festival team]
 - Director of Creative Practice | Scope, resources and appointments
   - Festival Curator | Artistic direction · edition appointment
     - Arts & New Media Curator | 6–9 month paid fellowship
@@ -25,17 +22,7 @@ Curatorial work gives the festival its direction; production gives it the means 
     - Artist & Guest Liaison | Requirements, travel and guest coordination
     - Volunteer Coordinator | Recruitment, induction, rota and welfare
       - Volunteer teams | Rota and support through the coordinator
-```
-
-**Reading the map:** Green marks curatorial work; ochre marks delivery. Solid lines show project accountability. The Festival Curator and Producer work alongside one another. Assistant curators work through their assigned track curator. Permanent staff retain their reporting lines in [Full Structure](#full-structure).
-
-> **During a shift:** Each volunteer follows one assigned venue or task lead. The Volunteer Coordinator remains responsible for the rota and volunteer support. This task relationship sits alongside the accountability lines above.
-
-## Shared support
-
-These teams collaborate with both festival leads. The dashed boundary marks shared support, rather than an additional reporting hierarchy. Their time is agreed in the edition plan.
-
-```kani-support
+[Shared resources]
 - Funding & Partnerships | Funding relationships and reporting
 - Finance | Budget records and payments
 - Communications | Programme and audience information
@@ -43,32 +30,25 @@ These teams collaborate with both festival leads. The dashed boundary marks shar
 - Documentation | Consent, archives and learning
 - Hospitality | Stays, food and guest support
 - Programme continuity | Handover between editions
-- People, Care & Team Culture | Team morale, listening and support
-```
-
-## Who does the programming?
-
-Curators develop the content; the Festival Curator shapes the edition as a whole. The Producer checks what can be delivered, and the Programme Coordinator maintains the confirmed schedule.
-
-```kani-flow
+- Heart & Wellness | Year-round care, belonging and shared activities
+- Shared Spaces & Equipment | Venues, equipment and resource availability
+[Programming flow]
 - Curators develop proposals | Content, contributors and requirements
 - Programme & resource review | Festival Curator + Festival Producer
 - Confirmed schedule | Maintained by Programme Coordinator
-```
-
-The review includes space, equipment, crew, materials, setup and changeovers. A shared speaker or projector cannot be allocated to overlapping sessions without a workable movement plan. Programme changes return through the relevant leads before the timetable is updated.
-
-## A pathway for volunteers
-
-Around 20 volunteers supported the first edition. Some are now interested in contributing throughout the year. Offer clear routes based on interest, readiness and available opportunities.
-
-```kani-flow
+[Volunteer pathway]
 - Event volunteer | Defined tasks and supported shifts
 - Returning volunteer / team captain | Bounded responsibility and training
 - Paid associate / fellowship opportunity | Funded role with a clear brief
 ```
 
-Progression is optional, not automatic. People can remain occasional volunteers. Sustained year-round responsibilities need a defined scope, supervision, time commitment and budget; volunteering does not guarantee a fellowship or paid appointment.
+**Reading the map:** Solid lines show project accountability. The dashed connection marks shared resources supporting both leads and their teams. The two flows show programme development and optional routes for participation. Every box opens a detailed explainer.
+
+The Festival Curator and Producer work alongside one another. Assistant curators work through their assigned track curator. Permanent staff retain their reporting lines in [Full Structure](#full-structure). Each volunteer follows one assigned venue or task lead during a shift; the Volunteer Coordinator owns the rota and support.
+
+Curators develop programme content; the Curator and Producer review it against spaces, equipment, crew, materials, setup and changeovers. The Programme Coordinator maintains one confirmed timetable and communicates agreed changes.
+
+Volunteer progression is optional. People can remain occasional volunteers; sustained year-round responsibilities need a defined scope, supervision, time commitment and budget.
 
 ## Curatorial fellowships
 
@@ -78,7 +58,7 @@ The four tracks are a working framework. Combine them where appropriate, and all
 
 ## Roles and responsibilities
 
-The tables below are also the source for the clickable explainers, so the map and its explanations stay connected when edited.
+Detailed responsibilities, working relationships and appointment arrangements for each part of the map.
 
 ### Festival team
 
@@ -99,7 +79,7 @@ The tables below are also the source for the clickable explainers, so the map an
 | Volunteer Coordinator | Recruits and inducts volunteers, agrees availability and tasks, maintains the rota and supports welfare, briefings and debriefs. Assigns each person to a named shift lead and maintains a route for concerns or changes. | Edition role under the Producer. Coordinates with year-round outreach staff for continuing participation; shift tasks are directed by the assigned venue or task lead. |
 | Volunteer teams | Support agreed tasks such as welcome desks, workshop assistance, visitor guidance, documentation support and supervised setup. Receive induction, clear shifts, breaks and a named lead. Specialist technical tasks remain with qualified crew. | Volunteer Coordinator handles rota and support. The assigned venue or task lead directs each shift. Responsibilities and available support are agreed in advance. |
 
-### Shared support
+### Shared resources
 
 | Role / step | Responsibilities and purpose | Working relationships / arrangement |
 |---|---|---|
@@ -110,7 +90,8 @@ The tables below are also the source for the clickable explainers, so the map an
 | Documentation | Plans consent, credits, photography, recordings, archives and the edition review. Gathers learning from fellows, contributors, crew and volunteers and prepares material for possible publication. | Named documentation owner, supported by communications and commissioned contributors. Publishing decisions remain with the publishing lead. |
 | Hospitality | Coordinates accommodation, food, arrivals and guest support using the requirements gathered by Artist & Guest Liaison. Confirms arrangements against the edition budget and capacity. | Existing shared Hospitality Team, with one agreed contact for the festival. |
 | Programme continuity | Keeps relationships, records, calendar coordination and learning connected between editions. Holds the handover from the festival team and helps plan the next cycle. | Programme & Operations Coordinator in Year 1; Creative Experiences Programme Manager at scale. Edition duties need allocated time and additional funded support. |
-| People, Care & Team Culture | Coordinates welcome, team check-ins, recognition, listening and reflection. Notices workload pressures and helps agree practical support, rest and routes for raising concerns. Supports fellows, staff, crew and volunteers; works with the Producer and Volunteer Coordinator on the team’s experience. | Shared responsibility with a named coordinator and allocated time, accountable to the Director. May start within an existing role where capacity allows. Every lead retains responsibility for respectful working and realistic workloads; provide an alternative contact if a concern involves the usual lead. |
+| Heart & Wellness | Sustains care and belonging across the year through welcomes, check-ins, shared meals, walks, informal creative sessions and reflection. Notices workload pressures and helps agree practical support, rest and routes for raising concerns. Supports fellows, staff, crew and volunteers; works with the Producer and Volunteer Coordinator on the team’s experience. | Shared responsibility with a named coordinator and allocated time, accountable to the Director. May start within an existing role where capacity allows. Every lead retains responsibility for respectful working and realistic workloads; provide an alternative contact if a concern involves the usual lead. |
+| Shared Spaces & Equipment | Makes shared venues, sound, projection, lighting and other equipment available through one resource plan. Agrees bookings, operators, setup, movement and changeovers with festival delivery leads. | Shared Operations / Production and AV capacity, coordinated with the Festival Producer and Technical & Infrastructure Lead. Existing staff retain their permanent reporting lines. |
 
 ### Programming steps
 
@@ -127,20 +108,6 @@ The tables below are also the source for the clickable explainers, so the map an
 | Event volunteer | Join an edition with agreed tasks, induction, availability and a named shift lead. Use a debrief to identify interests, learning needs and whether continued involvement is wanted. | An entry point based on interest and availability; continuing participation is optional. |
 | Returning volunteer / team captain | Take on a clearly bounded coordination or peer-support responsibility, with training, a named staff contact and agreed time commitment. Help brief teams and pass concerns to the Volunteer Coordinator. | Available where readiness and programme needs align. Sustained year-round work should be scoped and budgeted as a paid role rather than assumed to be voluntary. |
 | Paid associate / fellowship opportunity | Apply for a funded role with a defined brief, supervision, learning outcomes, time commitment and compensation. Prior volunteering can inform readiness but is not a requirement or guarantee of selection. | Depends on available funding and roles, interest and a transparent selection process. Curatorial fellowships and delivery associates may have different responsibilities. |
-
-## Learning from the first edition
-
-These are observations from the first edition, to inform the next plan rather than fix its format in advance.
-
-| What we observed | Implication for the next edition |
-|---|---|
-| Programming and parallel workshops and talks worked well. | Retain curatorial breadth while testing each parallel session against spaces, equipment and crew. |
-| Making and craft workshops attracted strong interest. | Build on hands-on participation, with realistic materials, facilitation and capacity plans. |
-| Local musicians drew the largest crowds. | Give local artist relationships a clear place in programming and resource planning. |
-| Around seven mornings were quiet across the 15-day edition. | Review timing, audience availability and duration before committing to the next timetable. |
-| Shared equipment needed to move between spaces, while infrastructure was understaffed. | Name the technical lead, allocate crew and maintain an equipment movement and changeover plan. |
-| There was no Festival Producer and production capacity was weak. | Fund a Producer early enough to shape the delivery plan alongside the Curator. |
-| Volunteers are expressing interest in greater responsibility. | Offer supported team roles and scope funded opportunities for sustained work. |
 
 ## Working arrangements
 

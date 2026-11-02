@@ -6,7 +6,7 @@
   const cache = new Map();
   const snapshot = document.documentElement.dataset.snapshot === 'true';
   const offline = location.protocol === 'file:' || snapshot;
-  let roleDialog = null, roleTrigger = null;
+  let roleDialog = null, roleTrigger = null, mapDialog = null;
   function showExplainer(title, note, details, trigger) {
     if (!roleDialog) {
       roleDialog = document.createElement('dialog');roleDialog.className='role-dialog';
@@ -49,6 +49,42 @@
     }
     return root.children.length?figure:null;
   }
+  function unifiedMapFromText(text, explanations, expanded=false) {
+    const definitions=[['Festival team','chart'],['Shared resources','support'],['Programming flow','flow'],['Volunteer pathway','flow']];
+    const sections=new Map();let section=null;
+    for(const line of text.split('\n')){
+      const heading=line.match(/^\[([^\]]+)\]$/);
+      if(heading){if(!definitions.some(([name])=>name===heading[1])||sections.has(heading[1]))return null;section=heading[1];sections.set(section,[]);}
+      else if(line.trim()){if(!section)return null;sections.get(section).push(line);}
+    }
+    if(sections.size!==definitions.length)return null;
+    const figure=document.createElement('figure');figure.className='unified-map';
+    const header=document.createElement('figcaption');header.className='map-toolbar';
+    const title=document.createElement('strong');title.textContent='Kani Fest · People & shared resources';header.append(title);
+    if(!expanded){const expand=document.createElement('button');expand.type='button';expand.textContent='Expand map ↗';expand.onclick=()=>{
+      if(!mapDialog){mapDialog=document.createElement('dialog');mapDialog.className='map-dialog';mapDialog.setAttribute('aria-label','Expanded Kani Fest map');document.body.append(mapDialog);mapDialog.addEventListener('close',()=>{document.body.classList.remove('map-open');if(expand.isConnected)expand.focus({preventScroll:true});});}
+      mapDialog.replaceChildren();const close=document.createElement('button');close.type='button';close.className='map-close';close.textContent='Close expanded map ×';close.onclick=()=>mapDialog.close();mapDialog.append(close,unifiedMapFromText(text,explanations,true));mapDialog.showModal();document.body.classList.add('map-open');close.focus();requestAnimationFrame(()=>mapDialog.querySelector('[data-fit-map]')?.click());
+    };header.append(expand);}
+    figure.append(header);
+    const scroll=document.createElement('div');scroll.className='map-viewport';scroll.tabIndex=0;scroll.setAttribute('role','region');scroll.setAttribute('aria-label','Complete festival map. Scroll to explore, or select any role.');
+    const canvas=document.createElement('div');canvas.className='map-canvas prose';
+    const top=document.createElement('div');top.className='map-organisation';
+    const bottom=document.createElement('div');bottom.className='map-processes';
+    for(const [name,kind] of definitions){const part=chartFromText(sections.get(name).join('\n'),explanations,kind);if(!part)return null;part.querySelector('figcaption').textContent=name;
+      if(kind==='support'){const connector=document.createElement('p');connector.className='support-connection';connector.textContent='Shared resources support both festival leads and their teams';part.prepend(connector);}
+      (kind==='flow'?bottom:top).append(part);
+    }
+    canvas.append(top,bottom);scroll.append(canvas);figure.append(scroll);
+    if(expanded){
+      const controls=document.createElement('div');controls.className='map-view-controls';
+      const fit=document.createElement('button');fit.type='button';fit.textContent='Fit entire map';fit.dataset.fitMap='true';
+      const actual=document.createElement('button');actual.type='button';actual.textContent='100% · scroll to explore';
+      const status=document.createElement('span');status.className='map-zoom-status';status.setAttribute('aria-live','polite');
+      fit.onclick=()=>{canvas.style.zoom='1';canvas.style.width='1200px';const availableWidth=scroll.clientWidth-44;const availableHeight=Math.max(160,mapDialog.clientHeight-header.offsetHeight-figure.querySelector('.map-key').offsetHeight-mapDialog.querySelector('.map-close').offsetHeight-96);const scale=Math.min(1,availableWidth/canvas.scrollWidth,availableHeight/canvas.scrollHeight);canvas.style.zoom=String(scale);status.textContent=Math.round(scale*100)+'%';mapDialog.scrollTop=0;};
+      actual.onclick=()=>{canvas.style.zoom='1';canvas.style.width='1200px';status.textContent='100%';};controls.append(fit,actual,status);header.append(controls);
+    }
+    const key=document.createElement('p');key.className='map-key';key.textContent='Solid lines: project accountability · Dashed connection: shared support · Arrows: sequence / optional progression · Select any box for details';figure.append(key);return figure;
+  }
   const allowed = new Set('P BR HR STRONG EM DEL S BLOCKQUOTE UL OL LI H1 H2 H3 H4 H5 H6 TABLE THEAD TBODY TR TH TD CODE PRE A INPUT'.split(' '));
   function renderMarkdown(md) {
     const template = document.createElement('template');
@@ -58,7 +94,7 @@
       const headings=[...table.querySelectorAll('thead th')].map(c=>c.textContent.trim());
       for(const row of table.querySelectorAll('tbody tr')){const cells=[...row.querySelectorAll('td')];if(cells.length>1)explanations.set(cells[0].textContent.trim(),cells.slice(1).map((c,i)=>({label:headings[i+1]||'Details',text:c.textContent.trim()})));}
     }
-    const charts=[...template.content.querySelectorAll('pre > code')].filter(c=>/^language-kani-(chart|support|flow)$/.test(c.className)).map(code=>({pre:code.parentElement,chart:chartFromText(code.textContent,explanations,code.className.replace('language-kani-',''))}));
+    const charts=[...template.content.querySelectorAll('pre > code')].filter(c=>/^language-kani-(chart|support|flow|map)$/.test(c.className)).map(code=>({pre:code.parentElement,chart:code.className==='language-kani-map'?unifiedMapFromText(code.textContent,explanations):chartFromText(code.textContent,explanations,code.className.replace('language-kani-',''))}));
     const clean = node => {
       for (const el of [...node.children]) {
         if (!allowed.has(el.tagName)) { el.remove(); continue; }
@@ -139,6 +175,7 @@
   }
   async function route() {
     if(roleDialog?.open)roleDialog.close();
+    if(mapDialog?.open)mapDialog.close();
     const version=++routeVersion;
     let id;try{id=decodeURIComponent(location.hash.slice(1))||'home';}catch{id='home';}
     const found=chapters.find(c=>c.id===id);current=found||chapters[0];

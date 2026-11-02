@@ -15,4 +15,6 @@ Before each permanent addition, confirm recurring need, a clear reporting line a
 
 For Kani Fest, returning volunteers may take defined team-captain responsibilities with training and staff support. Sustained work across the year should become a scoped, funded associate or fellowship opportunity where justified. This is an optional pathway based on interest, readiness and available roles, not a guaranteed promotion. See [Kani Fest](#kani-fest).
 
-Review capacity for People, Care & Team Culture as staff, fellows, volunteers and project teams grow. Begin with a named coordinator and allocated time; add dedicated support when recurring need and funding justify it.
+Review capacity for Heart & Wellness as staff, fellows, volunteers and project teams grow. Begin with a named coordinator and allocated time; add dedicated support when recurring need and funding justify it.
+
+Heart & Wellness activities continue throughout the year, with a named coordinator and allocated time. See the proposed rhythm in [Shared Infrastructure](#infrastructure).

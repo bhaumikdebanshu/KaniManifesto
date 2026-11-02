@@ -13,7 +13,7 @@ A proposed year-round publishing imprint with its own editorial identity, servin
 
 **Chart key:** Solid connections show editorial project direction and accountability. Contributors and commissioned specialists work to an agreed editorial brief; they are not permanent staff reports. The editor owns editorial quality within the approved brief and budget.
 
-> **Shared support — collaboration, not extra reporting lines:** Programme coordination; Design & Communications; community engagement and outreach; Fundraising & Partnerships; Accounts; designated sales and distribution support; People, Care & Team Culture. These roles support the editorial plan and retain their existing reporting lines.
+> **Shared support — collaboration, not extra reporting lines:** Programme coordination; Design & Communications; community engagement and outreach; Fundraising & Partnerships; Accounts; designated sales and distribution support; Heart & Wellness. These roles support the editorial plan and retain their existing reporting lines.
 
 ## Roles and responsibilities
 
@@ -29,7 +29,7 @@ A proposed year-round publishing imprint with its own editorial identity, servin
 | Fundraising & Partnerships | Develops appropriate publishing partnerships, grants and sponsorship proposals with the editor and Director. | Retained or shared fundraising support. |
 | Sales and distribution support | Plans routes to readers, handles orders and stock, and coordinates free or paid distribution and launch availability. | A named project responsibility; the initial allocation remains to be agreed. |
 | Accounts | Supports production-cost records, invoices, payments, sales receipts and financial reporting. | Existing Accounts Team; commitments approved by authorised entity representatives. |
-| People, Care & Team Culture | Supports welcome, team check-ins, recognition, listening and practical care across the programme. Flags workload pressures and supports follow-through with the relevant leads. | Shared named coordinator with allocated time, accountable to the Director. Every lead retains responsibility for respectful working and realistic workloads. |
+| Heart & Wellness | Supports welcome, team check-ins, recognition, listening and practical care across the programme. Flags workload pressures and supports follow-through with the relevant leads. | Shared named coordinator with allocated time, accountable to the Director. Every lead retains responsibility for respectful working and realistic workloads. |
 
 ## Publishing formats
 
@@ -48,3 +48,5 @@ Start with a small, funded editorial programme. The number and type of Year 1 ti
 Every title has a named editorial owner, intended readership, format, budget and distribution plan. Decide whether it will be free, sold, commissioned or supported by a partner. Publishing income does not remove its research or cultural purpose.
 
 Budget explicitly for editing, design, review, translation, production, outreach and distribution as relevant. Increase retained editorial time only as the funded programme grows; these functions do not require separate permanent hires at the outset.
+
+Heart & Wellness activities continue throughout the year, with a named coordinator and allocated time. See the proposed rhythm in [Shared Infrastructure](#infrastructure).

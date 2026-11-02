@@ -15,7 +15,7 @@ A recurring public programme bringing selected artisans and makers together with
 
 **Chart key:** Solid connections show programme and project accountability. In Year 1 the Director also holds programme ownership; that box is a responsibility, not another hire. The permanent Programme & Operations Coordinator initially coordinates delivery. The curator owns selection; delivery coordination does not override that remit.
 
-> **Shared support — collaboration, not extra reporting lines:** Operations / Production and AV; outreach; Design & Communications; Fundraising & Partnerships; Commercial & Bookings; Accounts; Hospitality; People, Care & Team Culture. These teams retain their existing reporting lines.
+> **Shared support — collaboration, not extra reporting lines:** Operations / Production and AV; outreach; Design & Communications; Fundraising & Partnerships; Commercial & Bookings; Accounts; Hospitality; Heart & Wellness. These teams retain their existing reporting lines.
 
 ## Roles and responsibilities
 
@@ -33,7 +33,7 @@ A recurring public programme bringing selected artisans and makers together with
 | Commercial & Bookings | Administers stall bookings and fees after curatorial selection, using approved terms. | Named responsibility within Year 1 coordination; dedicated bookings role as justified. |
 | Accounts | Supports fee receipts, invoices, payments and financial records. | Existing Accounts Team. |
 | Hospitality | Supports guest arrangements, food and visitor services against the edition plan. | Existing Hospitality Team. |
-| People, Care & Team Culture | Supports welcome, team check-ins, recognition, listening and practical care across the programme. Flags workload pressures and supports follow-through with the relevant leads. | Shared named coordinator with allocated time, accountable to the Director. Every lead retains responsibility for respectful working and realistic workloads. |
+| Heart & Wellness | Supports welcome, team check-ins, recognition, listening and practical care across the programme. Flags workload pressures and supports follow-through with the relevant leads. | Shared named coordinator with allocated time, accountable to the Director. Every lead retains responsibility for respectful working and realistic workloads. |
 
 ## Working arrangements
 
@@ -42,3 +42,5 @@ Programme ownership sits within Creative Experiences. The Director holds that re
 Confirm frequency, stall arrangements, selection criteria, staffing, outreach and budget before committing to a Year 1 series. Fees and booking administration follow selection; they do not determine curatorial acceptance.
 
 After each edition, review participant experience, access, attendance, costs and maker feedback. Record what changes for the next edition and who maintains the relationships between events.
+
+Heart & Wellness activities continue throughout the year, with a named coordinator and allocated time. See the proposed rhythm in [Shared Infrastructure](#infrastructure).

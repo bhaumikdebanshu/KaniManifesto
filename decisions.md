@@ -16,7 +16,7 @@
 | Technical feasibility, venue readiness and production methods | Operations / Production Lead or the coordinator with appointed technical specialists. |
 | Funding proposals and funder relationships | Fundraising lead/manager with Director, programme and accounts inputs. |
 | Commercial proposals and bookings | Named commercial owner within approved pricing and booking rules. |
-| Team care, morale and working culture | Director accountable; named People, Care & Team Culture coordinator supports check-ins and practical care. Every lead remains responsible for their team’s working conditions. |
+| Team care, morale and working culture | Director accountable; named Heart & Wellness coordinator supports check-ins and practical care. Every lead remains responsible for their team’s working conditions. |
 | Contracts and financial commitments | Authorised representatives of the relevant entity. |
 
 When scope exceeds agreed resources, the relevant creative lead and Director revise the proposal or seek additional support. Council endorsement alone does not authorise spending.

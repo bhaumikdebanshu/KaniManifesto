@@ -37,4 +37,6 @@ Programme reviews record what was heard, what changed in response and who will f
 
 ## Care within the team
 
-Outreach builds continuing relationships with communities and participants. The shared People, Care & Team Culture responsibility supports the people doing the work across Kani through welcome, check-ins, morale and practical support. The two work together where community members become collaborators or volunteers; volunteer rota and shift responsibilities stay with the assigned festival leads.
+Outreach builds continuing relationships with communities and participants. The shared Heart & Wellness responsibility supports the people doing the work across Kani through welcome, check-ins, morale and practical support. The two work together where community members become collaborators or volunteers; volunteer rota and shift responsibilities stay with the assigned festival leads.
+
+Heart & Wellness activities continue throughout the year, with a named coordinator and allocated time. See the proposed rhythm in [Shared Infrastructure](#infrastructure).

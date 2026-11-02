@@ -55,6 +55,8 @@ The coordinator maintains the shared relationship record and follows up on progr
 
 Kani Fest budgets for its own delivery capacity and supported volunteer teams. The permanent coordinator holds continuity; returning volunteers can take bounded team roles, while sustained responsibilities require a funded appointment. See the [festival working map](#kani-fest).
 
-## People, Care & Team Culture
+## Heart & Wellness
 
 Name a coordinator for team welcome, check-ins, morale, recognition and practical support, with time allocated within the starting structure. The Director is accountable for making this possible; every lead owns respectful working and realistic workloads. At festival peaks, agree additional support alongside the Producer and Volunteer Coordinator. Provide an alternative contact for concerns involving the usual lead.
+
+Heart & Wellness activities continue throughout the year, with a named coordinator and allocated time. See the proposed rhythm in [Shared Infrastructure](#infrastructure).

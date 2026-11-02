@@ -37,3 +37,29 @@
 .role-close{float:right;font-size:12px;background:white}.role-open{overflow:hidden}
 @media(max-width:600px){.prose .map-cards{grid-template-columns:1fr}.map-flow .map-cards li:not(:last-child):after{content:'↓';right:50%;top:auto;bottom:-27px}.role-dialog{padding:23px}.role-dialog h2{font-size:27px}}
 @media print{.role-dialog,.node-hint{display:none!important}.role-open{overflow:visible}.org-chart{break-inside:auto;overflow:visible}.org-node{break-inside:avoid;box-shadow:none}.map-cards li{break-inside:avoid}}
+
+/* One connected festival map, with a larger reading view */
+.unified-map{margin:25px 0;border:1px solid var(--line);border-radius:10px;background:#f2f4ec;overflow:hidden}
+.map-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;border-bottom:1px solid var(--line);font-size:14px}
+.map-toolbar button{background:var(--paper);font-size:12px;white-space:nowrap}
+.map-viewport{overflow:auto;max-width:100%;padding:22px}.map-viewport:focus-visible{outline:3px solid var(--ochre);outline-offset:-4px}
+.map-canvas{min-width:1000px}.map-organisation{display:grid;grid-template-columns:1.65fr 1fr;gap:30px;position:relative}
+.map-processes{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:22px;padding-top:20px;border-top:1px solid #c4cebd}
+.unified-map .org-chart{padding:0;margin:0;border:0;background:transparent;overflow:visible}
+.unified-map .org-chart figcaption{font-size:11px;color:var(--ink);font-weight:bold;margin-bottom:14px}
+.unified-map .org-node{padding:10px 11px}.unified-map .org-node strong{font-size:12px}.unified-map .org-node small{font-size:11px;margin-top:4px}.unified-map .node-hint{display:none}
+.unified-map .org-tree>li>.org-node{max-width:340px}.unified-map .org-tree ul{gap:16px}.unified-map .org-tree ul ul{padding-left:12px}.unified-map .org-tree ul ul>li:before{left:-12px;width:12px}
+.unified-map .map-support{position:relative;border:1px dashed #80989c;border-radius:9px;padding:14px;background:#eaf0f2;align-self:start;margin-top:38px}
+.unified-map .map-support:before{content:'';position:absolute;top:46px;left:-31px;width:30px;border-top:2px dashed #80989c}
+.unified-map .support-connection{font-size:11px;line-height:1.5;color:#49646b;margin:0 0 14px;padding-bottom:12px;border-bottom:1px dashed #a4b9be}
+.unified-map .map-support .map-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.unified-map .map-flow .map-cards{gap:23px}.unified-map .map-flow .map-cards li:not(:last-child):after{right:-20px}
+.unified-map .map-key{font-size:11px;line-height:1.6;color:var(--muted);padding:14px 20px;margin:0;border-top:1px solid var(--line)}
+.map-dialog{width:96vw;max-width:1600px;height:94dvh;max-height:94dvh;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);overflow:auto}
+.map-dialog::backdrop{background:#14281f88}.map-dialog .unified-map{clear:both;margin:12px 0 0}.map-close{display:block;margin:0 0 12px auto;background:white}.map-open{overflow:hidden}
+@media(max-width:600px){.map-toolbar{align-items:flex-start;padding:14px;flex-direction:column}.map-viewport{padding:16px}.unified-map .org-tree ul{display:flex;padding-left:0;padding-top:26px}.unified-map .org-tree ul:before{left:50%;top:0;bottom:auto;height:13px}.unified-map .org-tree ul>li:before{left:50%;top:-13px;width:0;height:13px;border-left:1px solid #7f9276;border-top:0}.unified-map .org-tree ul>li:after{display:block}.unified-map .org-tree ul ul{display:block;padding-top:16px;padding-left:12px}.unified-map .org-tree ul ul:before{left:0;top:0;bottom:20px;height:auto}.unified-map .org-tree ul ul>li:before{left:-12px;top:20px;width:12px;height:0;border-left:0;border-top:1px solid #7f9276}.unified-map .org-tree ul ul>li:after{display:none}.unified-map .map-flow .map-cards{grid-template-columns:repeat(3,minmax(0,1fr))}.unified-map .map-flow .map-cards li:not(:last-child):after{content:'→';top:40%;bottom:auto}.map-dialog{padding:12px}}
+@media print{.map-toolbar button,.map-dialog{display:none!important}.map-open{overflow:visible}.unified-map{overflow:visible;break-inside:auto}.map-viewport{overflow:visible;padding:8px}.map-canvas{min-width:0}.map-organisation,.map-processes{display:block}.unified-map .org-node{padding:6px}.unified-map .map-support{margin-top:20px}.unified-map .map-support:before{display:none}.unified-map .map-processes .org-chart{margin-top:15px}.unified-map .map-support .map-cards{grid-template-columns:repeat(3,1fr)}}
+
+.map-view-controls{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.map-zoom-status{font-size:11px;color:var(--muted)}
+
+.map-dialog .map-canvas{margin-inline:auto}
