@@ -83,7 +83,7 @@
     const nodeMap=new Map([...canvas.querySelectorAll('.org-node')].map(el=>[el.querySelector('strong').textContent,el]));nodeMap.set('Shared resources',shared);
     if(links.some(x=>!nodeMap.has(x.from)||!nodeMap.has(x.to)))return null;
     const ns='http://www.w3.org/2000/svg';const svg=document.createElementNS(ns,'svg');svg.classList.add('collaboration-lines');svg.setAttribute('aria-hidden','true');canvas.prepend(svg);
-    let scale=1,naturalHeight=700,selected=-1;
+    let scale=1,naturalHeight=700;
     const status=document.createElement('span');status.className='map-zoom-status';status.setAttribute('aria-live','polite');
     function setScale(next,center=true){
       const cx=(scroll.scrollLeft+scroll.clientWidth/2)/scale,cy=(scroll.scrollTop+scroll.clientHeight/2)/scale;
@@ -95,33 +95,27 @@
     control('+',()=>setScale(scale*1.2)).setAttribute('aria-label','Zoom in');
     control('100%',()=>setScale(1));control('Reset view',fit);controls.append(status);header.append(controls);figure.append(header);
     const hint=document.createElement('p');hint.className='map-instructions';hint.textContent='Drag background to move · + / − to zoom · Click a box for details';figure.append(hint,scroll);
-    const legend=document.createElement('div');legend.className='collaboration-key';
-    const keyTitle=document.createElement('p');keyTitle.textContent='Solid lines: project accountability. Dotted lines: collaboration and shared support.';legend.append(keyTitle);
-    const all=document.createElement('button');all.type='button';all.textContent='Show all collaborations';all.setAttribute('aria-pressed','true');legend.append(all);
-    const linkButtons=[];
-    function choose(index){selected=index;all.setAttribute('aria-pressed',String(index===-1));linkButtons.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===index)));for(const el of nodeMap.values())el.classList.remove('collab-highlight');if(index>=0){nodeMap.get(links[index].from).classList.add('collab-highlight');nodeMap.get(links[index].to).classList.add('collab-highlight');}drawLines();}
-    all.onclick=()=>choose(-1);
-    links.forEach((link,i)=>{const b=document.createElement('button');b.type='button';b.className='collaboration-choice';b.textContent=(i+1)+'. '+link.label;const small=document.createElement('small');small.textContent=link.from+' ↔ '+link.to;b.append(small);b.setAttribute('aria-pressed','false');b.onclick=()=>choose(selected===i?-1:i);linkButtons.push(b);legend.append(b);});figure.append(legend);
+    const legend=document.createElement('p');legend.className='collaboration-key';
+    legend.textContent='Solid lines show project accountability. Dotted lines indicate collaboration and shared support.';figure.append(legend);
     function drawLines(){
       if(!figure.isConnected)return;
       const base=canvas.getBoundingClientRect();const factor=base.width/1260;
       if(!factor)return;
       const box=el=>{const r=el.getBoundingClientRect();return{x:(r.left-base.left)/factor,y:(r.top-base.top)/factor,w:r.width/factor,h:r.height/factor};};
       svg.replaceChildren();svg.setAttribute('viewBox','0 0 1260 '+canvas.offsetHeight);svg.setAttribute('width','1260');svg.setAttribute('height',String(canvas.offsetHeight));
-      const badges=[];
-      links.forEach((link,i)=>{
-        const a=box(nodeMap.get(link.from)),b=box(nodeMap.get(link.to));let d,lx,ly;
-        if(i===0){const y=Math.min(a.y,b.y)-22;d=`M ${a.x+a.w*.8} ${a.y} V ${y} H ${b.x+b.w*.2} V ${b.y}`;lx=(a.x+a.w+b.x)/2;ly=y;}
-        else if(link.from==='Shared resources'){const y=55;d=`M ${a.x} ${a.y+15} H ${a.x-28} V ${y} H ${b.x+b.w*.2} V ${b.y}`;lx=a.x-28;ly=y;}
-        else if(link.to==='Venue / Session Leads'){const x=a.x+a.w+19;d=`M ${a.x+a.w} ${a.y+a.h/2} H ${x} V ${b.y+b.h/2} H ${b.x+b.w}`;lx=x;ly=(a.y+a.h/2+b.y+b.h/2)/2;}
-        else {const lane=box(shared).x-16-(i-3)*9;const y=b.y-10;d=`M ${a.x+a.w} ${a.y+a.h/2} H ${lane} V ${y} H ${b.x+b.w/2} V ${b.y}`;lx=lane;ly=y;}
-        const g=document.createElementNS(ns,'g');g.dataset.link=String(i);if(selected!==-1&&selected!==i)g.classList.add('collab-muted');
+      links.forEach(link=>{
+        const a=box(nodeMap.get(link.from)),b=box(nodeMap.get(link.to));let d;
+        if(link.from==='Shared resources'){
+          const y=b.y-46,x=b.x+b.w*.15;
+          d=`M ${a.x} ${a.y+15} H ${a.x-38} V ${y} H ${x} V ${b.y}`;
+        }else{
+          const y=Math.min(a.y,b.y)-16;
+          d=`M ${a.x+a.w*.8} ${a.y} V ${y} H ${b.x+b.w*.2} V ${b.y}`;
+        }
+        const g=document.createElementNS(ns,'g');
         for(const cls of ['collab-halo','collab-path']){const path=document.createElementNS(ns,'path');path.setAttribute('d',d);path.setAttribute('class',cls);g.append(path);}
-        const badge=document.createElementNS(ns,'g');badge.dataset.link=String(i);if(selected!==-1&&selected!==i)badge.classList.add('collab-muted');
-        const circle=document.createElementNS(ns,'circle');circle.setAttribute('cx',lx);circle.setAttribute('cy',ly);circle.setAttribute('r','9');badge.append(circle);
-        const number=document.createElementNS(ns,'text');number.setAttribute('x',lx);number.setAttribute('y',ly+3.5);number.textContent=String(i+1);badge.append(number);svg.append(g);badges.push(badge);
+        svg.append(g);
       });
-      svg.append(...badges);
     }
     let pan=null;
     scroll.addEventListener('pointerdown',e=>{if(e.button!==0||e.target.closest('button'))return;pan={id:e.pointerId,x:e.clientX,y:e.clientY,left:scroll.scrollLeft,top:scroll.scrollTop};scroll.setPointerCapture(e.pointerId);scroll.classList.add('is-dragging');scroll.focus({preventScroll:true});e.preventDefault();});
@@ -135,8 +129,14 @@
   function renderMarkdown(md) {
     const template = document.createElement('template');
     template.innerHTML = marked.parse(md, {gfm:true, breaks:false});
+    // Detail blocks remain editable in Markdown and available in print, without repeating on screen.
+    const detailBlocks=[...template.content.querySelectorAll('pre > code.language-kani-details')].map(code=>{
+      const details=document.createElement('template');details.innerHTML=marked.parse(code.textContent,{gfm:true,breaks:false});
+      const wrapper=document.createElement('div');wrapper.append(details.content);return {pre:code.parentElement,wrapper};
+    });
     const explanations=new Map();
-    for(const table of template.content.querySelectorAll('table')){
+    const tables=[...template.content.querySelectorAll('table'),...detailBlocks.flatMap(({wrapper})=>[...wrapper.querySelectorAll('table')])];
+    for(const table of tables){
       const headings=[...table.querySelectorAll('thead th')].map(c=>c.textContent.trim());
       for(const row of table.querySelectorAll('tbody tr')){const cells=[...row.querySelectorAll('td')];if(cells.length>1)explanations.set(cells[0].textContent.trim(),cells.slice(1).map((c,i)=>({label:headings[i+1]||'Details',text:c.textContent.trim()})));}
     }
@@ -157,6 +157,7 @@
       }
     };
     clean(template.content);
+    for(const {pre,wrapper} of detailBlocks){clean(wrapper);wrapper.className='flow-details-print';pre.replaceWith(wrapper);}
     for(const {pre,chart} of charts)if(chart)pre.replaceWith(chart);
     for(const table of template.content.querySelectorAll('table')) {
       const wrap=document.createElement('div');wrap.className='table-scroll';wrap.tabIndex=0;
