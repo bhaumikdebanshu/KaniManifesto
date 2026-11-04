@@ -6,6 +6,8 @@ Kani Home is a place for creative practice, research, learning and public exchan
 
 Its work is guided by:
 
+- **Heart & grace:** Approach people, places and practices with care, attention and respect—in how we welcome, listen, collaborate and work through differences.
+
 - **Community participation:** Develop programmes with local people, practitioners and knowledge holders.
 
 - **Experimentation:** Support exploration, making, testing and work whose outcomes are not predetermined.

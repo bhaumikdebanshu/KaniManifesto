@@ -219,6 +219,12 @@
       const p=document.createElement('p');p.textContent=c.description;
       const arrow=document.createElement('span');arrow.className='arrow';arrow.textContent='Explore the pillar →';a.append(num,h,p,arrow);$('home-cards').append(a);
     }
+    if(settings.foundation){
+      const base=document.createElement('section');base.className='heart-foundation';base.setAttribute('aria-label','Shared foundation for all three pillars');
+      const heading=document.createElement('h2');heading.textContent=settings.foundation.title;
+      const description=document.createElement('p');description.textContent=settings.foundation.description;
+      base.append(heading,description);$('home-cards').append(base);
+    }
   }
   async function route() {
     if(roleDialog?.open)roleDialog.close();

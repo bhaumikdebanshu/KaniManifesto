@@ -5,7 +5,9 @@
 
 This edition introduces [Council Option 2](#council-option-2): five advisors, five ex officio curators, two community and two youth representatives. The current page presents the council structure and working arrangements. Its earlier comparison table and framing have been removed for clarity, along with the comparison banner on the original council page.
 
-This presentation edit stays within v0.6. The preserved v0.6 snapshot records the earlier published layout. Selection arrangements and decision procedures remain open.
+The homepage now places Heart as a shared foundation beneath all three pillar cards, and Heart & grace is the first ethos commitment.
+
+These presentation and wording edits stay within v0.6. The preserved v0.6 snapshot records the earlier published layout. Selection arrangements and decision procedures remain open.
 
 
 ## Editions and changes

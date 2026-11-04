@@ -5,5 +5,9 @@
   "version": "v0.6",
   "stage": "Revised draft",
   "updated": "4 November 2026",
-  "kicker": "An evolving manifesto"
+  "kicker": "An evolving manifesto",
+  "foundation": {
+    "title": "Heart — our shared foundation",
+    "description": "Care, grace and attentiveness underpin everything we do."
+  }
 }

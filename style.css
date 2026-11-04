@@ -71,3 +71,10 @@
 .map-dialog .map-viewport{height:60vh;max-height:none}
 @media(max-width:600px){.draggable-map .map-viewport{height:460px}.draggable-map .map-toolbar{gap:10px}.draggable-map .org-tree>li>ul{padding-top:60px;gap:30px}.draggable-map .org-tree>li>ul:before{height:30px}.draggable-map .org-tree>li>ul>li:before{top:-30px;height:30px;width:0;left:50%;border-top:0;border-left:1px solid #7f9276}.draggable-map .org-tree>li>ul>li:after{top:-30px}.draggable-map .org-tree ul ul>li{margin-bottom:18px}}
 @media print{.draggable-map .map-view-controls,.map-instructions,.collaboration-lines{display:none!important}.draggable-map .map-viewport{height:auto;max-height:none;overflow:visible;padding:0}.draggable-map .map-stage{width:auto!important;height:auto!important}.draggable-map .map-canvas{position:static;width:auto!important;padding:8px;transform:none!important}.draggable-map .map-organisation{display:block}.collaboration-key{display:block}}
+
+/* Shared foundation spanning the three pillars */
+.heart-foundation{grid-column:1/-1;padding:23px 26px;background:var(--green);color:#fffefa;border:1px solid var(--green);border-radius:6px;text-align:center}
+.heart-foundation h2{font:600 13px/1.5 Arial,sans-serif;letter-spacing:1.5px;text-transform:uppercase;margin:0 0 7px}
+.heart-foundation p{font-size:15px;line-height:1.6;margin:0;color:#eef2e9}
+@media(max-width:760px){.heart-foundation{padding:21px 18px}.heart-foundation h2{font-size:12px}.heart-foundation p{font-size:14px}}
+@media print{.heart-foundation{background:white;color:#172b21;border:2px solid #305b47;break-inside:avoid}.heart-foundation p{color:#172b21}}
