@@ -3,9 +3,10 @@
 **v0.6 · Revised draft — For discussion**  
 **Published:** 4 November 2026
 
-This edition adds [Governance Option 2 and a comparison](#council-option-2) alongside the existing council proposal. Option 2 explores five advisors, five ex officio curators, two community and two youth representatives, with Heart as a shared foundation. Neither governance option is adopted; decision procedures and representation arrangements remain open.
+This edition introduces [Council Option 2](#council-option-2): five advisors, five ex officio curators, two community and two youth representatives. The current page presents the council structure and working arrangements. Its earlier comparison table and framing have been removed for clarity, along with the comparison banner on the original council page.
 
-Option 1 and Option 2 are alternative governance models, not manifesto edition numbers. The organisation remains Kani Home; the document is Kani Manifesto.
+This presentation edit stays within v0.6. The preserved v0.6 snapshot records the earlier published layout. Selection arrangements and decision procedures remain open.
+
 
 ## Editions and changes
 

@@ -1,7 +1,7 @@
 This edition incorporates the agreed drafting changes. The following questions still need collective agreement before they become operating commitments.
 
 - [ ] Review the ethos wording, three pillar titles and activity menus with the group.
-- [ ] Compare [Council Option 1](#council) and [Option 2 — Participatory Council](#council-option-2), including authority, representation, selection and participation support. Neither model is adopted.
+- [ ] Develop the [Option 2 council structure](#council-option-2), including authority, representative selection, decision procedures and participation support.
 - [ ] For Option 1, review the seven advisory areas and identify one or two members per area, with one-year appointments and annual review.
 - [ ] For Option 1, agree the council voting procedure: the proposal is one vote per advisory area, a quorum of five areas and four affirmative area votes. Resolve vacancies, disagreements within an area, conflicts and recusals before adoption.
 - [ ] Confirm “Platforms & Original Initiatives” as the layer title and confirm working platform names, including the publishing imprint.
