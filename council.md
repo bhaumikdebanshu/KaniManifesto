@@ -1,3 +1,5 @@
+**Option 1 — existing proposal, retained for comparison.** Read [Option 2 and the side-by-side comparison](#council-option-2) before choosing a model. Neither option is adopted.
+
 ## Purpose
 
 The council helps establish annual direction and priorities, contributes expertise, mentors practices and opens relationships. Senior advisors support the working team through key conversations and defined commitments. Day-to-day execution rests with staff and commissioned collaborators.

@@ -50,10 +50,17 @@
   },
   {
     "id": "council",
-    "title": "Advisory & Programme Council",
+    "title": "Council · Option 1",
     "group": "Governance",
     "file": "council.md",
     "description": "Seven advisory areas. One-year appointments, reviewed annually."
+  },
+  {
+    "id": "council-option-2",
+    "title": "Council · Option 2 & comparison",
+    "group": "Governance",
+    "file": "council-option-2.md",
+    "description": "A proposed participatory council alongside the original advisory model."
   },
   {
     "id": "decisions",

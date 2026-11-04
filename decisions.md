@@ -1,3 +1,5 @@
+**Reference draft for Option 1.** [Option 2](#council-option-2) proposes an alternative council composition and remit. These decision rights have not been replaced; revise them together once a model is agreed.
+
 | Decision | Responsible role |
 |---|---|
 | Overall direction and annual priorities | Council collectively, informed by the Director and working team. |

@@ -1,22 +1,25 @@
 ## Current edition
 
-**v0.5 · Revised draft — For discussion**  
-**Published:** 2 November 2026
+**v0.6 · Revised draft — For discussion**  
+**Published:** 4 November 2026
 
-This revision simplifies the festival map to high-level collaboration and shared support. Programming and volunteer pathways each appear once, with detailed explanations available through their clickable steps. It records a proposed operating model; appointments, fees and budgets still need agreement.
+This edition adds [Governance Option 2 and a comparison](#council-option-2) alongside the existing council proposal. Option 2 explores five advisors, five ex officio curators, two community and two youth representatives, with Heart as a shared foundation. Neither governance option is adopted; decision procedures and representation arrangements remain open.
 
-The current document title is **Kani Manifesto**; **Kani Home** remains the organisation’s name. This title clarification stays within v0.5. Preserved snapshots retain their original titles.
+Option 1 and Option 2 are alternative governance models, not manifesto edition numbers. The organisation remains Kani Home; the document is Kani Manifesto.
 
 ## Editions and changes
 
 | Edition | What changed | Why |
 |---|---|---|
+| v0.6 · Revised draft · 4 November 2026 | Added a participatory council option and side-by-side comparison; retained Option 1 and its reference decision rights; identified decisions required before adoption. | Explore a more inclusive model without prematurely replacing the earlier proposal. |
 | v0.5 · Revised draft · 2 November 2026 | Three high-level dotted connections without numbered relationship controls; programming and volunteer flows with clickable detail instead of repeated visible tables. | Make the map and pathways easier to read while retaining the detailed responsibilities. |
 | v0.4 · Revised draft · 2 November 2026 | Draggable festival map with shared resources and numbered dotted collaboration links; separate programming and volunteer flows; Heart & Wellness above shared resources with content to be developed; Learnings & Feedback immediately before Review & Editing. | Make working relationships easier to explore and keep developing content easy to find. |
 | v0.3 · Revised draft · 2 November 2026 | Unified expandable festival map with shared resources; year-round Heart & Wellness activities; detailed roles retained; new Learnings & Feedback chapter with collection marked ongoing. Internal analogy and retrospective material removed from manifesto chapters. | Present the proposed organisation clearly while giving experience and evolving feedback their own place. |
 | v0.2 · Revised draft · 2 November 2026 | Clickable Kani Fest working map and role explainers; paid curatorial fellowship model; named delivery and infrastructure responsibilities; programming workflow; supported volunteer pathway; shared Heart & Wellness responsibility; aligned staffing, outreach and decision pages. | Build on first-edition experience and make responsibility, shared-resource planning and routes for participation clear. |
 | v0.1 · Alpha · 2 November 2026 | “An evolving manifesto”; clearer transdisciplinary approach; outreach section and responsibilities across the structure; one-year council appointments with one or two members per area; Sound & Music title; charts and responsibilities for all three platforms; simpler status and review notes. | Prepare a coherent presentation edition and make relationships, responsibilities and the evolution of thinking easier to follow. |
 | Initial website · 1 November 2026 | The first online working document, before numbered editions. | Establish an editable, shared source. |
+
+[Read the preserved v0.6 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.6.html).
 
 [Read the preserved v0.5 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.5.html).
 
@@ -40,7 +43,8 @@ Snapshots stay as they were published. The main website carries the latest editi
 | v0.2 · Revised draft | Earlier revision of the Kani Fest model. |
 | v0.3 · Revised draft | Earlier revision: unified map and separate learning and feedback. |
 | v0.4 · Revised draft | Earlier revision: draggable collaboration map and revised navigation. |
-| v0.5 · Revised draft | Current revision: simpler collaboration links and less repetition. |
+| v0.5 · Revised draft | Earlier revision: simpler collaboration links and less repetition. |
+| v0.6 · Revised draft | Current revision: two governance options for comparison. |
 | v1.0 · Agreed baseline | When the group agrees a structure to begin working with. It can still evolve. |
 
 Do not change the version for every typo. Increment it when the thinking, responsibilities or structure meaningfully changes. Record what changed, why and what remains unresolved; preserve the previous edition before publishing the next.
