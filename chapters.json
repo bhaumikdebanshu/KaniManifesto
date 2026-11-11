@@ -42,60 +42,53 @@
     "description": "Relationships, participation and continuity across the three pillars."
   },
   {
-    "id": "entities",
-    "title": "Enabling entities",
-    "group": "Governance",
-    "file": "entities.md",
-    "description": "The organisations that enable the work."
+    "id": "structure",
+    "title": "Overview",
+    "group": "The Structure",
+    "file": "structure.md",
+    "description": "A small council, a continuing working team and funded programme teams."
   },
   {
-    "id": "council",
-    "title": "Council · Option 1",
-    "group": "Governance",
-    "file": "council.md",
-    "description": "Seven advisory areas. One-year appointments, reviewed annually."
+    "id": "structure-governance",
+    "title": "Governance",
+    "group": "The Structure",
+    "file": "structure-governance.md",
+    "description": "Council membership, selection, convening and accountability."
   },
   {
-    "id": "council-option-2",
-    "title": "Council · Option 2",
-    "group": "Governance",
-    "file": "council-option-2.md",
-    "description": "A participatory council with advisors, curators, community and youth representatives."
+    "id": "structure-working-team",
+    "title": "Working Team",
+    "group": "The Structure",
+    "file": "structure-working-team.md",
+    "description": "Starting roles, shared responsibilities and growth with capacity."
   },
   {
-    "id": "council-option-3",
-    "title": "Council · Option 3",
-    "group": "Governance",
-    "file": "council-option-3.md",
-    "description": "Shared stewardship, six advisors and a light Working Coordination Group."
+    "id": "structure-programme-teams",
+    "title": "Programme Teams",
+    "group": "The Structure",
+    "file": "structure-programme-teams.md",
+    "description": "How Kanifest and other initiatives connect to Kani."
   },
   {
-    "id": "decisions",
-    "title": "Decision rights",
-    "group": "Governance",
-    "file": "decisions.md",
-    "description": "Clear ownership for direction, creative decisions and delivery."
+    "id": "structure-operations",
+    "title": "Operations & Resources",
+    "group": "The Structure",
+    "file": "structure-operations.md",
+    "description": "Partnerships, budgets, spaces, equipment and shared services."
   },
   {
-    "id": "year-one",
-    "title": "Year 1 · Minimum team",
-    "group": "Working Team",
-    "file": "year-one.md",
-    "description": "Three permanent hires, existing teams and defined specialist support."
+    "id": "structure-decisions",
+    "title": "Decision-making",
+    "group": "The Structure",
+    "file": "structure-decisions.md",
+    "description": "Who decides, how agreement is reached and when to escalate."
   },
   {
-    "id": "full-structure",
-    "title": "Full structure",
-    "group": "Working Team",
-    "file": "full-structure.md",
-    "description": "Dedicated capacity as programmes and recurring work grow."
-  },
-  {
-    "id": "growth",
-    "title": "How the team grows",
-    "group": "Working Team",
-    "file": "growth.md",
-    "description": "Add people in response to sustained work and funding."
+    "id": "structure-resolution",
+    "title": "Disagreements & Resolution",
+    "group": "The Structure",
+    "file": "structure-resolution.md",
+    "description": "Working disagreements, confidential concerns and impartial review."
   },
   {
     "id": "heart-wellness",
@@ -154,6 +147,13 @@
     "description": "Programme learning and an evolving record of feedback. Collection is ongoing."
   },
   {
+    "id": "structure-archive",
+    "title": "Earlier Structures",
+    "group": "Review & Editing",
+    "file": "structure-archive.md",
+    "description": "Archived council, governance and staffing proposals."
+  },
+  {
     "id": "open-decisions",
     "title": "Open decisions",
     "group": "Review & Editing",
@@ -180,5 +180,69 @@
     "group": "Review & Editing",
     "file": "editing.md",
     "description": ""
+  },
+  {
+    "id": "entities",
+    "title": "Enabling entities (archived)",
+    "group": "Archive · Earlier Structures",
+    "file": "entities.md",
+    "description": "The organisations that enable the work.",
+    "archived": true
+  },
+  {
+    "id": "council",
+    "title": "Council · Option 1 (archived)",
+    "group": "Archive · Earlier Structures",
+    "file": "council.md",
+    "description": "Seven advisory areas. One-year appointments, reviewed annually.",
+    "archived": true
+  },
+  {
+    "id": "council-option-2",
+    "title": "Council · Option 2 (archived)",
+    "group": "Archive · Earlier Structures",
+    "file": "council-option-2.md",
+    "description": "A participatory council with advisors, curators, community and youth representatives.",
+    "archived": true
+  },
+  {
+    "id": "council-option-3",
+    "title": "Council · Option 3 (archived)",
+    "group": "Archive · Earlier Structures",
+    "file": "council-option-3.md",
+    "description": "Shared stewardship, six advisors and a light Working Coordination Group.",
+    "archived": true
+  },
+  {
+    "id": "decisions",
+    "title": "Decision rights (archived)",
+    "group": "Archive · Earlier Structures",
+    "file": "decisions.md",
+    "description": "Clear ownership for direction, creative decisions and delivery.",
+    "archived": true
+  },
+  {
+    "id": "year-one",
+    "title": "Year 1 · Minimum team (archived)",
+    "group": "Archive · Earlier Structures",
+    "file": "year-one.md",
+    "description": "Three permanent hires, existing teams and defined specialist support.",
+    "archived": true
+  },
+  {
+    "id": "full-structure",
+    "title": "Full structure (archived)",
+    "group": "Archive · Earlier Structures",
+    "file": "full-structure.md",
+    "description": "Dedicated capacity as programmes and recurring work grow.",
+    "archived": true
+  },
+  {
+    "id": "growth",
+    "title": "How the team grows (archived)",
+    "group": "Archive · Earlier Structures",
+    "file": "growth.md",
+    "description": "Add people in response to sustained work and funding.",
+    "archived": true
   }
 ]

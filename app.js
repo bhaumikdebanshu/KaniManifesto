@@ -197,6 +197,7 @@
   function makeNavigation() {
     $('toc').replaceChildren();
     for(const c of chapters) {
+      if(c.archived)continue;
       if(c.id==='home'){$('toc').append(navLink(c));continue;}
       let group=[...$('toc').querySelectorAll('details')].find(d=>d.dataset.group===c.group);
       if(!group){group=document.createElement('details');group.dataset.group=c.group;const summary=document.createElement('summary');summary.textContent=c.group;const list=document.createElement('div');list.className='subnav';group.append(summary,list);$('toc').append(group);}
@@ -206,7 +207,7 @@
   function closeMenu() {document.body.classList.remove('menu-open');$('menu').setAttribute('aria-expanded','false');$('shade').hidden=true;}
   function markActive() {
     for(const a of document.querySelectorAll('[data-chapter]')){
-      if(a.dataset.chapter===current.id){a.setAttribute('aria-current','page');const group=a.closest('details');if(group)group.open=true;}
+      if(a.dataset.chapter===current.id||(current.archived&&a.dataset.chapter==='structure-archive')){a.setAttribute('aria-current','page');const group=a.closest('details');if(group)group.open=true;}
       else a.removeAttribute('aria-current');
     }
   }
@@ -239,16 +240,22 @@
     $('lead').textContent=c.description||'';$('home-cards').hidden=c.id!=='home';
     $('notice').hidden=true;
     if(!found&&id!=='home'){$('notice').textContent='That chapter was not found. Showing Home.';$('notice').hidden=false;}
+    if(c.archived){
+      const archiveLink=document.createElement('a');archiveLink.href='#structure-archive';archiveLink.textContent='Earlier Structures';
+      const currentLink=document.createElement('a');currentLink.href='#structure';currentLink.textContent='The Structure';
+      $('notice').replaceChildren(document.createTextNode('Archived proposal — preserved for reference. Browse '),archiveLink,document.createTextNode(' or read the current proposal in '),currentLink,document.createTextNode('.'));$('notice').hidden=false;
+    }
     const url=editURL(c);$('edit').hidden=snapshot||!url;if(url)$('edit').href=url;
     if(snapshot){$('notice').textContent='Preserved edition — this snapshot stays unchanged. The main website carries the latest version.';$('notice').hidden=false;}
     markActive();closeMenu();$('article').textContent='Loading chapter…';$('pager').replaceChildren();
     try{const md=await markdown(c);if(version!==routeVersion)return;$('article').replaceChildren(renderMarkdown(md));
       const first=$('article').firstElementChild;if(first?.tagName==='P'&&first.textContent.trim()===c.description?.trim())first.remove();}
     catch(e){if(version!==routeVersion)return;$('article').textContent=e.message;return;}
-    const index=chapters.findIndex(x=>x.id===c.id);
+    const readingOrder=c.archived?chapters.filter(x=>x.id==='structure-archive'||x.archived):chapters.filter(x=>!x.archived);
+    const index=readingOrder.findIndex(x=>x.id===c.id);
     for(const [n,label] of [[index-1,'Previous chapter'],[index+1,'Next chapter']]){
-      if(!chapters[n])continue;const a=document.createElement('a');a.href='#'+chapters[n].id;
-      const small=document.createElement('small');small.textContent=label;a.append(small,document.createTextNode(chapters[n].title));$('pager').append(a);
+      if(!readingOrder[n])continue;const a=document.createElement('a');a.href='#'+readingOrder[n].id;
+      const small=document.createElement('small');small.textContent=label;a.append(small,document.createTextNode(readingOrder[n].title));$('pager').append(a);
     }
     window.scrollTo({top:0,behavior:'instant'});$('main').focus({preventScroll:true});
   }
@@ -269,7 +276,7 @@
   async function allMarkdown() {return Promise.all(chapters.map(async c=>({c,md:await markdown(c)})));}
   $('export').onclick=async()=>{
     $('export').disabled=true;
-    try{const all=await allMarkdown();const text='# Kani Manifesto — '+(settings.version||'Working draft')+' · '+(settings.stage||'')+'\n\nUpdated '+(settings.updated||'')+'\n\n'+all.map(({c,md})=>'# '+c.title+'\n\n'+md).join('\n\n---\n\n');
+    try{const all=await allMarkdown();const text='# Kani Manifesto — '+(settings.version||'Working draft')+' · '+(settings.stage||'')+'\n\nUpdated '+(settings.updated||'')+'\n\n'+all.map(({c,md})=>'# '+c.title+'\n\n'+(c.archived?'**Archived proposal — preserved for reference. See The Structure for the current proposal.**\n\n':'')+md).join('\n\n---\n\n');
       const url=URL.createObjectURL(new Blob([text],{type:'text/markdown;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='Kani-Manifesto-'+(settings.version||'Working-Draft')+'.md';a.hidden=true;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
     }catch(e){$('notice').textContent='Export failed: '+e.message;$('notice').hidden=false;}finally{$('export').disabled=false;}
   };
@@ -277,7 +284,7 @@
   $('print').onclick=async()=>{
     $('print').disabled=true;
     try{const all=await allMarkdown();clearPrint();const doc=document.createElement('div');doc.id='print-document';
-      for(const {c,md} of all){const section=document.createElement('section');section.className='print-chapter prose';const h=document.createElement('h1');h.textContent=c.title;const label=document.createElement('p');label.textContent=(settings.version||'Working draft')+' · '+(settings.stage||'')+' · '+(settings.updated||'');section.append(label,h,renderMarkdown(md));doc.append(section);}
+      for(const {c,md} of all){const section=document.createElement('section');section.className='print-chapter prose';const h=document.createElement('h1');h.textContent=c.title;const label=document.createElement('p');label.textContent=(settings.version||'Working draft')+' · '+(settings.stage||'')+' · '+(settings.updated||'');section.append(label,h);if(c.archived){const warning=document.createElement('p');warning.textContent='Archived proposal — preserved for reference. See The Structure for the current proposal.';section.append(warning);}section.append(renderMarkdown(md));doc.append(section);}
       document.body.append(doc);document.body.classList.add('print-all');requestAnimationFrame(()=>window.print());
     }catch(e){$('notice').textContent='Print preparation failed: '+e.message;$('notice').hidden=false;}finally{$('print').disabled=false;}
   };

@@ -30,15 +30,14 @@ Kani brings different disciplines and forms of knowledge into shared enquiry. An
 
 ## Structure Synopsis
 
-Three pillars guide the work. A council with annually reviewed appointments contributes expertise. A continuing team turns ideas into programmes, supported by shared spaces and resources.
+Three pillars guide the work. The current proposal brings together a seven-member council, a small continuing working team and funded programme teams, with responsibilities shared close to the work.
 
-- [Explore Council Option 3 — Shared Stewardship](#council-option-3)
-- [Explore Council Option 2](#council-option-2)
-- [Meet the Option 1 advisory roles](#council)
-- [Explore the Year 1 team](#year-one)
-- [See the programme platforms](#platforms)
+- [Explore The Structure](#structure)
+- [Meet the proposed Working Team](#structure-working-team)
+- [See how Programme Teams connect](#structure-programme-teams)
+- [Browse Earlier Structures](#structure-archive)
 
-Option 3 explores shared governance with a light Working Coordination Group, beginning with Programme and Operations Coordinators and supported responsibilities for Community & Care and Partnerships. It remains a proposal for discussion.
+The Structure remains a proposal for discussion. Earlier council and staffing models are preserved in the archive rather than combined with it.
 
 ## Working status
 

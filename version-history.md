@@ -1,19 +1,20 @@
 ## Current edition
 
-**v0.8 · Revised draft — For discussion**
+**v0.9 · Revised draft — For discussion**
 
 **Published:** 11 November 2026
 
-Added Council Option 3: shared stewardship with a 16-member council, six advisory roles and a light Working Coordination Group. Programme and Operations Coordinators anchor Year 1, with Design & Communications alongside and allocated or part-time support for Community & Care and Partnerships. The chapter includes an executive summary, detailed mandates, convening, decision rights, consent and consensus, resources, accountability and a proposed pilot.
+Added **The Structure** as one expandable sidebar section with seven pages: Overview, Governance, Working Team, Programme Teams, Operations & Resources, Decision-making, and Disagreements & Resolution.
 
-Option 3 remains a proposal. Earlier council models and Director-based staffing are retained as labelled references. Selection, quorum, fallback procedures and entity delegations remain open for collective agreement.
+The current proposal brings together a seven-member council, three continuing working roles and funded programme teams. It removes a separate Working Coordination Group and automatic programme council seats. Selection, appointments, decision rules and operating arrangements still need collective agreement.
 
-The original v0.7 snapshot remains unchanged. A separate final v0.7 snapshot preserves the homepage Heart refinements immediately before Option 3 was added.
+Earlier council, entity, decision-rights and staffing proposals are collected on [Earlier Structures](#structure-archive), with original chapter links and text preserved. Other manifesto sections retain their places. Existing programme pages retain their detailed proposals pending later alignment of reporting terminology.
 
 ## Editions and changes
 
 | Edition | What changed | Why |
 |---|---|---|
+| v0.9 · Revised draft · 11 November 2026 | Added The Structure and its seven subpages; archived earlier governance and staffing proposals with original links preserved. | Make the current proposal easier to understand without rebuilding the wider menu. |
 | v0.8 · Revised draft · 11 November 2026 | Added shared-stewardship Option 3, lean coordination roles and detailed governance procedures; linked related chapters. | Explore decentralised authority without creating four director posts. |
 | v0.7 · Revised draft · 11 November 2026 | Expanded Heart into a programme space; introduced Nurupa and linked relevant chapters. | Make personal growth and becoming part of the lived foundation, alongside everyday care. |
 | v0.6 · Revised draft · 4 November 2026 | Added a participatory council option and side-by-side comparison; retained Option 1 and its reference decision rights; identified decisions required before adoption. | Explore a more inclusive model without prematurely replacing the earlier proposal. |
@@ -23,6 +24,8 @@ The original v0.7 snapshot remains unchanged. A separate final v0.7 snapshot pre
 | v0.2 · Revised draft · 2 November 2026 | Clickable Kani Fest working map and role explainers; paid curatorial fellowship model; named delivery and infrastructure responsibilities; programming workflow; supported volunteer pathway; shared Heart & Wellness responsibility; aligned staffing, outreach and decision pages. | Build on first-edition experience and make responsibility, shared-resource planning and routes for participation clear. |
 | v0.1 · Alpha · 2 November 2026 | “An evolving manifesto”; clearer transdisciplinary approach; outreach section and responsibilities across the structure; one-year council appointments with one or two members per area; Sound & Music title; charts and responsibilities for all three platforms; simpler status and review notes. | Prepare a coherent presentation edition and make relationships, responsibilities and the evolution of thinking easier to follow. |
 | Initial website · 1 November 2026 | The first online working document, before numbered editions. | Establish an editable, shared source. |
+
+[Read the preserved v0.9 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.9.html).
 
 [Read the preserved v0.8 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.8.html).
 
@@ -57,7 +60,8 @@ Snapshots stay as they were published. The main website carries the latest editi
 | v0.5 · Revised draft | Earlier revision: simpler collaboration links and less repetition. |
 | v0.6 · Revised draft | Earlier revision: participatory council option and Heart foundation. |
 | v0.7 · Revised draft | Earlier revision: Heart programmes and Nurupa in development. |
-| v0.8 · Revised draft | Current revision: shared stewardship and a light Working Coordination Group. |
+| v0.8 · Revised draft | Earlier revision: shared stewardship and a light Working Coordination Group. |
+| v0.9 · Revised draft | Current revision: The Structure and an archive of earlier proposals. |
 | v1.0 · Agreed baseline | When the group agrees a structure to begin working with. It can still evolve. |
 
 Do not change the version for every typo. Increment it when the thinking, responsibilities or structure meaningfully changes. Record what changed, why and what remains unresolved; preserve the previous edition before publishing the next.

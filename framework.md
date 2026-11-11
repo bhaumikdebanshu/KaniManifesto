@@ -6,7 +6,7 @@
 | Heart & Wellness | The shared foundation of care and grace, expressed through everyday culture and programmes for growth, wellbeing and becoming, including Nurupa in development. |
 | Three pillars | The broad kinds of activity Kani undertakes. |
 | Outreach & Community Engagement | How Kani builds relationships, listens, enables participation and sustains connections across its programmes. |
-| Advisory & Programme Council | The expertise, relationships and strategic guidance supporting the work. |
+| Kani Council | The proposed shared direction, annual priorities and accountability; see The Structure. |
 | Permanent working team | The people responsible for continuity, development and delivery. |
 | Shared infrastructure & capabilities | The spaces, equipment and services available to every programme. |
 | Platforms & Original Initiatives | The recognisable programmes Kani develops, including Kani Fest, Kani Publications and curated marketplaces. |
@@ -17,7 +17,7 @@ Platforms bring the pillars into practice, drawing on a shared team and infrastr
 
 The pillar chapters describe possible activities. Year 1 priorities will be selected according to capacity, partnerships and funding.
 
-[Council Option 3](#council-option-3) explores shared stewardship and a light Working Coordination Group. Its governance and staffing arrangements are presented together in that chapter; Director-based team and platform charts remain the earlier reference model pending collective adoption and alignment.
+[The Structure](#structure) presents the current proposal: a small council, a continuing working team and programme teams. Earlier council and staffing proposals are preserved in [Earlier Structures](#structure-archive). Existing detailed programme charts retain earlier reporting arrangements pending collective agreement and alignment.
 
 ## How a project moves across the pillars
 
