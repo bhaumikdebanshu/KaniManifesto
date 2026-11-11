@@ -85,4 +85,5 @@ The Festival Curator and Festival Producer work alongside one another under the 
 
 A shared function with a named coordinator accountable to the Director, supporting staff, fellows, project teams and volunteers across Kani. It coordinates welcome, check-ins, recognition, listening and practical care. It can be allocated within an existing role initially; dedicated capacity follows workload and funding. All team leads retain responsibility for respectful working, realistic workloads and follow-through on concerns. See [Shared Infrastructure](#infrastructure).
 
-The [Heart & Wellness](#heart-wellness) section will be developed together; its activity programme remains open.
+[Heart & Wellness](#heart-wellness) also holds programmes for growth, wellbeing and becoming, including Nurupa in development. Each initiative needs a defined brief, named lead and funded delivery capacity; detailed arrangements remain open.
+

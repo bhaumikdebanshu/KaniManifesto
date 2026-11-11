@@ -8,6 +8,10 @@ Develop knowledge, creative practices, skills and new ways of working.
 | AI, AR & emerging technologies | Creative AI, local-language tools, augmented-reality interpretation, interactive media, physical computing and critical enquiry into technology’s social implications. |
 | Living knowledge & archives | Oral histories, community-led archives, craft documentation and digital storytelling. |
 | Learning & skills exchange | Mentorship, student programmes, educational partnerships, field schools, workshops and hands-on research labs. |
+| Reflective practice & personal growth | Heart programmes such as Nurupa connect self-enquiry, mentored creative practice and community learning, through residential or hybrid formats. |
 | Research publication & dissemination | Essays, papers, field notes, toolkits and other research outputs developed through Kani Publications. |
 
 Research programmes can produce exhibitions, performances, publications, prototypes and public discussions. Appropriate specialists are engaged per project; emerging technology work does not initially require a permanent technology department.
+
+
+See [Heart & Wellness](#heart-wellness) for programme intent and working arrangements.

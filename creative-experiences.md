@@ -8,6 +8,8 @@ Bring people together through public encounters with art, culture, ideas and mak
 | Film & public conversations | Screenings, filmmaker discussions, talks, panels and debates. |
 | Workshops & heritage walks | Participatory making, demonstrations and walks developed with local knowledge holders. |
 | Curated marketplaces | Selected artisans and makers, themed editions, demonstrations, workshops and associated cultural programming. |
+| Heart gatherings & creative sharing | Reflective circles, participatory gatherings and optional showcases emerging from Heart programmes such as Nurupa; developed with participant consent. |
 | Publication encounters | Book launches, readings, editorial conversations and exhibitions connected to Kani Publications. |
 
 Ticketed public events and curated marketplaces remain within Creative Experiences. Charging for participation does not automatically move a programme into the commercial pillar.
+

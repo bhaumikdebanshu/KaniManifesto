@@ -44,6 +44,7 @@ The Director is one of the three new permanent hires. Existing accounts and hosp
 | Festival delivery roles | Programme Coordinator, Technical & Infrastructure Lead, venue/session leads, Artist & Guest Liaison and Volunteer Coordinator; combine roles only where capacity allows. |
 | Editor / Publishing Lead | Retained or appointed per publication or series, supported by commissioned editorial specialists. |
 | Marketplace Curator | Contract across a series of editions, supported by the permanent coordinator. |
+| Heart programme leads, mentors & facilitators | Funded appointments for initiatives such as Nurupa; define delivery time, participant support and specialist requirements before launch. |
 | Residency mentors & facilitators | Appointments against each programme’s budget, including researchers, artists, educators, creative technologists and local knowledge holders. |
 | Specialist production partners | Sound, lighting, fabrication, installation, photography, video and event crew as required. |
 
@@ -59,4 +60,5 @@ Kani Fest budgets for its own delivery capacity and supported volunteer teams. T
 
 Name a coordinator for team welcome, check-ins, morale, recognition and practical support, with time allocated within the starting structure. The Director is accountable for making this possible; every lead owns respectful working and realistic workloads. At festival peaks, agree additional support alongside the Producer and Volunteer Coordinator. Provide an alternative contact for concerns involving the usual lead.
 
-The [Heart & Wellness](#heart-wellness) section will be developed together; its activity programme remains open.
+[Heart & Wellness](#heart-wellness) also holds programmes for growth, wellbeing and becoming, including Nurupa in development. Each initiative needs a defined brief, named lead and funded delivery capacity; detailed arrangements remain open.
+

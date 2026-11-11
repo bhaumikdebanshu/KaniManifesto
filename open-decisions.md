@@ -12,7 +12,9 @@ This edition incorporates the agreed drafting changes. The following questions s
 - [ ] Agree curatorial fellowship fees, time commitments, mentoring, selection process and programme support before recruitment.
 - [ ] Confirm volunteer support, team-captain scopes and any funded year-round associate opportunities.
 - [ ] Name the Heart & Wellness coordinator, allocate time and agree support and alternative routes for concerns.
+- [ ] Develop Nurupa within Heart: confirm the Qalb Center / Slow Thing Festival relationship, programme lead, mentor preparation, calendar, cohort format, budget, pricing and local access, privacy and recording consent, online participation and participant-support protocols before launch.
 - [ ] Confirm entity responsibilities and delegated financial authority.
 - [ ] Confirm how publishing sales and distribution will be administered initially.
 
 Collect programme and presentation feedback in [Learnings & Feedback](#learnings-feedback). A suggestion is not an agreed operating decision.
+

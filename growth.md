@@ -17,4 +17,5 @@ For Kani Fest, returning volunteers may take defined team-captain responsibiliti
 
 Review capacity for Heart & Wellness as staff, fellows, volunteers and project teams grow. Begin with a named coordinator and allocated time; add dedicated support when recurring need and funding justify it.
 
-The [Heart & Wellness](#heart-wellness) section will be developed together; its activity programme remains open.
+[Heart & Wellness](#heart-wellness) also holds programmes for growth, wellbeing and becoming, including Nurupa in development. Each initiative needs a defined brief, named lead and funded delivery capacity; detailed arrangements remain open.
+

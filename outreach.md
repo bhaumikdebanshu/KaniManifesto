@@ -39,4 +39,5 @@ Programme reviews record what was heard, what changed in response and who will f
 
 Outreach builds continuing relationships with communities and participants. The shared Heart & Wellness responsibility supports the people doing the work across Kani through welcome, check-ins, morale and practical support. The two work together where community members become collaborators or volunteers; volunteer rota and shift responsibilities stay with the assigned festival leads.
 
-The [Heart & Wellness](#heart-wellness) section will be developed together; its activity programme remains open.
+[Heart & Wellness](#heart-wellness) also holds programmes for growth, wellbeing and becoming, including Nurupa in development. Each initiative needs a defined brief, named lead and funded delivery capacity; detailed arrangements remain open.
+

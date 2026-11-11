@@ -1,19 +1,15 @@
 ## Current edition
 
-**v0.6 · Revised draft — For discussion**  
-**Published:** 4 November 2026
+**v0.7 · Revised draft — For discussion**  
+**Published:** 11 November 2026
 
-This edition introduces [Council Option 2](#council-option-2): five advisors, five ex officio curators, two community and two youth representatives. The current page presents the council structure and working arrangements. Its earlier comparison table and framing have been removed for clarity, along with the comparison banner on the original council page.
-
-The homepage now places Heart as a shared foundation beneath all three pillar cards, and Heart & grace is the first ethos commitment.
-
-These presentation and wording edits stay within v0.6. The preserved v0.6 snapshot records the earlier published layout. Selection arrangements and decision procedures remain open.
-
+Heart now has two connected expressions: the shared culture of care beneath all three pillars, and programmes that support growth, wellbeing and becoming. Nurupa is introduced as an initiative in development, drawing on its working white paper. Related learning, creative experience, platform, staffing and feedback sections are aligned. Programme details and launch commitments remain open.
 
 ## Editions and changes
 
 | Edition | What changed | Why |
 |---|---|---|
+| v0.7 · Revised draft · 11 November 2026 | Expanded Heart into a programme space; introduced Nurupa and linked relevant chapters. | Make personal growth and becoming part of the lived foundation, alongside everyday care. |
 | v0.6 · Revised draft · 4 November 2026 | Added a participatory council option and side-by-side comparison; retained Option 1 and its reference decision rights; identified decisions required before adoption. | Explore a more inclusive model without prematurely replacing the earlier proposal. |
 | v0.5 · Revised draft · 2 November 2026 | Three high-level dotted connections without numbered relationship controls; programming and volunteer flows with clickable detail instead of repeated visible tables. | Make the map and pathways easier to read while retaining the detailed responsibilities. |
 | v0.4 · Revised draft · 2 November 2026 | Draggable festival map with shared resources and numbered dotted collaboration links; separate programming and volunteer flows; Heart & Wellness above shared resources with content to be developed; Learnings & Feedback immediately before Review & Editing. | Make working relationships easier to explore and keep developing content easy to find. |
@@ -21,6 +17,8 @@ These presentation and wording edits stay within v0.6. The preserved v0.6 snapsh
 | v0.2 · Revised draft · 2 November 2026 | Clickable Kani Fest working map and role explainers; paid curatorial fellowship model; named delivery and infrastructure responsibilities; programming workflow; supported volunteer pathway; shared Heart & Wellness responsibility; aligned staffing, outreach and decision pages. | Build on first-edition experience and make responsibility, shared-resource planning and routes for participation clear. |
 | v0.1 · Alpha · 2 November 2026 | “An evolving manifesto”; clearer transdisciplinary approach; outreach section and responsibilities across the structure; one-year council appointments with one or two members per area; Sound & Music title; charts and responsibilities for all three platforms; simpler status and review notes. | Prepare a coherent presentation edition and make relationships, responsibilities and the evolution of thinking easier to follow. |
 | Initial website · 1 November 2026 | The first online working document, before numbered editions. | Establish an editable, shared source. |
+
+[Read the preserved v0.7 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.7.html).
 
 [Read the preserved v0.6 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.6.html).
 
@@ -47,7 +45,8 @@ Snapshots stay as they were published. The main website carries the latest editi
 | v0.3 · Revised draft | Earlier revision: unified map and separate learning and feedback. |
 | v0.4 · Revised draft | Earlier revision: draggable collaboration map and revised navigation. |
 | v0.5 · Revised draft | Earlier revision: simpler collaboration links and less repetition. |
-| v0.6 · Revised draft | Current revision: two governance options for comparison. |
+| v0.6 · Revised draft | Earlier revision: participatory council option and Heart foundation. |
+| v0.7 · Revised draft | Current revision: Heart programmes and Nurupa in development. |
 | v1.0 · Agreed baseline | When the group agrees a structure to begin working with. It can still evolve. |
 
 Do not change the version for every typo. Increment it when the thinking, responsibilities or structure meaningfully changes. Record what changed, why and what remains unresolved; preserve the previous edition before publishing the next.
@@ -57,3 +56,4 @@ Do not change the version for every typo. Increment it when the thinking, respon
 Programme observations and feedback now have a dedicated [Learnings & Feedback](#learnings-feedback) chapter. Collection is ongoing, and its structure remains provisional. Version history records changes made to the manifesto; feedback can remain under discussion without becoming an agreed change.
 
 Keep unresolved operating questions in [Open Decisions](#open-decisions). Check related chapters before publishing an agreed revision; see the [Document review checklist](#document-plan).
+

@@ -43,4 +43,5 @@ Confirm frequency, stall arrangements, selection criteria, staffing, outreach an
 
 After each edition, review participant experience, access, attendance, costs and maker feedback. Record what changes for the next edition and who maintains the relationships between events.
 
-The [Heart & Wellness](#heart-wellness) section will be developed together; its activity programme remains open.
+[Heart & Wellness](#heart-wellness) also holds programmes for growth, wellbeing and becoming, including Nurupa in development. Each initiative needs a defined brief, named lead and funded delivery capacity; detailed arrangements remain open.
+

@@ -52,3 +52,8 @@ The initial Edition 1 notes above are the starting record. Further participant a
 Use **Edit this chapter** to add reviewed notes. This page is a shared record, not a submission form. The collection method and final feedback format remain open for discussion. Keep personal concerns and identifiable sensitive feedback out of the public record; publish agreed or anonymised summaries where appropriate.
 
 Agreed changes to the manifesto should also be recorded in [Version history](#version-history), with the relevant pages updated together. Unresolved structural questions belong in [Open decisions](#open-decisions).
+
+
+## Heart programmes · learning to gather
+
+For Nurupa and similar initiatives, invite participants to reflect on belonging, choice, mentor support, accessibility, creative practice and what they wish to carry forward. Use voluntary check-ins and end-of-programme reflections; do not rank personal growth or assume transformation. Record only consented or anonymised summaries here. No Nurupa participant feedback has been collected in this document yet.

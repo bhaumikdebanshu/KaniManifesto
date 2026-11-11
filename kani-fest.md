@@ -30,7 +30,7 @@ An interdisciplinary festival with a fresh curatorial proposition for each editi
 - Documentation | Consent, archives and learning
 - Hospitality | Stays, food and guest support
 - Programme continuity | Handover between editions
-- Heart & Wellness | Care and belonging · section in development
+- Heart & Wellness | Care, belonging & wellbeing
 - Shared Spaces & Equipment | Venues, equipment and resource availability
 [Collaborations]
 - Festival Curator <> Festival Producer | Collaboration and shared support
@@ -116,7 +116,7 @@ Detailed responsibilities, working relationships and appointment arrangements fo
 | Documentation | Plans consent, credits, photography, recordings, archives and the edition review. Gathers learning from fellows, contributors, crew and volunteers and prepares material for possible publication. | Named documentation owner, supported by communications and commissioned contributors. Publishing decisions remain with the publishing lead. |
 | Hospitality | Coordinates accommodation, food, arrivals and guest support using the requirements gathered by Artist & Guest Liaison. Confirms arrangements against the edition budget and capacity. | Existing shared Hospitality Team, with one agreed contact for the festival. |
 | Programme continuity | Keeps relationships, records, calendar coordination and learning connected between editions. Holds the handover from the festival team and helps plan the next cycle. | Programme & Operations Coordinator in Year 1; Creative Experiences Programme Manager at scale. Edition duties need allocated time and additional funded support. |
-| Heart & Wellness | Supports care and belonging across the year. Its activities and programme will be developed together. Notices workload pressures and helps agree practical support, rest and routes for raising concerns. Supports fellows, staff, crew and volunteers; works with the Producer and Volunteer Coordinator on the team’s experience. | Shared responsibility with a named coordinator and allocated time, accountable to the Director. May start within an existing role where capacity allows. Every lead retains responsibility for respectful working and realistic workloads; provide an alternative contact if a concern involves the usual lead. |
+| Heart & Wellness | Supports care and belonging across the year. Connects teams with the wider Heart programme of growth and wellbeing; participation is optional and planned alongside delivery commitments. Notices workload pressures and helps agree practical support, rest and routes for raising concerns. Supports fellows, staff, crew and volunteers; works with the Producer and Volunteer Coordinator on the team’s experience. | Shared responsibility with a named coordinator and allocated time, accountable to the Director. May start within an existing role where capacity allows. Every lead retains responsibility for respectful working and realistic workloads; provide an alternative contact if a concern involves the usual lead. |
 | Shared Spaces & Equipment | Makes shared venues, sound, projection, lighting and other equipment available through one resource plan. Agrees bookings, operators, setup, movement and changeovers with festival delivery leads. | Shared Operations / Production and AV capacity, coordinated with the Festival Producer and Technical & Infrastructure Lead. Existing staff retain their permanent reporting lines. |
 
 ## Working arrangements
@@ -126,3 +126,4 @@ Begin preparation sufficiently early for the 6–9 month fellowship cycle. The D
 In Year 1, the permanent Programme & Operations Coordinator provides continuity alongside a project-funded Producer, fellows and delivery team. At scale, the Creative Experiences Programme Manager provides that continuity. The festival team uses shared infrastructure with allocated staff time and additional crew where required.
 
 Each edition budgets for outreach, documentation, evaluation and handover. Agree who follows up with contributors, volunteers and partners. See [Outreach & Community Engagement](#outreach), [Shared Infrastructure](#infrastructure) and [Open Decisions](#open-decisions).
+

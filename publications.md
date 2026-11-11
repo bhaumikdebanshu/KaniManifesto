@@ -49,4 +49,5 @@ Every title has a named editorial owner, intended readership, format, budget and
 
 Budget explicitly for editing, design, review, translation, production, outreach and distribution as relevant. Increase retained editorial time only as the funded programme grows; these functions do not require separate permanent hires at the outset.
 
-The [Heart & Wellness](#heart-wellness) section will be developed together; its activity programme remains open.
+[Heart & Wellness](#heart-wellness) also holds programmes for growth, wellbeing and becoming, including Nurupa in development. Each initiative needs a defined brief, named lead and funded delivery capacity; detailed arrangements remain open.
+
