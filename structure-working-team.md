@@ -10,7 +10,7 @@ The working team maintains continuity across Kani’s programmes and keeps the p
 | **Operations Coordinator** | Maintains the shared calendar, resource plan, venue readiness, working processes and coordination with accounts, hospitality and technical support. |
 | **Design & Communications** | Maintains visual communication, programme announcements, audience information, registration communication and documentation coordination. |
 
-These three roles work alongside the existing Accounts and Hospitality teams.
+These three roles work alongside the existing Accounts and Hospitality teams and draw on the [Advisory Circle](#structure-advisory) where specialist guidance or relationships are useful.
 
 Two further responsibilities require explicit capacity:
 

@@ -2,6 +2,7 @@ This edition incorporates the agreed drafting changes. The following questions s
 
 - [ ] Review the ethos wording, three pillar titles and activity menus with the group.
 - [ ] Review [The Structure](#structure): the seven-member council, representative selection, continuing working roles, convening and the six-month review.
+- [ ] Confirm the six [Advisory Circle](#structure-advisory) areas, initial appointments, time commitments, honoraria and the route for responding to advice.
 - [ ] Agree decision rules, quorum, conflicts and recusals, emergency authority, financial limits and entity delegations before using them.
 - [ ] Establish confidential contacts, an alternative route and impartial complaint and review arrangements.
 - [ ] Once the structure is adopted, align detailed programme charts and earlier reporting terminology across the manifesto.

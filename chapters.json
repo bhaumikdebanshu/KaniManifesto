@@ -46,7 +46,7 @@
     "title": "Overview",
     "group": "The Structure",
     "file": "structure.md",
-    "description": "A small council, a continuing working team and funded programme teams."
+    "description": "A council, an Advisory Circle, a continuing working team and funded programme teams."
   },
   {
     "id": "structure-governance",
@@ -54,6 +54,13 @@
     "group": "The Structure",
     "file": "structure-governance.md",
     "description": "Council membership, selection, convening and accountability."
+  },
+  {
+    "id": "structure-advisory",
+    "title": "Advisory Circle",
+    "group": "The Structure",
+    "file": "structure-advisory.md",
+    "description": "Expertise, mentoring, critical review and relationships."
   },
   {
     "id": "structure-working-team",

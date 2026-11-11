@@ -40,7 +40,7 @@ Nurupa is one expression of Heart. Other programmes can take different forms whi
 
 ## How programmes are held
 
-The Director oversees the programme direction. Each initiative has a named lead, defined facilitator and mentor responsibilities, allocated time and a budget. The shared Heart & Wellness coordinator connects this work with everyday care across Kani; programme delivery receives its own capacity.
+The Programme Coordinator connects Heart initiatives to the wider programme. Each initiative has a named lead, defined facilitator and mentor responsibilities, allocated time and a budget. The person holding Community & Care connects programme delivery with everyday care across Kani.
 
 Participation respects different beliefs, backgrounds and personal boundaries. People choose what they share and may opt out of activities. Recording, documentation and public sharing require clear consent; personal reflections are not automatically publication material. Facilitator preparation, participant support, privacy and any practice-specific safeguards must be agreed before launch.
 

@@ -1,19 +1,20 @@
 ## Current edition
 
-**v0.9 · Revised draft — For discussion**
+**v0.10 · Revised draft — For discussion**
 
 **Published:** 11 November 2026
 
-Added **The Structure** as one expandable sidebar section with seven pages: Overview, Governance, Working Team, Programme Teams, Operations & Resources, Decision-making, and Disagreements & Resolution.
+Restored the **Advisory Circle** as a distinct part of The Structure, with six areas of contribution, one-year appointments and a clear boundary between advice, governance and operations.
 
-The current proposal brings together a seven-member council, three continuing working roles and funded programme teams. It removes a separate Working Coordination Group and automatic programme council seats. Selection, appointments, decision rules and operating arrangements still need collective agreement.
+Reviewed the manifesto for redundancy and conflicting role language. Consolidated continuing responsibilities under The Structure; shortened outreach, infrastructure and platform overviews; aligned Heart with the current team; and removed repeated visible role tables from Kanifest, Publications and Marketplaces while retaining their clickable explainers and print detail.
 
-Earlier council, entity, decision-rights and staffing proposals are collected on [Earlier Structures](#structure-archive), with original chapter links and text preserved. Other manifesto sections retain their places. Existing programme pages retain their detailed proposals pending later alignment of reporting terminology.
+The current proposal remains for discussion. Advisor appointments, council selection, decision rules and operating arrangements still need collective agreement. Earlier structures and every previous edition remain preserved.
 
 ## Editions and changes
 
 | Edition | What changed | Why |
 |---|---|---|
+| v0.10 · Revised draft · 11 November 2026 | Restored the Advisory Circle and consolidated repeated team, outreach, infrastructure and platform content. | Keep specialist expertise visible while making the manifesto shorter and internally consistent. |
 | v0.9 · Revised draft · 11 November 2026 | Added The Structure and its seven subpages; archived earlier governance and staffing proposals with original links preserved. | Make the current proposal easier to understand without rebuilding the wider menu. |
 | v0.8 · Revised draft · 11 November 2026 | Added shared-stewardship Option 3, lean coordination roles and detailed governance procedures; linked related chapters. | Explore decentralised authority without creating four director posts. |
 | v0.7 · Revised draft · 11 November 2026 | Expanded Heart into a programme space; introduced Nurupa and linked relevant chapters. | Make personal growth and becoming part of the lived foundation, alongside everyday care. |
@@ -24,6 +25,8 @@ Earlier council, entity, decision-rights and staffing proposals are collected on
 | v0.2 · Revised draft · 2 November 2026 | Clickable Kani Fest working map and role explainers; paid curatorial fellowship model; named delivery and infrastructure responsibilities; programming workflow; supported volunteer pathway; shared Heart & Wellness responsibility; aligned staffing, outreach and decision pages. | Build on first-edition experience and make responsibility, shared-resource planning and routes for participation clear. |
 | v0.1 · Alpha · 2 November 2026 | “An evolving manifesto”; clearer transdisciplinary approach; outreach section and responsibilities across the structure; one-year council appointments with one or two members per area; Sound & Music title; charts and responsibilities for all three platforms; simpler status and review notes. | Prepare a coherent presentation edition and make relationships, responsibilities and the evolution of thinking easier to follow. |
 | Initial website · 1 November 2026 | The first online working document, before numbered editions. | Establish an editable, shared source. |
+
+[Read the preserved v0.10 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.10.html).
 
 [Read the preserved v0.9 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.9.html).
 
@@ -61,7 +64,8 @@ Snapshots stay as they were published. The main website carries the latest editi
 | v0.6 · Revised draft | Earlier revision: participatory council option and Heart foundation. |
 | v0.7 · Revised draft | Earlier revision: Heart programmes and Nurupa in development. |
 | v0.8 · Revised draft | Earlier revision: shared stewardship and a light Working Coordination Group. |
-| v0.9 · Revised draft | Current revision: The Structure and an archive of earlier proposals. |
+| v0.9 · Revised draft | Earlier revision: The Structure and an archive of earlier proposals. |
+| v0.10 · Revised draft | Current revision: restored Advisory Circle and a crisper, aligned manifesto. |
 | v1.0 · Agreed baseline | When the group agrees a structure to begin working with. It can still evolve. |
 
 Do not change the version for every typo. Increment it when the thinking, responsibilities or structure meaningfully changes. Record what changed, why and what remains unresolved; preserve the previous edition before publishing the next.

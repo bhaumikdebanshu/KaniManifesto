@@ -2,46 +2,28 @@
 
 A recurring public programme bringing selected artisans and makers together with demonstrations, workshops and cultural activity.
 
-**Working ambition:** Every two months, for 3–4 days, subject to staffing, funding and participant demand. Confirm the Year 1 frequency separately.
+The working ambition is a 3–4 day edition every two months, subject to demand, staffing and funding. Year 1 frequency remains open.
 
-## Structure chart
+## Structure
 
 ```kani-chart
-- Director of Creative Practice | Overall resources and accountability
-  - Programme owner | Director in Year 1; Creative Experiences Programme Manager at scale
-    - Marketplace Curator | Theme, participant selection and accompanying programme
-    - Delivery coordinator | Edition schedule, participant logistics and follow-up
+- Curated Marketplaces | Agreed series brief and budget
+  - Marketplace Curator | Theme, selection and programme
+  - Delivery coordinator | Schedule, logistics and follow-up
 ```
 
-**Chart key:** Solid connections show programme and project accountability. In Year 1 the Director also holds programme ownership; that box is a responsibility, not another hire. The permanent Programme & Operations Coordinator initially coordinates delivery. The curator owns selection; delivery coordination does not override that remit.
+The curator owns selection. The delivery coordinator organises the edition and shared support; fees and booking administration do not determine curatorial acceptance.
 
-> **Shared support — collaboration, not extra reporting lines:** Operations / Production and AV; outreach; Design & Communications; Fundraising & Partnerships; Commercial & Bookings; Accounts; Hospitality; Heart & Wellness. These teams retain their existing reporting lines.
-
-## Roles and responsibilities
-
-| Role | Responsibilities and decisions | Working arrangement |
+```kani-details
+| Role | Responsibility | Arrangement |
 |---|---|---|
-| Director of Creative Practice | Agrees the series scope, resources and appointments; retains overall accountability. Holds programme ownership in Year 1. | Continuing role. |
-| Creative Experiences Programme Manager | At scale, owns the calendar, coordination and continuity of the marketplace platform; agrees handovers and tracks delivery. | Growth-stage role reporting to the Director; not an additional Year 1 hire. |
-| Programme owner | Holds the platform calendar, scope, budget coordination and delivery handovers. | Director in Year 1; Creative Experiences Programme Manager at scale. A responsibility rather than an additional Year 1 hire. |
-| Marketplace Curator | Selects participants, develops themes and shapes demonstrations, workshops and cultural activities. Works with local practitioners and relevant council advisors. | Series or edition appointment. Creative selection rests with this role within the agreed brief. |
-| Delivery coordinator | Coordinates schedules, participant requirements, logistics and follow-up, escalating resource issues to the programme owner. | Programme & Operations Coordinator in Year 1; allocated or project-funded coordination as the platform grows. |
-| Operations / Production and AV | Plans layout, stalls, equipment, installation and technical support, with named on-site responsibilities. | Allocated team capacity and technical specialists. |
-| Community engagement and outreach | Builds sustained artisan and maker relationships, supports applications and access, and gathers participant feedback. Makes opportunities understandable; does not replace curatorial selection. | Year 1 coordinator with Director support; dedicated outreach role when justified. |
-| Design & Communications | Handles promotion, audience invitations, participant stories and programme information with consent and accurate credits. | Shared communications capacity. |
-| Fundraising & Partnerships | Develops appropriate sponsors and institutional partnerships with the programme owner. | Retained or shared fundraising support. |
-| Commercial & Bookings | Administers stall bookings and fees after curatorial selection, using approved terms. | Named responsibility within Year 1 coordination; dedicated bookings role as justified. |
-| Accounts | Supports fee receipts, invoices, payments and financial records. | Existing Accounts Team. |
-| Hospitality | Supports guest arrangements, food and visitor services against the edition plan. | Existing Hospitality Team. |
-| Heart & Wellness | Supports welcome, team check-ins, recognition, listening and practical care across the programme. Flags workload pressures and supports follow-through with the relevant leads. | Shared named coordinator with allocated time, accountable to the Director. Every lead retains responsibility for respectful working and realistic workloads. |
+| Curated Marketplaces | Holds the series scope, calendar, budget and review. | Programme responsibility within The Structure. |
+| Marketplace Curator | Selects participants and shapes themes, demonstrations, workshops and cultural activity. | Series or edition appointment. |
+| Delivery coordinator | Coordinates schedules, requirements, logistics and follow-up. | Allocated working-team time or project-funded support. |
+```
 
 ## Working arrangements
 
-Programme ownership sits within Creative Experiences. The Director holds that responsibility initially; the Creative Experiences Programme Manager provides continuity at scale. The Marketplace Curator can be appointed across a series, with delivery supported by the permanent team and additional project appointments when needed.
+Confirm frequency, selection criteria, stall arrangements, staffing, outreach and budget before announcing a series. Operations, communications, partnerships, accounts and hospitality are allocated through the shared resource plan.
 
-Confirm frequency, stall arrangements, selection criteria, staffing, outreach and budget before committing to a Year 1 series. Fees and booking administration follow selection; they do not determine curatorial acceptance.
-
-After each edition, review participant experience, access, attendance, costs and maker feedback. Record what changes for the next edition and who maintains the relationships between events.
-
-[Heart & Wellness](#heart-wellness) also holds programmes for growth, wellbeing and becoming, including Nurupa in development. Each initiative needs a defined brief, named lead and funded delivery capacity; detailed arrangements remain open.
-
+After each edition, review participant experience, access, attendance, costs and maker feedback. Record what changes and who maintains relationships between editions.

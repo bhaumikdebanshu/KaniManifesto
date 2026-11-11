@@ -7,14 +7,15 @@ Review the manifesto, programme framework, advisory arrangements, team and platf
 | When this changes | Also review |
 |---|---|
 | Ethos or pillars | Home, Programme Framework, pillar chapters, platform descriptions and open decisions. |
-| Advisory areas, appointments or voting | Council, Decision rights, overview text and open decisions. |
-| Outreach responsibilities | Outreach section, Year 1, Full Structure, Growth, shared capabilities and all platform role tables. |
-| Heart & Wellness | Home, Year 1, Full Structure, Growth, shared capabilities, outreach, platform support tables and Decision rights. |
-| Platform staffing or reporting | Platform chart, its responsibilities table, Year 1 support, Full Structure and Decision rights. |
+| Council membership or authority | Governance, Decision-making, Overview, enabling-entity arrangements and open decisions. |
+| Advisory areas or appointments | Advisory Circle, Governance, Working Team, Operations & Resources and open decisions. |
+| Outreach responsibilities | Outreach, Working Team, Operations & Resources and relevant programme pages. |
+| Heart & Wellness | Home, Heart & Wellness, Working Team, outreach and Disagreements & Resolution. |
+| Platform staffing or reporting | Programme Teams, the relevant platform map or chart and Operations & Resources. |
 | Programme observations or feedback | Learnings & Feedback, unresolved decisions, and any agreed changes to the relevant manifesto chapters. |
 | A substantive agreed revision | Version label, version history, previous-edition snapshot, navigation, Markdown export and print view. |
 
-Charts distinguish reporting and project responsibility from shared support. Platform leads and advisors are not additional permanent hires in Year 1.
+Charts distinguish programme responsibility from shared support. Platform leads and advisors are not additional permanent hires.
 
 ## Review and publish
 

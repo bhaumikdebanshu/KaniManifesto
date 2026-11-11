@@ -2,15 +2,16 @@
 
 Kani Home brings together creative practice, learning, community and enterprise. Its structure should help people take responsibility, work together and care for the place without concentrating every decision in one person.
 
-Kani works through three connected parts:
+Kani works through four connected parts:
 
 | Part | Main responsibility |
 |---|---|
 | **Kani Council** | Holds the shared direction, agrees priorities and overall resource allocations, and reviews how the organisation is working. |
+| **Advisory Circle** | Brings specialist knowledge, mentoring, critical review and relationships without becoming another management layer. |
 | **Kani Working Team** | Maintains the year-round programmes, relationships, spaces and systems that make the work possible. |
 | **Programme Teams** | Develop and deliver particular initiatives, including Kanifest, residencies, publications, marketplaces and Heart programmes. |
 
-The council gives teams a clear mandate and resources. Teams make decisions within that mandate and bring back learning, concerns and proposals. Community perspectives help shape both direction and practice.
+The council gives teams a clear mandate and resources. The Advisory Circle strengthens the work through expertise and relationships. Teams make decisions within their mandate and bring back learning, concerns and proposals.
 
 ## Shared responsibility
 
@@ -33,6 +34,7 @@ Care is a responsibility across the organisation. It includes realistic workload
 The proposed starting structure is:
 
 - A seven-member council.
+- An Advisory Circle covering six areas of expertise.
 - Three continuing working roles, supported by existing accounts and hospitality teams.
 - Allocated or retained support for partnerships and community care.
 - Funded programme teams appointed according to need.
@@ -44,6 +46,7 @@ Review the structure after six months. Add roles when sustained work and availab
 | Page | What it covers |
 |---|---|
 | [Governance](#structure-governance) | Council membership, selection, convening and accountability. |
+| [Advisory Circle](#structure-advisory) | Expertise, mentoring, review and institutional relationships. |
 | [Working Team](#structure-working-team) | Continuing roles, support and how capacity grows. |
 | [Programme Teams](#structure-programme-teams) | Kanifest and other initiatives: creative responsibility, delivery and handover. |
 | [Operations & Resources](#structure-operations) | Partnerships, budgets, spaces, equipment and shared services. |

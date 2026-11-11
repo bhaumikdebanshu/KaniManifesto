@@ -1,22 +1,17 @@
-This layer shows what every programme can draw on. It does not create additional posts or duplicate the permanent team.
+Shared infrastructure is what every programme can draw on. It describes capabilities, not additional posts.
 
-| Shared capability | Resources and services | Responsible roles |
-|---|---|---|
-| Spaces | Level 1 gallery with track lights and four movable walls; Level 2 screening/AV room; Level 3 office and meeting facilities; guest house accommodating up to 15 people. | Programme & Operations Coordinator initially; Operations Lead as the team grows; hospitality for stays. |
-| Technical infrastructure | Sound, projection, lighting, connectivity, equipment operation and upkeep. | Scheduled AV technician initially; permanent AV Operator when justified. |
-| Production | Installation, fabrication coordination, event logistics, procurement and specialist vendors. | Coordinator initially; Operations / Production Lead at scale. |
-| Design, communications & audience support | Graphics, social media, publicity, registrations, mailing lists, signage and audience feedback. | Design & Communications role with programme inputs. |
-| Community relationships & participation support | Shared relationship records, consent for ongoing contact, access planning, partner follow-up and feedback learning. | Programme & Operations Coordinator initially; dedicated outreach coordinator when justified; programme owners retain responsibility for their commitments. |
-| Documentation & knowledge systems | Photography, recordings, archives, contributor information, consent and permissions records, publication files and programme learning. | Named programme owner, supported by communications, editors and commissioned documentation staff. |
-| Hospitality | Guest arrangements, accommodation, catering and visitor support. | Existing Hospitality Team. |
-| Heart & Wellness | Everyday care and belonging; coordination with programmes for growth and wellbeing, including Nurupa in development. Programme delivery has its own named lead and budget. | Named coordinator with allocated time, accountable to the Director; all leads share responsibility for their teams. |
-| Finance & administration | Budgets, agreements, invoicing, payments, records and reporting inputs. | Programme owners and existing Accounts Team; authorised entity representatives approve commitments. |
+| Capability | What is available |
+|---|---|
+| **Spaces** | Level 1 gallery with track lights and four movable walls; Level 2 screening and AV room; Level 3 office and meeting facilities; guest house for up to 15 people. |
+| **Technical infrastructure** | Sound, projection, lighting, connectivity, equipment operation and maintenance. |
+| **Production** | Installation, fabrication coordination, event logistics, procurement and specialist vendors. |
+| **Design & communications** | Graphics, publicity, registrations, audience information, signage and documentation coordination. |
+| **Community participation** | Relationship records, access planning, partner follow-up and feedback. |
+| **Knowledge systems** | Archives, contributor information, consent, permissions and programme learning. |
+| **Hospitality** | Accommodation, food, arrivals and guest support. |
+| **Finance & administration** | Budgets, agreements, invoicing, payments and reporting records. |
+| **Heart & care** | Welcome, belonging, listening, practical support and programmes for growth and becoming. |
 
-A shared planning meeting resolves competing demands on staff, spaces and equipment. Every request includes an owner, brief, deadline and budget.
+The [Working Team](#structure-working-team) names the continuing owners. [Operations & Resources](#structure-operations) explains how programmes book staff, spaces, equipment and funds.
 
-## Shared resources during Kani Fest
-
-The Festival Producer coordinates delivery with a named Technical & Infrastructure Lead. Maintain one equipment allocation and movement plan covering venues, operators, crew, setup and changeovers. Venue/session leads confirm readiness; programme changes go through the Programme Coordinator. Shared staff time and specialist crew are budgeted explicitly. Volunteers support assigned tasks under supervision. See [Kani Fest](#kani-fest).
-
-See [Heart & Wellness](#heart-wellness) for the developing approach to care and belonging across Kani.
-
+For Kanifest, one resource plan covers venues, equipment, operators, setup and changeovers. The Festival Producer coordinates delivery with the Operations Coordinator and a named Technical & Infrastructure Lead. Festival support and specialist crew are included in the edition budget.

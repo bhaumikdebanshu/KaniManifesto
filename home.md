@@ -30,14 +30,15 @@ Kani brings different disciplines and forms of knowledge into shared enquiry. An
 
 ## Structure Synopsis
 
-Three pillars guide the work. The current proposal brings together a seven-member council, a small continuing working team and funded programme teams, with responsibilities shared close to the work.
+Three pillars guide the work. The current proposal brings together a seven-member council, an Advisory Circle, a small continuing working team and funded programme teams.
 
 - [Explore The Structure](#structure)
+- [Meet the Advisory Circle](#structure-advisory)
 - [Meet the proposed Working Team](#structure-working-team)
 - [See how Programme Teams connect](#structure-programme-teams)
 - [Browse Earlier Structures](#structure-archive)
 
-The Structure remains a proposal for discussion. Earlier council and staffing models are preserved in the archive rather than combined with it.
+The Structure remains a proposal for discussion. Earlier models are preserved in the archive.
 
 ## Working status
 
