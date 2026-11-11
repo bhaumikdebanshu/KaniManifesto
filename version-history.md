@@ -5,6 +5,8 @@
 
 Heart now has two connected expressions: the shared culture of care beneath all three pillars, and programmes that support growth, wellbeing and becoming. Nurupa is introduced as an initiative in development, drawing on its working white paper. Related learning, creative experience, platform, staffing and feedback sections are aligned. Programme details and launch commitments remain open.
 
+The homepage wording was refined within v0.7 to describe Heart as both our way of being together and a space for growth. The preserved v0.7 snapshot retains the initial wording.
+
 ## Editions and changes
 
 | Edition | What changed | Why |
@@ -56,4 +58,5 @@ Do not change the version for every typo. Increment it when the thinking, respon
 Programme observations and feedback now have a dedicated [Learnings & Feedback](#learnings-feedback) chapter. Collection is ongoing, and its structure remains provisional. Version history records changes made to the manifesto; feedback can remain under discussion without becoming an agreed change.
 
 Keep unresolved operating questions in [Open Decisions](#open-decisions). Check related chapters before publishing an agreed revision; see the [Document review checklist](#document-plan).
+
 

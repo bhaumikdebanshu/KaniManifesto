@@ -6,7 +6,7 @@ Kani Home is a place for creative practice, research, learning and public exchan
 
 Its work is guided by:
 
-- **Heart & grace:** Approach people, places and practices with care, attention and respect—in how we welcome, listen, collaborate and work through differences. Create space for people to explore who they are, practise who they wish to become and grow towards their potential.
+- **Heart & grace:** Bring care, openness and respect to everything we do. Support people in exploring who they are and who they wish to become, through reflection, creative practice and community.
 
 - **Community participation:** Develop programmes with local people, practitioners and knowledge holders.
 
@@ -26,7 +26,7 @@ Kani brings different disciplines and forms of knowledge into shared enquiry. An
 
 [Outreach & Community Engagement](#outreach) builds the continuing relationships that make this participation possible, from listening and co-developing ideas to supporting access and following up after a programme.
 
-[Heart & Wellness](#heart-wellness) is our shared foundation and a home for programmes of personal growth, wellbeing and becoming. Initiatives such as **Nurupa**, now in development, bring reflection, creative practice, mentorship and community together throughout the year.
+[Heart](#heart-wellness) is both our way of being together and a space for growth. Through programmes such as Nurupa, we bring reflection, play, creative practice and mentorship together, helping people explore their potential and how they contribute to the world around them.
 
 ## Structure Synopsis
 
@@ -44,4 +44,5 @@ Three pillars guide the work. A council with annually reviewed appointments cont
 This manifesto sets out a proposed direction; the [Open Decisions](#open-decisions) section identifies what still needs collective agreement.
 
 See [Version history](#version-history) for previous editions and the reasons behind changes.
+
 
