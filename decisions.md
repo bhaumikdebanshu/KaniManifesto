@@ -1,4 +1,4 @@
-**Reference draft for Option 1.** [Option 2](#council-option-2) proposes an alternative council composition and remit. These decision rights have not been replaced; revise them together once a model is agreed.
+**Reference draft for Option 1.** [Option 2](#council-option-2) sets out a participatory council. [Option 3](#council-option-3) contains its own shared-stewardship decision rights, lean staffing, consensus and consent procedures. The Director-based rights below are retained as an earlier proposal; they do not govern Option 3.
 
 | Decision | Responsible role |
 |---|---|

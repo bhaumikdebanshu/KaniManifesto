@@ -17,6 +17,8 @@ Platforms bring the pillars into practice, drawing on a shared team and infrastr
 
 The pillar chapters describe possible activities. Year 1 priorities will be selected according to capacity, partnerships and funding.
 
+[Council Option 3](#council-option-3) explores shared stewardship and a light Working Coordination Group. Its governance and staffing arrangements are presented together in that chapter; Director-based team and platform charts remain the earlier reference model pending collective adoption and alignment.
+
 ## How a project moves across the pillars
 
 The ethos supports transdisciplinary enquiry: people with different practices and forms of knowledge shape the questions, methods and outcomes together. The pillars describe the different activities through which that enquiry can develop.

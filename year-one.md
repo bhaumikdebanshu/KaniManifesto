@@ -1,3 +1,5 @@
+**Earlier staffing reference:** This chapter describes the Director-based proposal. [Council Option 3](#council-option-3) sets out the alternative with Programme and Operations Coordinators, Design & Communications, and allocated or part-time support for Community & Care and Partnerships. These are alternative models for discussion, not cumulative staffing commitments.
+
 Begin with a small permanent team, supported by existing staff and funded specialist appointments. Add continuing roles as programmes, workload and resources grow.
 
 Start with **three permanent hires**, supported by the existing accounts and hospitality teams and a defined budget for retained and project expertise.

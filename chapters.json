@@ -63,6 +63,13 @@
     "description": "A participatory council with advisors, curators, community and youth representatives."
   },
   {
+    "id": "council-option-3",
+    "title": "Council · Option 3",
+    "group": "Governance",
+    "file": "council-option-3.md",
+    "description": "Shared stewardship, six advisors and a light Working Coordination Group."
+  },
+  {
     "id": "decisions",
     "title": "Decision rights",
     "group": "Governance",

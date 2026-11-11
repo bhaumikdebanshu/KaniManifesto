@@ -1,3 +1,5 @@
+**Earlier staffing reference:** This chapter describes the Director-based proposal. [Council Option 3](#council-option-3) sets out the alternative with Programme and Operations Coordinators, Design & Communications, and allocated or part-time support for Community & Care and Partnerships. These are alternative models for discussion, not cumulative staffing commitments.
+
 | Area | Role | Core responsibility |
 | --- | --- | --- |
 | Programme management | Programme Manager — Research, Residencies & Learning | Owns residencies, fellowships, research, educational relationships and participant support. |

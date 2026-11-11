@@ -32,10 +32,13 @@ Kani brings different disciplines and forms of knowledge into shared enquiry. An
 
 Three pillars guide the work. A council with annually reviewed appointments contributes expertise. A continuing team turns ideas into programmes, supported by shared spaces and resources.
 
+- [Explore Council Option 3 — Shared Stewardship](#council-option-3)
 - [Explore Council Option 2](#council-option-2)
 - [Meet the Option 1 advisory roles](#council)
 - [Explore the Year 1 team](#year-one)
 - [See the programme platforms](#platforms)
+
+Option 3 explores shared governance with a light Working Coordination Group, beginning with Programme and Operations Coordinators and supported responsibilities for Community & Care and Partnerships. It remains a proposal for discussion.
 
 ## Working status
 
