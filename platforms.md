@@ -14,4 +14,4 @@ Every platform has an agreed purpose, owner, resource model and review point. In
 
 Formats such as exhibitions, workshops, residencies, meals, performances and publications do not automatically become platforms. They are ways in which programmes can take form.
 
-See [Programme Selection](#programme-selection) for how work is chosen, [Programme Teams](#structure-programme-teams) for delivery relationships and [Developing new initiatives](#new-initiatives) for the pilot pathway.
+See [Programme Selection](#programme-selection) for how work is chosen, [People & Roles](#structure-people) for delivery relationships and [Developing new initiatives](#new-initiatives) for the pilot pathway.

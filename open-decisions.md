@@ -1,8 +1,9 @@
 This edition incorporates the agreed drafting changes. The following questions still need collective agreement before they become operating commitments.
 
 - [ ] Review the ethos wording, three pillar titles and activity menus with the group.
-- [ ] Review [The Structure](#structure): the seven-member council, representative selection, continuing working roles, convening and the six-month review.
-- [ ] Confirm the six [Advisory Circle](#structure-advisory) areas, initial appointments, time commitments, honoraria and the route for responding to advice.
+- [ ] Review [How Kani Works](#structure): the seven-to-nine-member Council, representative selection, continuing roles and the six-month review.
+- [ ] Confirm the six Advisory Circle areas in [People & Roles](#structure-people), initial appointments, time commitments, honoraria and the route for responding to advice.
+- [ ] Adopt [Appointments, Terms & Review](#structure-appointments), including appointment routes, review periods and handovers.
 - [ ] Agree decision rules, quorum, conflicts and recusals, emergency authority, financial limits and entity delegations before using them.
 - [ ] Establish confidential contacts, an alternative route and impartial complaint and review arrangements.
 - [ ] Once the structure is adopted, align detailed programme charts and earlier reporting terminology across the manifesto.
@@ -10,7 +11,7 @@ This edition incorporates the agreed drafting changes. The following questions s
 - [ ] Review and adopt the Programme Selection process, including who records decisions and how community participation is included.
 - [ ] Choose a realistic Year 1 calendar, including festival scope, marketplace frequency and publication commitments and editorial focus.
 - [ ] Confirm outreach priorities, initial community and institutional relationships, allocated staff time and participation-support budgets.
-- [ ] Confirm Year 1 staffing and support budgets under The Structure; agree platform staffing against actual programmes.
+- [ ] Confirm Year 1 staffing and support budgets under [How Kani Works](#structure); agree platform staffing against actual programmes.
 - [ ] Agree Kani Fest duration and timetable; confirm the Producer, technical lead, shared-resource plan and delivery budget.
 - [ ] Agree curatorial fellowship fees, time commitments, mentoring, selection process and programme support before recruitment.
 - [ ] Confirm volunteer support, team-captain scopes and any funded year-round associate opportunities.

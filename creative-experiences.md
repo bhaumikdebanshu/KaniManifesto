@@ -1,15 +1,61 @@
-Bring people together through public encounters with art, culture, ideas and making.
+Creative Experiences bring people into meaningful encounters with art, culture, ideas, food and making.
 
-| Activity area | Possible activities |
+People may observe, listen, participate, contribute or create together. The emphasis is not only on what is presented, but also on the relationships and experiences that form around it.
+
+## How can people encounter the work?
+
+| Mode | Possible forms |
 |---|---|
-| Kani Fest | An interdisciplinary festival with curators appointed for each edition. |
-| Exhibitions & open studios | Art, design, installations, work-in-progress presentations and residency outcomes. |
-| Music, performance & poetry | Baithaks, concerts, theatre, readings, experimental sound and audiovisual collaborations. |
-| Film & public conversations | Screenings, filmmaker discussions, talks, panels and debates. |
-| Workshops & heritage walks | Participatory making, demonstrations and walks developed with local knowledge holders. |
-| Curated marketplaces | Selected artisans and makers, themed editions, demonstrations, workshops and associated cultural programming. |
-| Heart gatherings & creative sharing | Reflective circles, participatory gatherings and optional showcases emerging from Heart programmes such as Nurupa; developed with participant consent. |
-| Publication encounters | Book launches, readings, editorial conversations and exhibitions connected to Kani Publications. |
+| **Gather** | Festivals, baithaks, conversations, readings and community meals |
+| **Experience** | Exhibitions, performances, screenings, installations and open studios |
+| **Make** | Workshops, demonstrations and participatory activities |
+| **Exchange** | Markets, walks, talks and encounters across disciplines |
+| **Share** | Publications, presentations and public reflections on work in progress |
 
-Ticketed public events and curated marketplaces remain within Creative Experiences. Charging for participation does not automatically move a programme into the commercial pillar.
+These are formats through which programmes can take form. They do not automatically become platforms.
+
+Platforms such as Kanifest, Sunset Baithaks, Curated Marketplaces and Kani Publications provide continuing structures within which different creative programmes may develop. See [Platforms](#platforms).
+
+## How do people participate?
+
+Every programme should consider whether people are being invited to:
+
+- Witness or listen
+- Learn or make
+- Contribute knowledge or experience
+- Help shape the programme
+- Perform, exhibit or present
+- Return and build a longer relationship with Kani
+
+Participation should be meaningful rather than symbolic. When a programme draws from a community, place or knowledge tradition, relevant people should be involved in shaping how it is represented.
+
+## What makes an experience distinctly Kani?
+
+A Creative Experience should:
+
+- Connect with Kani’s ethos and one or more pillars
+- Create room for curiosity, care and exchange
+- Bring disciplines, practices or communities into conversation
+- Consider language, physical access, affordability and cultural context
+- Respect the people whose work and knowledge are being presented
+- Leave space for reflection, documentation or continued relationships
+
+Not every experience needs to be large. An intimate conversation, shared meal or work-in-progress presentation can be as meaningful as a festival or exhibition.
+
+## Does charging make a programme commercial?
+
+No. A ticketed event, workshop or marketplace may remain within Creative Experiences when its primary purpose is cultural, educational or community-facing.
+
+A programme belongs primarily to the commercial pillar when a client is purchasing a space, service or commissioned outcome. Its purpose—not only its source of income—determines its pillar.
+
+## How do we know the experience is meaningful?
+
+We ask whether:
+
+- The intended people were able to participate
+- The form supported the idea rather than overwhelming it
+- Participants were treated with care and respect
+- Genuine exchange took place
+- The experience created new understanding, relationships or possibilities
+- Learning from the programme can improve what Kani does next
 

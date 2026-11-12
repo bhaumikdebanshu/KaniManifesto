@@ -12,6 +12,6 @@ Shared infrastructure is what every programme can draw on. It describes capabili
 | **Finance & administration** | Budgets, agreements, invoicing, payments and reporting records. |
 | **Heart & care** | Welcome, belonging, listening, practical support and programmes for growth and becoming. |
 
-The [Working Team](#structure-working-team) names the continuing owners. [Operations & Resources](#structure-operations) explains how programmes book staff, spaces, equipment and funds.
+The [Working Team](#structure-people) names the continuing owners. [Operations & Resources](#structure-operations) explains how programmes book staff, spaces, equipment and funds.
 
 For Kanifest, one resource plan covers venues, equipment, operators, setup and changeovers. The Festival Producer coordinates delivery with the Operations Coordinator and a named Technical & Infrastructure Lead. Festival support and specialist crew are included in the edition budget.

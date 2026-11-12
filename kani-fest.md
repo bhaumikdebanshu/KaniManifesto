@@ -68,7 +68,7 @@ The Festival Curator owns artistic direction; the Festival Producer owns deliver
 | Role / step | Responsibilities and purpose | Working relationship |
 |---|---|---|
 | Curators develop proposals | Each proposal states its purpose, participants, space, duration, budget, equipment and support needs. | The Festival Curator brings the tracks into one edition. |
-| Creative and resource review | The Curator and Producer test artistic coherence and deliverability before commitments are made. | Unresolved scope or resource questions use the decision route in The Structure. |
+| Creative and resource review | The Curator and Producer test artistic coherence and deliverability before commitments are made. | Unresolved scope or resource questions use the route in [Decisions & Programme Authority](#structure-decisions). |
 | Confirmed schedule | One timetable records sessions, owners, setup and resource movements. | Changes are checked with affected leads and communicated once. |
 ```
 
@@ -92,4 +92,4 @@ The Festival Curator owns artistic direction; the Festival Producer owns deliver
 
 The four tracks are a working framework. They may be combined, and poetry, theatre, talks and cross-track work must be placed explicitly. Proposed fellowships cover research, local relationships, programme development, delivery, reflection and handover; fees, time, mentoring and production support are agreed before recruitment.
 
-Preparation begins early enough for the fellowship cycle. Each edition budgets for production, outreach, documentation, evaluation and handover. See [Programme Teams](#structure-programme-teams), [Operations & Resources](#structure-operations) and [Open decisions](#open-decisions).
+Preparation begins early enough for the fellowship cycle. Each edition budgets for production, outreach, documentation, evaluation and handover. See [People & Roles](#structure-people), [Operations & Resources](#structure-operations) and [Open decisions](#open-decisions).

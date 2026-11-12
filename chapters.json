@@ -36,10 +36,10 @@
   },
   {
     "id": "outreach",
-    "title": "Outreach & Community Engagement",
+    "title": "Participation, Outreach & Community Relationships",
     "group": "Programme Framework",
     "file": "outreach.md",
-    "description": "Relationships, participation and continuity across the three pillars."
+    "description": "How participation and continuing relationships are built across the three pillars."
   },
   {
     "id": "programme-selection",
@@ -51,58 +51,44 @@
   {
     "id": "structure",
     "title": "Overview",
-    "group": "The Structure",
+    "group": "How Kani Works",
     "file": "structure.md",
-    "description": "A council, an Advisory Circle, a continuing working team and funded programme teams."
+    "description": "How advice, governance, continuing work and programme delivery connect."
   },
   {
-    "id": "structure-governance",
-    "title": "Governance",
-    "group": "The Structure",
-    "file": "structure-governance.md",
-    "description": "Council membership, selection, convening and accountability."
+    "id": "structure-people",
+    "title": "People & Roles",
+    "group": "How Kani Works",
+    "file": "structure-people.md",
+    "description": "The Advisory Circle, Council, Working Team and Programme Teams."
   },
   {
-    "id": "structure-advisory",
-    "title": "Advisory Circle",
-    "group": "The Structure",
-    "file": "structure-advisory.md",
-    "description": "Expertise, mentoring, critical review and relationships."
+    "id": "structure-appointments",
+    "title": "Appointments, Terms & Review",
+    "group": "How Kani Works",
+    "file": "structure-appointments.md",
+    "description": "How people enter, continue in and leave positions of responsibility."
   },
   {
-    "id": "structure-working-team",
-    "title": "Working Team",
-    "group": "The Structure",
-    "file": "structure-working-team.md",
-    "description": "Starting roles, shared responsibilities and growth with capacity."
-  },
-  {
-    "id": "structure-programme-teams",
-    "title": "Programme Teams",
-    "group": "The Structure",
-    "file": "structure-programme-teams.md",
-    "description": "How Kanifest and other initiatives connect to Kani."
+    "id": "structure-decisions",
+    "title": "Decisions & Programme Authority",
+    "group": "How Kani Works",
+    "file": "structure-decisions.md",
+    "description": "Delegation, consensus, programme authority and escalation."
   },
   {
     "id": "structure-operations",
     "title": "Operations & Resources",
-    "group": "The Structure",
+    "group": "How Kani Works",
     "file": "structure-operations.md",
-    "description": "Partnerships, budgets, spaces, equipment and shared services."
+    "description": "Partnerships, budgets, spaces, systems and shared services."
   },
   {
-    "id": "structure-decisions",
-    "title": "Decision-making",
-    "group": "The Structure",
-    "file": "structure-decisions.md",
-    "description": "Who decides, how agreement is reached and when to escalate."
-  },
-  {
-    "id": "structure-resolution",
-    "title": "Disagreements & Resolution",
-    "group": "The Structure",
-    "file": "structure-resolution.md",
-    "description": "Working disagreements, confidential concerns and impartial review."
+    "id": "structure-accountability",
+    "title": "Care, Concerns & Accountability",
+    "group": "How Kani Works",
+    "file": "structure-accountability.md",
+    "description": "Working disagreements, sensitive concerns and impartial review."
   },
   {
     "id": "heart-wellness",
@@ -194,6 +180,46 @@
     "group": "Review & Editing",
     "file": "editing.md",
     "description": ""
+  },
+  {
+    "id": "structure-governance",
+    "title": "Governance (archived v0.11)",
+    "group": "Archive · Earlier Structures",
+    "file": "structure-governance.md",
+    "description": "The earlier separate Council and governance page.",
+    "archived": true
+  },
+  {
+    "id": "structure-advisory",
+    "title": "Advisory Circle (archived v0.11)",
+    "group": "Archive · Earlier Structures",
+    "file": "structure-advisory.md",
+    "description": "The earlier separate Advisory Circle page.",
+    "archived": true
+  },
+  {
+    "id": "structure-working-team",
+    "title": "Working Team (archived v0.11)",
+    "group": "Archive · Earlier Structures",
+    "file": "structure-working-team.md",
+    "description": "The earlier separate Working Team page.",
+    "archived": true
+  },
+  {
+    "id": "structure-programme-teams",
+    "title": "Programme Teams (archived v0.11)",
+    "group": "Archive · Earlier Structures",
+    "file": "structure-programme-teams.md",
+    "description": "The earlier separate Programme Teams page.",
+    "archived": true
+  },
+  {
+    "id": "structure-resolution",
+    "title": "Disagreements & Resolution (archived v0.11)",
+    "group": "Archive · Earlier Structures",
+    "file": "structure-resolution.md",
+    "description": "The earlier separate disagreements and resolution page.",
+    "archived": true
   },
   {
     "id": "entities",

@@ -22,21 +22,21 @@ Its work is guided by:
 
 Kani brings different disciplines and forms of knowledge into shared enquiry. An artisan, technologist, researcher and local community might shape a project together, each influencing its questions, methods and outcomes. The three pillars give this work a structure while allowing projects to move between learning, public exchange and commissioned experiences.
 
-[Outreach & Community Engagement](#outreach) builds the continuing relationships that make this participation possible, from listening and co-developing ideas to supporting access and following up after a programme.
+[Participation, Outreach & Community Relationships](#outreach) builds the continuing relationships that make this participation possible, from listening and co-developing ideas to supporting access and following up after a programme.
 
 [Heart](#heart-wellness) is both our way of being together and a space for growth. Through programmes such as Nurupa, we bring reflection, play, creative practice and mentorship together, helping people explore their potential and how they contribute to the world around them.
 
-## Structure Synopsis
+## How Kani Works — a synopsis
 
 Three pillars guide what Kani does. Four connected groups shape how the work is supported, governed and delivered.
 
 ```kani-structure
-- [Advisory Circle](#structure-advisory) | Offers specialist knowledge, mentoring, critical review and relationships. It advises without becoming a management or governing layer.
-- [Kani Council](#structure-governance) | Holds the shared direction, agrees priorities and resource allocations, and remains accountable for how the organisation works.
-- [Kani Working Team](#structure-working-team) | Maintains year-round programmes, relationships, spaces and systems, and carries organisational continuity.
-- [Programme Teams](#structure-programme-teams) | Develop and deliver particular initiatives within an agreed brief, budget and period of work.
+- [Advisory Circle](#structure-people) | Offers specialist knowledge, mentoring, critical review and relationships. It advises without becoming a management or governing layer.
+- [Kani Council](#structure-people) | Holds the shared direction, agrees priorities and resource allocations, and remains accountable for how the organisation works.
+- [Kani Working Team](#structure-people) | Maintains year-round programmes, relationships, spaces and systems, and carries organisational continuity.
+- [Programme Teams](#structure-people) | Develop and deliver particular initiatives within an agreed brief, budget and period of work.
 ```
 
-The Advisory Circle strengthens the Council with knowledge and relationships; the Council gives the teams clear mandates and resources. The Working Team carries continuity, while Programme Teams gather around specific work. [Explore the complete structure](#structure) or [browse earlier proposals](#structure-archive).
+The Advisory Circle strengthens the Council with knowledge and relationships; the Council gives the teams clear mandates and resources. The Working Team carries continuity, while Programme Teams gather around specific work. [Explore how Kani works](#structure) or [browse earlier proposals](#structure-archive).
 
 

@@ -16,7 +16,7 @@ The Editor owns editorial quality within the agreed brief and budget. Programme 
 ```kani-details
 | Role | Responsibility | Arrangement |
 |---|---|---|
-| Kani Publications | Sets priorities, resources and appointments through the annual programme and budget. | Programme responsibility within The Structure. |
+| Kani Publications | Sets priorities, resources and appointments through the annual programme and budget. | Programme responsibility within How Kani Works. |
 | Editor / Publishing Lead | Develops the editorial programme, manuscripts, review, sources, credit and permissions. | Retained or appointed per title or series. |
 | Authors & contributors | Develop original work and agree source, credit and permission arrangements. | Commissioned or agreed per publication. |
 | Editorial specialists | Provide subject review, language editing and translation. | Commissioned according to need. |

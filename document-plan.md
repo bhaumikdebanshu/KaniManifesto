@@ -7,12 +7,12 @@ Review the manifesto, programme framework, advisory arrangements, team and platf
 | When this changes | Also review |
 |---|---|
 | Ethos or pillars | Home, Programme Framework, pillar chapters, platform descriptions and open decisions. |
-| Programme selection criteria or process | Programme Framework, Programme Selection, Working Team, Decision-making and open decisions. |
-| Council membership or authority | Governance, Decision-making, Overview, enabling-entity arrangements and open decisions. |
-| Advisory areas or appointments | Advisory Circle, Governance, Working Team, Operations & Resources and open decisions. |
-| Outreach responsibilities | Outreach, Working Team, Operations & Resources and relevant programme pages. |
-| Heart & Wellness | Home, Heart & Wellness, Working Team, outreach and Disagreements & Resolution. |
-| Platform staffing or reporting | Programme Teams, the relevant platform map or chart and Operations & Resources. |
+| Programme selection criteria or process | Programme Framework, Programme Selection, People & Roles, Decisions & Programme Authority and open decisions. |
+| Council membership or authority | People & Roles, Appointments, Decisions & Programme Authority, enabling-entity arrangements and open decisions. |
+| Advisory areas or appointments | People & Roles, Appointments, Operations & Resources and open decisions. |
+| Outreach responsibilities | Outreach, People & Roles, Operations & Resources and relevant programme pages. |
+| Heart & Wellness | Home, Heart & Wellness, People & Roles, outreach and Care, Concerns & Accountability. |
+| Platform staffing or reporting | People & Roles, the relevant platform map or chart and Operations & Resources. |
 | Programme observations or feedback | Learnings & Feedback, unresolved decisions, and any agreed changes to the relevant manifesto chapters. |
 | A substantive agreed revision | Version label, version history, previous-edition snapshot, navigation, Markdown export and print view. |
 

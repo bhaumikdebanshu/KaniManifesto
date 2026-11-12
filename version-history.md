@@ -1,17 +1,18 @@
 ## Current edition
 
-**v0.11 · Revised draft — For discussion**
+**v0.12 · Revised draft — For discussion**
 
 **Published:** 12 November 2026
 
-Strengthened the manifesto opening with a clearer purpose statement, a more visible ethos, explicit transdisciplinary language and a linked synopsis of the current structure.
+Clarified the three programme pillars and introduced pathway-specific programme and people-selection questions.
 
-Reframed the Programme Framework around pillars, programmes and platforms; added Sunset Baithaks and Kani Canteen and Food Lab; and introduced a separate Programme Selection process. Removed the provisional wording label and the repeated working-status block from the home page.
+Consolidated eight structure pages into **How Kani Works**: Overview, People & Roles, Appointments, Decisions, Operations and Accountability. Distinguished the Advisory Circle from the seven-to-nine-member Council, added a shared appointments process and clarified programme authority, commercial commissions and external programme design.
 
 ## Editions and changes
 
 | Edition | What changed | Why |
 |---|---|---|
+| v0.12 · Revised draft · 12 November 2026 | Rewrote the three pillar pages and outreach; expanded Programme Selection; added external programme-design services; consolidated the structure into How Kani Works; and introduced Appointments, Terms & Review. | Make the programme pathways, people selection, governance and operating responsibilities clearer without adding another management layer. |
 | v0.11 · Revised draft · 12 November 2026 | Clarified the opening and ethos; added a linked structure synopsis; reframed pillars, programmes and platforms; added two platforms and a Programme Selection process. | Make Kani’s values, organisation and programme-development decisions easier to understand. |
 | v0.10 · Revised draft · 11 November 2026 | Restored the Advisory Circle and consolidated repeated team, outreach, infrastructure and platform content. | Keep specialist expertise visible while making the manifesto shorter and internally consistent. |
 | v0.9 · Revised draft · 11 November 2026 | Added The Structure and its seven subpages; archived earlier governance and staffing proposals with original links preserved. | Make the current proposal easier to understand without rebuilding the wider menu. |
@@ -24,6 +25,8 @@ Reframed the Programme Framework around pillars, programmes and platforms; added
 | v0.2 · Revised draft · 2 November 2026 | Clickable Kani Fest working map and role explainers; paid curatorial fellowship model; named delivery and infrastructure responsibilities; programming workflow; supported volunteer pathway; shared Heart & Wellness responsibility; aligned staffing, outreach and decision pages. | Build on first-edition experience and make responsibility, shared-resource planning and routes for participation clear. |
 | v0.1 · Alpha · 2 November 2026 | “An evolving manifesto”; clearer transdisciplinary approach; outreach section and responsibilities across the structure; one-year council appointments with one or two members per area; Sound & Music title; charts and responsibilities for all three platforms; simpler status and review notes. | Prepare a coherent presentation edition and make relationships, responsibilities and the evolution of thinking easier to follow. |
 | Initial website · 1 November 2026 | The first online working document, before numbered editions. | Establish an editable, shared source. |
+
+[Read the preserved v0.12 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.12.html).
 
 [Read the preserved v0.11 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.11.html).
 
@@ -67,7 +70,8 @@ Snapshots stay as they were published. The main website carries the latest editi
 | v0.8 · Revised draft | Earlier revision: shared stewardship and a light Working Coordination Group. |
 | v0.9 · Revised draft | Earlier revision: The Structure and an archive of earlier proposals. |
 | v0.10 · Revised draft | Earlier revision: restored Advisory Circle and a crisper, aligned manifesto. |
-| v0.11 · Revised draft | Current revision: a clearer ethos, linked structure synopsis, programme framework and selection process. |
+| v0.11 · Revised draft | Earlier revision: a clearer ethos, linked structure synopsis, programme framework and selection process. |
+| v0.12 · Revised draft | Current revision: clearer programme pathways, selection, appointments and a consolidated How Kani Works section. |
 | v1.0 · Agreed baseline | When the group agrees a structure to begin working with. It can still evolve. |
 
 Do not change the version for every typo. Increment it when the thinking, responsibilities or structure meaningfully changes. Record what changed, why and what remains unresolved; preserve the previous edition before publishing the next.

@@ -266,7 +266,7 @@
     if(!found&&id!=='home'){$('notice').textContent='That chapter was not found. Showing Home.';$('notice').hidden=false;}
     if(c.archived){
       const archiveLink=document.createElement('a');archiveLink.href='#structure-archive';archiveLink.textContent='Earlier Structures';
-      const currentLink=document.createElement('a');currentLink.href='#structure';currentLink.textContent='The Structure';
+      const currentLink=document.createElement('a');currentLink.href='#structure';currentLink.textContent='How Kani Works';
       $('notice').replaceChildren(document.createTextNode('Archived proposal — preserved for reference. Browse '),archiveLink,document.createTextNode(' or read the current proposal in '),currentLink,document.createTextNode('.'));$('notice').hidden=false;
     }
     const url=editURL(c);$('edit').hidden=snapshot||!url;if(url)$('edit').href=url;
@@ -300,7 +300,7 @@
   async function allMarkdown() {return Promise.all(chapters.map(async c=>({c,md:await markdown(c)})));}
   $('export').onclick=async()=>{
     $('export').disabled=true;
-    try{const all=await allMarkdown();const text='# Kani Manifesto — '+(settings.version||'Working draft')+' · '+(settings.stage||'')+'\n\nUpdated '+(settings.updated||'')+'\n\n'+all.map(({c,md})=>'# '+c.title+'\n\n'+(c.archived?'**Archived proposal — preserved for reference. See The Structure for the current proposal.**\n\n':'')+md).join('\n\n---\n\n');
+    try{const all=await allMarkdown();const text='# Kani Manifesto — '+(settings.version||'Working draft')+' · '+(settings.stage||'')+'\n\nUpdated '+(settings.updated||'')+'\n\n'+all.map(({c,md})=>'# '+c.title+'\n\n'+(c.archived?'**Archived proposal — preserved for reference. See How Kani Works for the current proposal.**\n\n':'')+md).join('\n\n---\n\n');
       const url=URL.createObjectURL(new Blob([text],{type:'text/markdown;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='Kani-Manifesto-'+(settings.version||'Working-Draft')+'.md';a.hidden=true;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
     }catch(e){$('notice').textContent='Export failed: '+e.message;$('notice').hidden=false;}finally{$('export').disabled=false;}
   };
@@ -308,7 +308,7 @@
   $('print').onclick=async()=>{
     $('print').disabled=true;
     try{const all=await allMarkdown();clearPrint();const doc=document.createElement('div');doc.id='print-document';
-      for(const {c,md} of all){const section=document.createElement('section');section.className='print-chapter prose';const h=document.createElement('h1');h.textContent=c.title;const label=document.createElement('p');label.textContent=(settings.version||'Working draft')+' · '+(settings.stage||'')+' · '+(settings.updated||'');section.append(label,h);if(c.archived){const warning=document.createElement('p');warning.textContent='Archived proposal — preserved for reference. See The Structure for the current proposal.';section.append(warning);}section.append(renderMarkdown(md));doc.append(section);}
+      for(const {c,md} of all){const section=document.createElement('section');section.className='print-chapter prose';const h=document.createElement('h1');h.textContent=c.title;const label=document.createElement('p');label.textContent=(settings.version||'Working draft')+' · '+(settings.stage||'')+' · '+(settings.updated||'');section.append(label,h);if(c.archived){const warning=document.createElement('p');warning.textContent='Archived proposal — preserved for reference. See How Kani Works for the current proposal.';section.append(warning);}section.append(renderMarkdown(md));doc.append(section);}
       document.body.append(doc);document.body.classList.add('print-all');requestAnimationFrame(()=>window.print());
     }catch(e){$('notice').textContent='Print preparation failed: '+e.message;$('notice').hidden=false;}finally{$('print').disabled=false;}
   };

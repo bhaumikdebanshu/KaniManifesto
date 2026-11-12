@@ -17,7 +17,7 @@ The curator owns selection. The delivery coordinator organises the edition and s
 ```kani-details
 | Role | Responsibility | Arrangement |
 |---|---|---|
-| Curated Marketplaces | Holds the series scope, calendar, budget and review. | Programme responsibility within The Structure. |
+| Curated Marketplaces | Holds the series scope, calendar, budget and review. | Programme responsibility within How Kani Works. |
 | Marketplace Curator | Selects participants and shapes themes, demonstrations, workshops and cultural activity. | Series or edition appointment. |
 | Delivery coordinator | Coordinates schedules, requirements, logistics and follow-up. | Allocated working-team time or project-funded support. |
 ```
