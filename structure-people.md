@@ -86,7 +86,8 @@ The Working Team maintains continuity across Kani’s programmes and keeps the p
 |---|---|
 | **Programme Coordinator** | Maintains the programme pipeline, convenes appropriate reviews, connects initiatives, supports programme leads and carries learning between programmes |
 | **Operations Coordinator** | Maintains the shared calendar, resource plan, venue readiness, working systems and coordination with Accounts, Hospitality and technical support |
-| **Design & Communications** | Maintains visual communication, confirmed programme information, audience access information, registrations and documentation coordination |
+| **Design & Communications** | Maintains Kani’s visual identity, website, printed and digital communication, confirmed programme information and documentation standards |
+| **Social Media & Audience Coordinator** | Maintains the social media calendar and public-facing digital presence; coordinates programme campaigns, audience enquiries, content assets, consent and engagement review |
 
 The Programme Coordinator holds the selection process but does not approve every programme alone.
 
@@ -106,6 +107,7 @@ The Working Team meets regularly to review:
 - Space, equipment and scheduling conflicts
 - Partnerships, funding and commercial enquiries
 - Community relationships and access requirements
+- Public communication, audience activity and upcoming campaigns
 - Decisions that may require Council involvement
 
 Coordination does not make one person the head of the team. Each role has a written mandate and a named support and review contact.

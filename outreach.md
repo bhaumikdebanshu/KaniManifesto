@@ -46,7 +46,11 @@ The person holding **Community & Care** maintains continuity in Kani’s local a
 
 Programme leads remain responsible for the invitations, promises and relationships created through their programmes.
 
-**Design & Communications** makes public information understandable and accessible.
+**Design & Communications** makes public information understandable, accessible and visually coherent.
+
+The **Social Media & Audience Coordinator** maintains Kani’s social media calendar and public-facing digital presence. They work with programme leads and Design & Communications to publish accurate and timely content, coordinate programme assets with appropriate consent, respond to public enquiries and review audience engagement.
+
+This role supports discovery and public conversation; it does not replace the longer-term community relationships held through Community & Care or the invitations and commitments held by programme leads.
 
 The **Partnerships lead** maintains institutional, educational, funding and strategic relationships.
 

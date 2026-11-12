@@ -49,7 +49,7 @@ The proposed starting structure is:
 
 - An Advisory Circle covering six areas of contribution
 - A seven-member Council, with the option to expand to nine when a clear representation gap is identified
-- Three continuing Working Team roles
+- Four continuing Working Team roles
 - Named paid capacity for partnerships and community care
 - Existing Accounts and Hospitality teams
 - Funded Programme Teams appointed according to need

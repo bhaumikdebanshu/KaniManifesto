@@ -1,17 +1,18 @@
 ## Current edition
 
-**v0.12 · Revised draft — For discussion**
+**v0.13 · Revised draft — For discussion**
 
 **Published:** 12 November 2026
 
-Clarified the three programme pillars and introduced pathway-specific programme and people-selection questions.
+Added Social Media & Audience Coordination as a continuing, paid Working Team function.
 
-Consolidated eight structure pages into **How Kani Works**: Overview, People & Roles, Appointments, Decisions, Operations and Accountability. Distinguished the Advisory Circle from the seven-to-nine-member Council, added a shared appointments process and clarified programme authority, commercial commissions and external programme design.
+Separated audience-facing digital communication from visual design and from long-term community engagement, while keeping the three functions connected.
 
 ## Editions and changes
 
 | Edition | What changed | Why |
 |---|---|---|
+| v0.13 · Revised draft · 12 November 2026 | Added Social Media & Audience Coordination to the Working Team and clarified its relationship with Design & Communications, programme teams and Community & Care. | Give Kani’s year-round digital presence, programme campaigns, audience enquiries and engagement review clear paid ownership without confusing social media with community engagement. |
 | v0.12 · Revised draft · 12 November 2026 | Rewrote the three pillar pages and outreach; expanded Programme Selection; added external programme-design services; consolidated the structure into How Kani Works; and introduced Appointments, Terms & Review. | Make the programme pathways, people selection, governance and operating responsibilities clearer without adding another management layer. |
 | v0.11 · Revised draft · 12 November 2026 | Clarified the opening and ethos; added a linked structure synopsis; reframed pillars, programmes and platforms; added two platforms and a Programme Selection process. | Make Kani’s values, organisation and programme-development decisions easier to understand. |
 | v0.10 · Revised draft · 11 November 2026 | Restored the Advisory Circle and consolidated repeated team, outreach, infrastructure and platform content. | Keep specialist expertise visible while making the manifesto shorter and internally consistent. |
@@ -25,6 +26,8 @@ Consolidated eight structure pages into **How Kani Works**: Overview, People & R
 | v0.2 · Revised draft · 2 November 2026 | Clickable Kani Fest working map and role explainers; paid curatorial fellowship model; named delivery and infrastructure responsibilities; programming workflow; supported volunteer pathway; shared Heart & Wellness responsibility; aligned staffing, outreach and decision pages. | Build on first-edition experience and make responsibility, shared-resource planning and routes for participation clear. |
 | v0.1 · Alpha · 2 November 2026 | “An evolving manifesto”; clearer transdisciplinary approach; outreach section and responsibilities across the structure; one-year council appointments with one or two members per area; Sound & Music title; charts and responsibilities for all three platforms; simpler status and review notes. | Prepare a coherent presentation edition and make relationships, responsibilities and the evolution of thinking easier to follow. |
 | Initial website · 1 November 2026 | The first online working document, before numbered editions. | Establish an editable, shared source. |
+
+[Read the preserved v0.13 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.13.html).
 
 [Read the preserved v0.12 Revised draft edition](https://bhaumikdebanshu.github.io/KaniManifesto/edition-v0.12.html).
 

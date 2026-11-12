@@ -10,7 +10,8 @@ Kani maintains shared systems and services so programmes can draw on dependable 
 | **Institutional partnerships and funding** | Partnerships lead | Relationships, proposals, agreements and reporting, supported by relevant advisors |
 | **Commercial enquiries** | Named commercial or booking owner | Enquiries, qualification, quotations, visits and follow-up |
 | **Accounts** | Accounts team | Costing, financial records, invoices, payments and understandable budget reports |
-| **Communications** | Design & Communications | Confirmed information, announcements, registrations and audience access information |
+| **Design & communications** | Design & Communications | Visual identity, website, printed and digital material, confirmed programme information and documentation standards |
+| **Social media and audiences** | Social Media & Audience Coordinator | Content calendar, platform publishing, programme campaigns, audience enquiries, consent, asset coordination and engagement review |
 | **Hospitality** | Hospitality team | Accommodation, arrivals, food and guest support within agreed capacity |
 | **Community relationships and care** | Community & Care with programme leads | Participation, access, feedback, welcome and continuing relationships |
 | **Technical support** | Internal or appointed specialists | Sound, projection, digital systems, fabrication, installation and equipment operation |
