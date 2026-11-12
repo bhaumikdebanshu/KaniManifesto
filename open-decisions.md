@@ -6,7 +6,8 @@ This edition incorporates the agreed drafting changes. The following questions s
 - [ ] Agree decision rules, quorum, conflicts and recusals, emergency authority, financial limits and entity delegations before using them.
 - [ ] Establish confidential contacts, an alternative route and impartial complaint and review arrangements.
 - [ ] Once the structure is adopted, align detailed programme charts and earlier reporting terminology across the manifesto.
-- [ ] Confirm “Platforms & Original Initiatives” as the layer title and confirm working platform names, including the publishing imprint.
+- [ ] Confirm the proposed platforms—Kanifest, Kani Publications, Curated Marketplaces, Sunset Baithaks, and Kani Canteen and Food Lab—and the publishing imprint.
+- [ ] Review and adopt the Programme Selection process, including who records decisions and how community participation is included.
 - [ ] Choose a realistic Year 1 calendar, including festival scope, marketplace frequency and publication commitments and editorial focus.
 - [ ] Confirm outreach priorities, initial community and institutional relationships, allocated staff time and participation-support budgets.
 - [ ] Confirm Year 1 staffing and support budgets under The Structure; agree platform staffing against actual programmes.

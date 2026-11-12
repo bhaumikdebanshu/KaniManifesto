@@ -1,17 +1,17 @@
-## Purpose
+Platforms are named, continuing structures through which related programmes can develop over time. They can hold multiple projects, editions, gatherings, collaborations and outputs while drawing on Kani’s shared team, spaces and infrastructure.
 
-Platforms are recognisable programmes through which Kani’s ethos and pillars take shape. They can continue across years while themes, contributors and editions change.
+## Current platforms
 
-An original initiative begins as a defined experiment. It becomes a continuing platform only when its value, audience, workload and funding justify it.
-
-| Platform | Focus | Named creative responsibility |
+| Platform | What it holds | Named creative responsibility |
 |---|---|---|
-| [Kani Fest](#kani-fest) | Interdisciplinary public programme connecting creative practice, learning and partnerships. | Festival Curator; Festival Producer holds delivery. |
-| [Kani Publications](#publications) | Research, creative practice and selected commissioned work across the pillars. | Editor / Publishing Lead. |
-| [Curated Marketplaces](#marketplaces) | Craft, material practice, public exchange and maker livelihoods. | Marketplace Curator. |
-| [Nurupa](#heart-wellness) | A developing Heart initiative connecting reflection, creative practice and community. | Programme lead and facilitators to be confirmed. |
-| Future initiatives | Purpose defined through a pilot. | Named project lead. |
+| [Kanifest](#kani-fest) | An interdisciplinary festival developed through distinct editions, curatorial propositions and community participation. | Festival Curator; Festival Producer holds delivery. |
+| [Kani Publications](#publications) | Editorial projects, research outputs, field notes, books and other forms of documented knowledge. | Editor / Publishing Lead. |
+| [Curated Marketplaces](#marketplaces) | Recurring encounters connecting artisans, makers, demonstrations, workshops and cultural programming. | Marketplace Curator. |
+| **Sunset Baithaks** | Intimate sunset gatherings around music, poetry, performance, conversation and collective listening. | A named curator or host for each series or edition. |
+| **Kani Canteen and Food Lab** | Food experimentation, shared meals, local ingredients, culinary knowledge and feeding the community. | A named food-programme lead, supported by hospitality and invited practitioners. |
 
-Every platform has an agreed brief, budget, creative owner, delivery responsibility and review point. It draws on the same working team and shared infrastructure rather than recreating those functions inside each programme.
+Every platform has an agreed purpose, owner, resource model and review point. Individual programmes within it still require a clear brief, budget and delivery responsibility.
 
-See [Programme Teams](#structure-programme-teams) for the common model and [Developing new initiatives](#new-initiatives) for the pilot pathway.
+Formats such as exhibitions, workshops, residencies, meals, performances and publications do not automatically become platforms. They are ways in which programmes can take form.
+
+See [Programme Selection](#programme-selection) for how work is chosen, [Programme Teams](#structure-programme-teams) for delivery relationships and [Developing new initiatives](#new-initiatives) for the pilot pathway.

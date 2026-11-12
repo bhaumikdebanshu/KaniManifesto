@@ -7,6 +7,7 @@ Review the manifesto, programme framework, advisory arrangements, team and platf
 | When this changes | Also review |
 |---|---|
 | Ethos or pillars | Home, Programme Framework, pillar chapters, platform descriptions and open decisions. |
+| Programme selection criteria or process | Programme Framework, Programme Selection, Working Team, Decision-making and open decisions. |
 | Council membership or authority | Governance, Decision-making, Overview, enabling-entity arrangements and open decisions. |
 | Advisory areas or appointments | Advisory Circle, Governance, Working Team, Operations & Resources and open decisions. |
 | Outreach responsibilities | Outreach, Working Team, Operations & Resources and relevant programme pages. |

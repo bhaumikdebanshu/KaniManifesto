@@ -1,7 +1,5 @@
 ## Our ethos
 
-**Proposed wording for review:**
-
 Kani Home is a place for creative practice, research, learning and public exchange. It brings artists, designers, architects, researchers, craftspeople, musicians, ecologists, climate practitioners, heritage specialists, technologists and communities into conversation, creating space for both sustained enquiry and shared experiences.
 
 Its work is guided by:
@@ -20,7 +18,7 @@ Its work is guided by:
 
 - **Sustainable operation:** Develop earned income and external support that sustain the place, its people and its programme.
 
-## How we work together
+## How we work together — a transdisciplinary practice
 
 Kani brings different disciplines and forms of knowledge into shared enquiry. An artisan, technologist, researcher and local community might shape a project together, each influencing its questions, methods and outcomes. The three pillars give this work a structure while allowing projects to move between learning, public exchange and commissioned experiences.
 
@@ -30,22 +28,15 @@ Kani brings different disciplines and forms of knowledge into shared enquiry. An
 
 ## Structure Synopsis
 
-Three pillars guide the work. The current proposal brings together a seven-member council, an Advisory Circle, a small continuing working team and funded programme teams.
+Three pillars guide what Kani does. Four connected groups shape how the work is supported, governed and delivered.
 
-- [Explore The Structure](#structure)
-- [Meet the Advisory Circle](#structure-advisory)
-- [Meet the proposed Working Team](#structure-working-team)
-- [See how Programme Teams connect](#structure-programme-teams)
-- [Browse Earlier Structures](#structure-archive)
+```kani-structure
+- [Advisory Circle](#structure-advisory) | Offers specialist knowledge, mentoring, critical review and relationships. It advises without becoming a management or governing layer.
+- [Kani Council](#structure-governance) | Holds the shared direction, agrees priorities and resource allocations, and remains accountable for how the organisation works.
+- [Kani Working Team](#structure-working-team) | Maintains year-round programmes, relationships, spaces and systems, and carries organisational continuity.
+- [Programme Teams](#structure-programme-teams) | Develop and deliver particular initiatives within an agreed brief, budget and period of work.
+```
 
-The Structure remains a proposal for discussion. Earlier models are preserved in the archive.
-
-## Working status
-
-**Status:** An evolving proposal for discussion and collective development.
-
-This manifesto sets out a proposed direction; the [Open Decisions](#open-decisions) section identifies what still needs collective agreement.
-
-See [Version history](#version-history) for previous editions and the reasons behind changes.
+The Advisory Circle strengthens the Council with knowledge and relationships; the Council gives the teams clear mandates and resources. The Working Team carries continuity, while Programme Teams gather around specific work. [Explore the complete structure](#structure) or [browse earlier proposals](#structure-archive).
 
 

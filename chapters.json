@@ -4,7 +4,7 @@
     "title": "Kani Manifesto",
     "group": "Home",
     "file": "home.md",
-    "description": "The ethos, people and practices of Kani Home."
+    "description": "The ethos, people and practices of Kani Home. A shared framework for how we care, collaborate, make decisions and build programmes together."
   },
   {
     "id": "framework",
@@ -40,6 +40,13 @@
     "group": "Programme Framework",
     "file": "outreach.md",
     "description": "Relationships, participation and continuity across the three pillars."
+  },
+  {
+    "id": "programme-selection",
+    "title": "Programme Selection",
+    "group": "Programme Framework",
+    "file": "programme-selection.md",
+    "description": "How ideas enter, are reviewed, selected and developed."
   },
   {
     "id": "structure",
@@ -113,36 +120,36 @@
   },
   {
     "id": "platforms",
-    "title": "Platforms & Original Initiatives",
-    "group": "Platforms & Original Initiatives",
+    "title": "Platforms",
+    "group": "Platforms",
     "file": "platforms.md",
-    "description": "Recognisable programmes with their own identity, brief and creative lead."
+    "description": "Continuing structures that hold related programmes, projects and editions."
   },
   {
     "id": "kani-fest",
     "title": "Kani Fest",
-    "group": "Platforms & Original Initiatives",
+    "group": "Platforms",
     "file": "kani-fest.md",
     "description": "A fresh curatorial proposition for each festival edition."
   },
   {
     "id": "publications",
     "title": "Kani Publications",
-    "group": "Platforms & Original Initiatives",
+    "group": "Platforms",
     "file": "publications.md",
     "description": "A year-round publishing programme across the three pillars."
   },
   {
     "id": "marketplaces",
     "title": "Curated Marketplaces",
-    "group": "Platforms & Original Initiatives",
+    "group": "Platforms",
     "file": "marketplaces.md",
     "description": "Artisans, makers, demonstrations and public exchange."
   },
   {
     "id": "new-initiatives",
     "title": "Developing new initiatives",
-    "group": "Platforms & Original Initiatives",
+    "group": "Platforms",
     "file": "new-initiatives.md",
     "description": "Pilot, learn and establish what deserves to continue."
   },

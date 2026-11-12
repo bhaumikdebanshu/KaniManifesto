@@ -125,6 +125,28 @@
     requestAnimationFrame(()=>{if(figure.isConnected){naturalHeight=canvas.offsetHeight;fit();drawLines();const observer=new ResizeObserver(()=>{if(!figure.isConnected){observer.disconnect();return;}naturalHeight=canvas.offsetHeight;setScale(scale,false);drawLines();});observer.observe(canvas);}});
     return figure;
   }
+  function structureMapFromText(text) {
+    const entries=text.trim().split('\n').filter(Boolean).map(line=>{
+      const match=line.trim().match(/^- \[([^\]]+)\]\((#[a-z0-9-]+)\)\s*\|\s*(.+)$/i);
+      return match?{title:match[1],href:match[2],description:match[3]}:null;
+    });
+    if(entries.length!==4||entries.some(x=>!x))return null;
+    const figure=document.createElement('figure');figure.className='structure-synopsis-map';
+    const caption=document.createElement('figcaption');caption.textContent='How Kani is supported, governed and delivered';figure.append(caption);
+    const card=(entry,tone)=>{
+      const link=document.createElement('a');link.className='structure-synopsis-card '+tone;link.href=entry.href;
+      const heading=document.createElement('strong');heading.textContent=entry.title;
+      const description=document.createElement('span');description.textContent=entry.description;
+      const prompt=document.createElement('small');prompt.textContent='Read this section →';
+      link.append(heading,description,prompt);return link;
+    };
+    const advisory=card(entries[0],'is-advisory');
+    const advice=document.createElement('div');advice.className='structure-connector is-advice';advice.textContent='advises and strengthens';
+    const council=card(entries[1],'is-council');
+    const mandate=document.createElement('div');mandate.className='structure-connector is-mandate';mandate.textContent='sets direction and gives mandates';
+    const teams=document.createElement('div');teams.className='structure-team-branches';teams.append(card(entries[2],'is-working'),card(entries[3],'is-programme'));
+    figure.append(advisory,advice,council,mandate,teams);return figure;
+  }
   const allowed = new Set('P BR HR STRONG EM DEL S BLOCKQUOTE UL OL LI H1 H2 H3 H4 H5 H6 TABLE THEAD TBODY TR TH TD CODE PRE A INPUT'.split(' '));
   function renderMarkdown(md) {
     const template = document.createElement('template');
@@ -140,7 +162,7 @@
       const headings=[...table.querySelectorAll('thead th')].map(c=>c.textContent.trim());
       for(const row of table.querySelectorAll('tbody tr')){const cells=[...row.querySelectorAll('td')];if(cells.length>1)explanations.set(cells[0].textContent.trim(),cells.slice(1).map((c,i)=>({label:headings[i+1]||'Details',text:c.textContent.trim()})));}
     }
-    const charts=[...template.content.querySelectorAll('pre > code')].filter(c=>/^language-kani-(chart|support|flow|map)$/.test(c.className)).map(code=>({pre:code.parentElement,chart:code.className==='language-kani-map'?unifiedMapFromText(code.textContent,explanations):chartFromText(code.textContent,explanations,code.className.replace('language-kani-',''))}));
+    const charts=[...template.content.querySelectorAll('pre > code')].filter(c=>/^language-kani-(chart|support|flow|map|structure)$/.test(c.className)).map(code=>({pre:code.parentElement,chart:code.className==='language-kani-map'?unifiedMapFromText(code.textContent,explanations):code.className==='language-kani-structure'?structureMapFromText(code.textContent):chartFromText(code.textContent,explanations,code.className.replace('language-kani-',''))}));
     const clean = node => {
       for (const el of [...node.children]) {
         if (!allowed.has(el.tagName)) { el.remove(); continue; }
@@ -159,6 +181,8 @@
     clean(template.content);
     for(const {pre,wrapper} of detailBlocks){clean(wrapper);wrapper.className='flow-details-print';pre.replaceWith(wrapper);}
     for(const {pre,chart} of charts)if(chart)pre.replaceWith(chart);
+    const ethosHeading=[...template.content.querySelectorAll('h2')].find(h=>h.textContent.trim()==='Our ethos');
+    if(ethosHeading){let list=ethosHeading.nextElementSibling;while(list&&list.tagName!=='H2'&&list.tagName!=='UL')list=list.nextElementSibling;if(list?.tagName==='UL'){list.className='ethos-grid';for(const item of list.children)item.className='ethos-card';}}
     for(const table of template.content.querySelectorAll('table')) {
       const wrap=document.createElement('div');wrap.className='table-scroll';wrap.tabIndex=0;
       wrap.setAttribute('role','region');wrap.setAttribute('aria-label','Scrollable table');
